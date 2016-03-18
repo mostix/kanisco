@@ -1,0 +1,175 @@
+/* yellow #ffb400
+/* blue #4986b3
+====================================================================== */
+
+::selection
+{
+	color: white;
+	background-color: #4986b3;
+}
+::-moz-selection  
+{
+	color: white;
+	background-color: #4986b3;
+}
+#facebook-link:hover, #skype-link:hover, #twitter-link:hover, #flickr-link:hover, #vimeo-link:hover, #dribbble-link:hover, #linkedin-link:hover, #rss-link:hover, #googleplus-link:hover, #pintrest-link:hover {
+	background-color:#4986b3;
+}
+.search-submit:hover {
+	background-color: #4986b3;
+}
+#main-nav .current > a {
+	border-top: 3px solid #4986b3;
+}
+.box3-cont .box-number {
+	background-color:#4986b3;
+}
+a.r-m-plus-small:hover {
+	background-color: #4986b3;
+}
+.caption-text-container {
+	border-bottom:3px solid #4986b3;
+}
+.jcarousel-next:hover, .jcarousel-prev:hover {
+	background-color:#4986b3;
+}
+.lp-item-caption-container a:hover {
+    color: #4986b3;
+}
+.blog-item-date-cont  {
+	background-color:#4986b3;
+}
+.blog-categories li a:hover{
+	color:#4986b3;
+}
+.blog-categories li a:hover .blog-cat-icon{
+	background-color:#4986b3;
+}
+.blog-categories li.active .blog-cat-icon{
+	background-color:#4986b3;
+}
+.latest-post-sidebar img:hover {
+    border-color: #4986b3;
+	background: none repeat scroll 0 0 #4986b3;
+}
+.ui-accordion-header:hover a{
+	color:#4986b3;
+}
+.ui-accordion-header:hover span{
+	background-color: #4986b3;
+}
+.ui-accordion-header-active span {
+	background-color: #4986b3;
+}
+.tag-cloud a:hover {
+	background-color:#4986b3;
+}
+ul#flickrfeed li a:hover {
+	border-color: #4986b3;
+	background: none repeat scroll 0 0 #4986b3;
+}
+.comment-name a:hover{
+	color:#4986b3;
+}
+.comment-reply  a:hover{
+	color:#4986b3;
+}
+ul#filter li a:hover{
+	background-color: #4986b3;
+}
+ul#filter li.current a{
+	background-color: #4986b3;
+}
+.title-post-footer a {
+	color:#4986b3;
+}
+.icon_mail a:hover{
+    color:#4986b3;
+}
+#footer-nav li a:hover {
+	color:#4986b3;
+}
+a.author:hover {
+	color:#4986b3;
+}
+a.r-m-plus:hover {
+    color: #4986b3;
+}
+a.r-m-plus:hover:after{
+	background-color:#4986b3;
+}
+.button {
+	background-color:#4986b3;
+}
+.button.gray:hover {
+	background-color:#4986b3;
+}
+a {
+    color: #4986b3;
+}
+.a-invert:hover{
+	color: #4986b3;
+}
+.view a.zoom:hover, .view a.link:hover  {
+	background-color: #4986b3;
+}
+.at {
+	color:#4986b3;
+}
+blockquote {
+    border-left: 2px solid #4986b3;
+}
+.portfolio-pagination .pag-prev:hover,  .portfolio-pagination .pag-next:hover{
+	background-color:#4986b3;
+}
+.dropcap4 {
+	background: none repeat scroll 0 0 #4986b3;
+}
+#toggle-view .ui-accordion-header:hover {
+	color:#4986b3;
+}
+/*******************************************/
+.flexslider .flex-next:hover { background-color:#4986b3;}
+.flexslider .flex-prev:hover { background-color:#4986b3;}
+/*******************************************/
+.flex-caption h3 {
+	border-color:#4986b3;
+}
+.pt-col-main {
+    background-color: #4986b3;
+}
+.price-col-main .price-container {
+    background-color: #4986b3;
+}
+/*******************************************/
+#sequence-theme #sequence-preloader {
+  background: #4986b3;
+}
+#sequence-theme .nav li img.active {
+  background: none repeat scroll 0 0 #4986b3;
+  border: 1px solid #4986b3;
+}
+#sequence-theme .status {
+  background: url(../../images/status-bar.png) -940px 0 repeat-y;
+}
+#sequence-theme ul.nav li:hover img {
+	background: none repeat scroll 0 0 #4986b3;
+  	border: 1px solid #4986b3;
+}
+#sequence-theme .next,
+#sequence-theme .prev {
+  background-color:#4986b3;
+}
+#sequence-theme .theme-2 .next, #sequence-theme  .theme-2 .prev {
+  background-color:transparent !important;
+}
+/***************************************/
+.button.get-theme {
+	background-color:#4986b3;
+}
+#sequence-theme h3 {
+  	color: #4986b3;
+}
+#sequence .slide-2-yellow {
+	color:#4986b3;
+}

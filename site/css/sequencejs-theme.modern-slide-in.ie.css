@@ -1,0 +1,10 @@
+#nav li {
+	display: inline;
+}
+
+body {
+	min-width: 960px;
+}
+#sequence-theme .arrows-nav {
+	right: -45px;
+}

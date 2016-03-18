@@ -1,0 +1,50 @@
+/*IE8*/
+img {
+    border: 0 none;
+    max-width: 100% !important;
+	width:auto !important; /*IE8*/
+    vertical-align: top;
+}
+.view-first .mask {
+   background-color: #909090; /*IE8*/
+}
+#fancybox-outer {
+    border:1px solid #d6d6d6;
+}	
+.nl-img-container {
+	margin-top:3px;
+	padding-right: 0px;
+	padding-left: 23px;
+	padding-top:20px;
+}
+.t1:before, .t1:after{
+	display:none;
+}
+.search-container {
+    margin-bottom: 6px;
+}
+.field-1-3 input {
+    margin-right: 10px;
+    width: 220px;
+}
+.field-1-2-comment input {
+    margin-right: 20px;
+    width: 300px;
+}
+.latest-post-sidebar img {
+
+    width: 52px !important;
+}
+
+.price-col-main ul li {
+	border-top:1px solid #e7e7e7;
+}
+.price-col-gray ul li {
+	border-top:1px solid #e7e7e7;
+}
+.price-col-gray2 ul li {
+	border-top:1px solid #e7e7e7;
+}
+.price-col-main ul li:first-child, .price-col-gray ul li:first-child, .price-col-gray2 ul li:first-child{
+	border-top:none;
+}
