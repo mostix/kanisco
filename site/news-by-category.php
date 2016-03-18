@@ -69,8 +69,8 @@
   </div>
 
 <!-- CONTENT -->
-	<div class="container clearfix">
-		<div id="news_list" class="eleven columns m-bot-25">
+  <div class="container clearfix">
+    <div id="news_list" class="twelve columns m-bot-25">
       
 <?php
 
@@ -252,19 +252,19 @@
     <!--<div class="eleven columns m-bot-25">-->
     
     <!-- SIDEBAR -->
-    <div class="five columns">
+    <div class="four columns">
       
       <div class="sidebar-item  m-bot-25">
-				<div class="content-container-white">
-					<h3 class="title-widget"><?=$languages[$current_lang]['header_news_categories'];?></h3>
-				</div>
-				<div class="under-box-bg"></div>
-				<div class="blog-categories-container">
-					<ul id="news_categories" class="blog-categories">
-						<?php list_news_categories($news_cat_parent_id = 0,$current_news_cat_id = false,$news_categories_count = false) ?>
-					</ul>
-				</div>
-			</div>
+        <div class="content-container-white">
+          <h3 class="title-widget"><?=$languages[$current_lang]['header_news_categories'];?></h3>
+        </div>
+        <div class="under-box-bg"></div>
+        <div class="blog-categories-container">
+          <ul id="news_categories" class="blog-categories">
+            <?php list_news_categories($news_cat_parent_id = 0,$current_news_cat_id = false,$news_categories_count = false) ?>
+          </ul>
+        </div>
+      </div>
       <script>
         $(function() {
           if($("li.has_parent.active").length) {
@@ -279,20 +279,20 @@
       </script>
       
       <div class="sidebar-item  m-bot-25">
-				<div class="content-container-white">
-					<h3 class="title-widget"></h3>
-				</div>
-				
-				<div class="under-box-bg"></div>
-				
-				<div class="content-container-white padding-all-15">
+        <div class="content-container-white">
+          <h3 class="title-widget"></h3>
+        </div>
+
+        <div class="under-box-bg"></div>
+
+        <div class="content-container-white padding-all-15">
           
           <div class="content-container-white">
             <?php if(!empty($news_ads_banner)) echo "<img src='$news_ads_banner' alt=''>" ?>
           </div>
 					
-				</div>
-			</div>
+        </div>
+      </div>
       
     </div>
     <!--<div class="five columns">-->

@@ -33,6 +33,11 @@
     
     require_once 'site/event-details.php';
   }
+  elseif(isset($_GET['coid'])) {
+    //course_id
+    
+    require_once 'site/course-details.php';
+  }
   else {
     require_once 'site/index.php';
   }

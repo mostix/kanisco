@@ -140,7 +140,7 @@ print_html_header($pd_name, $pd_meta_description, $pd_meta_keywords, $additional
 </div>
 <!-- CONTENT -->
 <div class="container clearfix">
-  <div class="eleven columns ">
+  <div class="twelve columns ">
     <!-- PORTFOLIO ITEM -->
     <div class="blog-item m-bot-25">
       <div class="content-container-white">
@@ -172,7 +172,7 @@ print_html_header($pd_name, $pd_meta_description, $pd_meta_keywords, $additional
     </div>
   </div>
   <!-- SIDEBAR -->
-  <div class="five columns ">
+  <div class="four columns ">
     <!-- WIDGET -->	
     <div class="sidebar-item  m-bot-25">
       <div class="content-container-white">

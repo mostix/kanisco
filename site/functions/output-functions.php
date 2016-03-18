@@ -2116,6 +2116,9 @@ function list_latest_news_for_category($current_news_id, $news_category_id, $new
 <?php
     } //while($news_row)
   }
+  else {
+    echo $languages[$current_lang]['text_no_other_news_in_category'];
+  }
 }
 
 function list_news_products_categories_on_index_page($news_cat_parent_id,$news_categories_count = false) {
