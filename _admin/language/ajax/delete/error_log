@@ -1,0 +1,2 @@
+[27-Oct-2015 01:28:22 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2697
+[27-Oct-2015 01:28:55 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2697

@@ -1,0 +1,376 @@
+[16-Dec-2014 12:06:49] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 12:06:49] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 12:06:49] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 12:06:49] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 12:07:06] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 12:07:06] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 12:07:06] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 12:07:06] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 12:07:37] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 12:07:37] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 12:07:37] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 12:07:37] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 17:23:38] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 17:23:38] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 17:23:38] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 17:23:38] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 18:44:47] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 18:44:47] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[16-Dec-2014 18:44:47] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[16-Dec-2014 18:44:47] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[17-Dec-2014 00:48:06] PHP Notice:  Undefined index:  header_language_is_default_frontend in /home/art93/public_html/_admin/language/languages.php on line 39
+[17-Dec-2014 00:48:06] PHP Notice:  Undefined index:  header_language_is_default_backend in /home/art93/public_html/_admin/language/languages.php on line 40
+[17-Dec-2014 00:48:06] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[17-Dec-2014 00:48:06] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[17-Dec-2014 00:48:06] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[17-Dec-2014 00:48:06] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[17-Dec-2014 00:48:22] PHP Notice:  Undefined index:  header_language_is_default_frontend in /home/art93/public_html/_admin/language/languages.php on line 39
+[17-Dec-2014 00:48:22] PHP Notice:  Undefined index:  header_language_is_default_backend in /home/art93/public_html/_admin/language/languages.php on line 40
+[17-Dec-2014 00:48:22] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[17-Dec-2014 00:48:22] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 966
+[17-Dec-2014 00:48:22] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[17-Dec-2014 00:48:22] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 975
+[17-Dec-2014 14:45:48] PHP Notice:  Undefined index:  loading in /home/art93/public_html/_admin/functions/output-functions.php on line 62
+[17-Dec-2014 14:45:48] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 976
+[17-Dec-2014 14:45:48] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 976
+[17-Dec-2014 14:45:48] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 985
+[17-Dec-2014 14:45:48] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 985
+[18-Dec-2014 00:48:37] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:48:37] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:48:37] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:48:37] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:52:33] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:52:33] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:52:33] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:52:33] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:53:09] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:53:09] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:53:09] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:53:09] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:54:05] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:54:05] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:54:05] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:54:05] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:58:31] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:58:31] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:58:31] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:58:31] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:58:49] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:58:49] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:58:49] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:58:49] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:59:22] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:59:22] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 00:59:22] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 00:59:22] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:00:06] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:00:06] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:00:06] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:00:06] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:00:42] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:00:42] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:00:42] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:00:42] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:00:59] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:00:59] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:00:59] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:00:59] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:01:11] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:01:11] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:01:11] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:01:11] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:01:25] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:01:25] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:01:25] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:01:25] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:02:09] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:02:09] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:02:09] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:02:09] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:03:04] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:03:04] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:03:04] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:03:04] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:03:44] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:03:44] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:03:44] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:03:44] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:04:50] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:04:50] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:04:50] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:04:50] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:05:29] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:05:29] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:05:29] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:05:29] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:08:44] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:08:44] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:08:44] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:08:44] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:09:19] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:09:19] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:09:19] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:09:19] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:09:51] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:09:51] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:09:51] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:09:51] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:10:02] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:10:02] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:10:02] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:10:02] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:10:17] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:10:17] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:10:17] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:10:17] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:10:54] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:10:54] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:10:54] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:10:54] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:11:07] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:11:07] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 01:11:07] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 01:11:07] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 12:49:28] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 12:49:28] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[18-Dec-2014 12:49:28] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[18-Dec-2014 12:49:28] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[22-Dec-2014 17:21:57] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[22-Dec-2014 17:21:57] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[22-Dec-2014 17:21:57] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[22-Dec-2014 17:21:57] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[05-Jan-2015 17:56:34] PHP Notice:  Undefined index:  alt_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[05-Jan-2015 17:56:34] PHP Notice:  Undefined index:  title_language_is_default_frontend in /home/art93/public_html/_admin/functions/output-functions.php on line 979
+[05-Jan-2015 17:56:34] PHP Notice:  Undefined index:  alt_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[05-Jan-2015 17:56:34] PHP Notice:  Undefined index:  title_language_is_default_backend in /home/art93/public_html/_admin/functions/output-functions.php on line 988
+[23-Oct-2015 10:58:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[23-Oct-2015 10:58:44 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[23-Oct-2015 10:58:44 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[23-Oct-2015 10:58:44 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[23-Oct-2015 10:58:44 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:26:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:26:51 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:26:51 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:26:51 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:26:51 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:27:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:27:50 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:27:50 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:27:50 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:27:50 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:28:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:28:17 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:28:17 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:28:17 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:28:17 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:28:30 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:28:30 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:28:30 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:28:30 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:28:30 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:28:53 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:28:53 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:28:53 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:28:53 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:28:53 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:29:07 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:29:24 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:29:24 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:29:24 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:29:24 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:29:24 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:29:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[27-Oct-2015 01:29:45 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:29:45 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[27-Oct-2015 01:29:45 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[27-Oct-2015 01:29:45 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:18:25 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:18:25 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:18:25 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:18:25 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:18:25 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:18:36 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:18:36 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:21:59 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:21:59 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:21:59 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:21:59 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:21:59 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:25:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:25:06 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:25:06 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:25:06 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:25:06 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:50:23 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:50:23 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:50:23 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:50:23 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:50:23 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:50:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:50:50 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:50:50 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:50:50 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:50:50 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:50:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:50:56 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:50:56 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:50:56 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:50:56 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:51:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[02-Nov-2015 12:51:22 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:51:22 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[02-Nov-2015 12:51:22 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[02-Nov-2015 12:51:22 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 01:55:59 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 01:55:59 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 01:55:59 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 01:55:59 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 01:55:59 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 01:56:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 01:56:06 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 01:56:06 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 01:56:06 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 01:56:06 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 01:56:13 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 01:56:13 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 01:56:13 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 01:56:13 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 01:56:13 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 141
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 149
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 150
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 151
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Notice:  Undefined index: users_rights_edit in /home/civil3db/public_html/procad/_admin/language/languages.php on line 10
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Notice:  Undefined index: users_rights_delete in /home/civil3db/public_html/procad/_admin/language/languages.php on line 11
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1545
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1546
+[03-Nov-2015 01:56:53 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1547
+[03-Nov-2015 09:44:39 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 09:44:39 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 09:44:39 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 09:44:39 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 09:44:39 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 12:44:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 12:44:02 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 12:44:02 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 12:44:02 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 12:44:02 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:01:14 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 13:01:14 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:01:14 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:01:14 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:01:14 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:01:52 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 13:01:52 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:01:52 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:01:52 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:01:52 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:09:32 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 13:09:32 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:09:32 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:09:32 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:09:32 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:13:53 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 13:13:53 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:13:53 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:13:53 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:13:53 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:18:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 13:18:44 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:18:44 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:18:44 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:18:44 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:35:58 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 13:35:58 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:35:58 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 13:35:58 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 13:35:58 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 15:45:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 15:45:26 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 15:45:26 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 15:45:26 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 15:45:26 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 18:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 18:28:56 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 18:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 18:28:56 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 18:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 18:29:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[03-Nov-2015 18:29:03 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 18:29:03 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[03-Nov-2015 18:29:03 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[03-Nov-2015 18:29:03 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[04-Nov-2015 23:17:08 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[04-Nov-2015 23:17:08 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[04-Nov-2015 23:17:08 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[04-Nov-2015 23:17:08 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[04-Nov-2015 23:17:08 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:06:18 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[05-Nov-2015 00:06:18 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:06:18 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:06:18 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:06:18 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:21:13 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[05-Nov-2015 00:21:13 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:21:13 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:21:13 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:21:13 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:38:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[05-Nov-2015 00:38:15 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:38:15 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:38:15 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:38:15 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:45:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[05-Nov-2015 00:45:09 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:45:09 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[05-Nov-2015 00:45:09 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[05-Nov-2015 00:45:09 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[09-Nov-2015 23:43:58 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[09-Nov-2015 23:43:58 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[09-Nov-2015 23:43:58 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[09-Nov-2015 23:43:58 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[09-Nov-2015 23:43:58 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[09-Nov-2015 23:44:19 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[09-Nov-2015 23:44:19 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[09-Nov-2015 23:44:19 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[09-Nov-2015 23:44:19 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[09-Nov-2015 23:44:19 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[09-Nov-2015 23:44:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[09-Nov-2015 23:44:29 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[09-Nov-2015 23:44:29 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[09-Nov-2015 23:44:29 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[09-Nov-2015 23:44:29 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 141
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 149
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 150
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 151
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Notice:  Undefined index: users_rights_edit in /home/civil3db/public_html/procad/_admin/language/languages.php on line 10
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Notice:  Undefined index: users_rights_delete in /home/civil3db/public_html/procad/_admin/language/languages.php on line 11
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1545
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1546
+[09-Nov-2015 23:47:48 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1547
+[13-Nov-2015 17:10:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[13-Nov-2015 17:10:46 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[13-Nov-2015 17:10:46 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[13-Nov-2015 17:10:46 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[13-Nov-2015 17:10:46 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[17-Nov-2015 10:33:40 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/language/languages.php on line 60
+[17-Nov-2015 10:33:40 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[17-Nov-2015 10:33:40 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_frontend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1581
+[17-Nov-2015 10:33:40 Europe/Sofia] PHP Notice:  Undefined index: alt_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590
+[17-Nov-2015 10:33:40 Europe/Sofia] PHP Notice:  Undefined index: title_language_is_default_backend in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 1590

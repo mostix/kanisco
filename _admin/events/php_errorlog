@@ -1,0 +1,399 @@
+[14-Jun-2015 17:23:35] PHP Notice:  Undefined index:  title_news_add_new in /home/sportou/public_html/_admin/events/events.php on line 105
+[14-Jun-2015 17:23:35] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 130
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  title_event_add_new in /home/sportou/public_html/_admin/events/events.php on line 40
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  alt_event_add_new in /home/sportou/public_html/_admin/events/events.php on line 41
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  link_event_add_new in /home/sportou/public_html/_admin/events/events.php on line 42
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  header_event_title in /home/sportou/public_html/_admin/events/events.php on line 50
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  header_event_post_date in /home/sportou/public_html/_admin/events/events.php on line 51
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  header_event_start_time in /home/sportou/public_html/_admin/events/events.php on line 52
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  header_event_end_time in /home/sportou/public_html/_admin/events/events.php on line 53
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/events.php on line 54
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  header_event_status in /home/sportou/public_html/_admin/events/events.php on line 55
+[14-Jun-2015 17:25:49] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 17:25:49] PHP Fatal error:  Call to undefined function  list_event() in /home/sportou/public_html/_admin/events/events.php on line 70
+[14-Jun-2015 17:27:13] PHP Notice:  Undefined index:  header_event_title in /home/sportou/public_html/_admin/events/events.php on line 50
+[14-Jun-2015 17:27:13] PHP Notice:  Undefined index:  header_event_post_date in /home/sportou/public_html/_admin/events/events.php on line 51
+[14-Jun-2015 17:27:13] PHP Notice:  Undefined index:  header_event_start_time in /home/sportou/public_html/_admin/events/events.php on line 52
+[14-Jun-2015 17:27:13] PHP Notice:  Undefined index:  header_event_end_time in /home/sportou/public_html/_admin/events/events.php on line 53
+[14-Jun-2015 17:27:13] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/events.php on line 54
+[14-Jun-2015 17:27:13] PHP Notice:  Undefined index:  header_event_status in /home/sportou/public_html/_admin/events/events.php on line 55
+[14-Jun-2015 17:27:13] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 17:27:13] PHP Fatal error:  Call to undefined function  list_event() in /home/sportou/public_html/_admin/events/events.php on line 70
+[14-Jun-2015 18:08:13] PHP Notice:  Undefined index:  header_event_post_date in /home/sportou/public_html/_admin/events/events.php on line 51
+[14-Jun-2015 18:08:13] PHP Notice:  Undefined index:  header_event_start_time in /home/sportou/public_html/_admin/events/events.php on line 52
+[14-Jun-2015 18:08:13] PHP Notice:  Undefined index:  header_event_end_time in /home/sportou/public_html/_admin/events/events.php on line 53
+[14-Jun-2015 18:08:13] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/events.php on line 54
+[14-Jun-2015 18:08:13] PHP Notice:  Undefined index:  header_event_status in /home/sportou/public_html/_admin/events/events.php on line 55
+[14-Jun-2015 18:08:13] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 18:08:13] PHP Fatal error:  Call to undefined function  list_event() in /home/sportou/public_html/_admin/events/events.php on line 70
+[14-Jun-2015 18:19:15] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/events.php on line 54
+[14-Jun-2015 18:19:15] PHP Notice:  Undefined index:  header_event_status in /home/sportou/public_html/_admin/events/events.php on line 55
+[14-Jun-2015 18:19:15] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 18:19:15] PHP Fatal error:  Call to undefined function  list_event() in /home/sportou/public_html/_admin/events/events.php on line 70
+[14-Jun-2015 18:21:15] PHP Notice:  Undefined index:  header_address in /home/sportou/public_html/_admin/events/events.php on line 54
+[14-Jun-2015 18:21:15] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 18:21:15] PHP Fatal error:  Call to undefined function  list_event() in /home/sportou/public_html/_admin/events/events.php on line 70
+[14-Jun-2015 18:21:32] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 18:21:32] PHP Fatal error:  Call to undefined function  list_event() in /home/sportou/public_html/_admin/events/events.php on line 70
+[14-Jun-2015 21:22:14] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[14-Jun-2015 21:22:14] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[14-Jun-2015 21:22:14] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[14-Jun-2015 21:22:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[14-Jun-2015 21:22:14] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[14-Jun-2015 21:22:14] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 21:22:14] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2398
+[14-Jun-2015 21:22:38] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 21:22:38] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2398
+[14-Jun-2015 21:22:49] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 21:22:49] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2398
+[14-Jun-2015 22:22:19] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 22:22:19] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2398
+[14-Jun-2015 22:22:21] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 22:22:21] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2398
+[14-Jun-2015 22:22:36] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 22:22:36] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2398
+[14-Jun-2015 22:23:52] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 22:23:52] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2397
+[14-Jun-2015 22:24:08] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 23:03:35] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 23:05:47] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 23:14:29] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 23:14:29] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sportou/public_html/_admin/functions/output-functions.php on line 2399
+[14-Jun-2015 23:14:43] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[14-Jun-2015 23:14:46] PHP Notice:  Undefined index:  event_categories_add_new_title in /home/sportou/public_html/_admin/events/event-add-new.php on line 240
+[14-Jun-2015 23:14:46] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 252
+[14-Jun-2015 23:14:46] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 252
+[14-Jun-2015 23:14:46] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 254
+[14-Jun-2015 23:14:46] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/event-add-new.php on line 268
+[14-Jun-2015 23:14:46] PHP Fatal error:  Call to undefined function  list_event_categories_for_select() in /home/sportou/public_html/_admin/events/event-add-new.php on line 277
+[14-Jun-2015 23:22:51] PHP Notice:  Undefined index:  event_categories_add_new_title in /home/sportou/public_html/_admin/events/event-add-new.php on line 186
+[14-Jun-2015 23:22:51] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[14-Jun-2015 23:22:51] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[14-Jun-2015 23:22:51] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 200
+[14-Jun-2015 23:22:51] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/event-add-new.php on line 214
+[14-Jun-2015 23:22:51] PHP Fatal error:  Call to undefined function  list_event_categories_for_select() in /home/sportou/public_html/_admin/events/event-add-new.php on line 223
+[14-Jun-2015 23:24:21] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[14-Jun-2015 23:24:21] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[14-Jun-2015 23:24:21] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 200
+[14-Jun-2015 23:24:21] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/event-add-new.php on line 214
+[14-Jun-2015 23:24:21] PHP Fatal error:  Call to undefined function  list_event_categories_for_select() in /home/sportou/public_html/_admin/events/event-add-new.php on line 223
+[15-Jun-2015 00:11:38] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[15-Jun-2015 00:11:38] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[15-Jun-2015 00:11:38] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 200
+[15-Jun-2015 00:11:38] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/event-add-new.php on line 214
+[15-Jun-2015 00:11:38] PHP Fatal error:  Call to undefined function  list_event_categories_for_select() in /home/sportou/public_html/_admin/events/event-add-new.php on line 223
+[15-Jun-2015 00:11:40] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[15-Jun-2015 00:11:40] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[15-Jun-2015 00:11:40] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 200
+[15-Jun-2015 00:11:40] PHP Notice:  Undefined index:  header_event_category in /home/sportou/public_html/_admin/events/event-add-new.php on line 214
+[15-Jun-2015 00:11:40] PHP Fatal error:  Call to undefined function  list_event_categories_for_select() in /home/sportou/public_html/_admin/events/event-add-new.php on line 223
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 198
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 200
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  header_event_status_draft in /home/sportou/public_html/_admin/events/event-add-new.php on line 216
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  header_event_status_published in /home/sportou/public_html/_admin/events/event-add-new.php on line 217
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined variable: event_start_time_hour in /home/sportou/public_html/_admin/events/event-add-new.php on line 231
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined variable: event_start_time_minute in /home/sportou/public_html/_admin/events/event-add-new.php on line 232
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined variable: event_end_time_hour in /home/sportou/public_html/_admin/events/event-add-new.php on line 238
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined variable: event_end_time_minute in /home/sportou/public_html/_admin/events/event-add-new.php on line 239
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  header_event_extra in /home/sportou/public_html/_admin/events/event-add-new.php on line 245
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 303
+[15-Jun-2015 00:13:10] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 201
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 201
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined variable: event_start_time_minute in /home/sportou/public_html/_admin/events/event-add-new.php on line 238
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined variable: event_end_time_minute in /home/sportou/public_html/_admin/events/event-add-new.php on line 245
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined index:  header_event_extra in /home/sportou/public_html/_admin/events/event-add-new.php on line 251
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 309
+[15-Jun-2015 00:15:53] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 317
+[15-Jun-2015 00:16:17] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:16:17] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:16:17] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:16:17] PHP Notice:  Undefined index:  header_event_extra in /home/sportou/public_html/_admin/events/event-add-new.php on line 253
+[15-Jun-2015 00:16:17] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:16:17] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 319
+[15-Jun-2015 00:48:33] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:48:33] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:48:33] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:48:33] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:48:33] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 319
+[15-Jun-2015 00:48:59] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:48:59] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:48:59] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:48:59] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:48:59] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 319
+[15-Jun-2015 00:49:07] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:49:07] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:49:07] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:49:07] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:49:07] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 319
+[15-Jun-2015 00:49:56] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:49:56] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:49:56] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:49:56] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:49:56] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 319
+[15-Jun-2015 00:51:36] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:51:36] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:51:36] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:51:36] PHP Notice:  Undefined index:  header_event_summary in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:51:36] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 319
+[15-Jun-2015 00:52:31] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:52:31] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:52:31] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:52:31] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 311
+[15-Jun-2015 00:54:26] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:54:26] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:54:26] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:54:26] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 323
+[15-Jun-2015 00:55:01] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:55:01] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:55:01] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:55:01] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 329
+[15-Jun-2015 00:56:00] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:56:00] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:56:00] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:56:00] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 335
+[15-Jun-2015 00:57:20] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:57:20] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:57:20] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:57:20] PHP Notice:  Undefined index:  header_event_text in /home/sportou/public_html/_admin/events/event-add-new.php on line 335
+[15-Jun-2015 00:57:54] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:57:54] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:57:54] PHP Notice:  Undefined index:  header_event_add_new in /home/sportou/public_html/_admin/events/event-add-new.php on line 205
+[15-Jun-2015 00:58:46] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:58:46] PHP Notice:  Undefined index:  header_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:59:02] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:59:21] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 00:59:26] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/events/event-add-new.php on line 15
+[15-Jun-2015 00:59:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/events/event-add-new.php on line 15
+[15-Jun-2015 00:59:26] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/events/event-add-new.php on line 16
+[15-Jun-2015 00:59:26] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/events/event-add-new.php on line 16
+[15-Jun-2015 00:59:26] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/events/event-add-new.php on line 17
+[15-Jun-2015 00:59:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/events/event-add-new.php:15) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[15-Jun-2015 00:59:26] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[15-Jun-2015 00:59:26] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[15-Jun-2015 00:59:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[15-Jun-2015 00:59:26] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[15-Jun-2015 00:59:26] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[15-Jun-2015 00:59:26] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 10:52:50] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 10:52:53] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 11:08:07] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 11:08:07] PHP Notice:  Undefined variable: event_map_lat in /home/sportou/public_html/_admin/events/event-add-new.php on line 266
+[15-Jun-2015 11:08:07] PHP Notice:  Undefined variable: event_map_lng in /home/sportou/public_html/_admin/events/event-add-new.php on line 272
+[15-Jun-2015 11:08:25] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 11:09:20] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 11:16:45] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 11:17:12] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 11:17:59] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 12:21:25] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[15-Jun-2015 12:21:25] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 12:55:54] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 12:55:56] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:20:16] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[15-Jun-2015 13:20:16] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:20:27] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 13:20:29] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:26:00] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[15-Jun-2015 13:26:00] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:26:09] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 13:26:13] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 13:26:14] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:26:28] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:27:11] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 13:27:13] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:27:26] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 13:46:12] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 13:46:13] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 13:51:30] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:03:16] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:10:26] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:10:48] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:11:40] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:12:04] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:12:43] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:13:22] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:13:35] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:13:42] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:14:02] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:14:34] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:15:00] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:23:48] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:24:33] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:36:09] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 14:36:13] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:36:27] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 14:36:29] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 14:42:59] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 15:07:39] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 15:07:39] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 15:07:42] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 15:15:22] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 15:16:05] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 15:16:08] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 15:34:20] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/events/event-add-new.php on line 15
+[15-Jun-2015 15:34:20] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/events/event-add-new.php on line 15
+[15-Jun-2015 15:34:20] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/events/event-add-new.php on line 16
+[15-Jun-2015 15:34:20] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/events/event-add-new.php on line 16
+[15-Jun-2015 15:34:20] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/events/event-add-new.php on line 17
+[15-Jun-2015 15:34:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/events/event-add-new.php:15) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[15-Jun-2015 15:34:20] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[15-Jun-2015 15:34:20] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[15-Jun-2015 15:34:20] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[15-Jun-2015 15:34:20] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[15-Jun-2015 15:34:20] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[15-Jun-2015 15:34:20] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 15:58:48] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 15:58:53] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[15-Jun-2015 21:32:52] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[15-Jun-2015 21:32:59] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[17-Jun-2015 16:10:06] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 16:10:08] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[17-Jun-2015 16:12:18] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[17-Jun-2015 16:14:23] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 203
+[17-Jun-2015 16:55:08] PHP Notice:  Undefined index:  event_phone in /home/sportou/public_html/_admin/events/event-add-new.php on line 58
+[17-Jun-2015 16:55:08] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/events/event-add-new.php:58) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[17-Jun-2015 16:55:08] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 16:55:08] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 218
+[17-Jun-2015 16:55:08] PHP Notice:  Undefined index:  header_event_phone in /home/sportou/public_html/_admin/events/event-add-new.php on line 293
+[17-Jun-2015 16:57:00] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/events/event-add-new.php on line 98
+[17-Jun-2015 16:57:00] PHP Notice:  Undefined variable: event_time_start in /home/sportou/public_html/_admin/events/event-add-new.php on line 118
+[17-Jun-2015 16:57:00] PHP Notice:  Undefined variable: event_time_end in /home/sportou/public_html/_admin/events/event-add-new.php on line 119
+[17-Jun-2015 16:57:00] PHP Notice:  Undefined variable: event_cost in /home/sportou/public_html/_admin/events/event-add-new.php on line 120
+[17-Jun-2015 16:57:00] PHP Notice:  Undefined variable: event_organizer_email in /home/sportou/public_html/_admin/events/event-add-new.php on line 122
+[17-Jun-2015 16:57:19] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 16:57:19] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 218
+[17-Jun-2015 16:57:26] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 16:57:28] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 218
+[17-Jun-2015 16:58:04] PHP Notice:  Undefined variable: event_time_start in /home/sportou/public_html/_admin/events/event-add-new.php on line 118
+[17-Jun-2015 16:58:04] PHP Notice:  Undefined variable: event_time_end in /home/sportou/public_html/_admin/events/event-add-new.php on line 119
+[17-Jun-2015 16:58:04] PHP Notice:  Undefined variable: event_cost in /home/sportou/public_html/_admin/events/event-add-new.php on line 120
+[17-Jun-2015 16:58:04] PHP Notice:  Undefined variable: event_organizer_email in /home/sportou/public_html/_admin/events/event-add-new.php on line 122
+[17-Jun-2015 17:01:51] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 221
+[17-Jun-2015 17:02:19] PHP Notice:  Undefined index:  event_organizer_email  in /home/sportou/public_html/_admin/events/event-add-new.php on line 55
+[17-Jun-2015 17:02:22] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 222
+[17-Jun-2015 17:02:39] PHP Notice:  Undefined index:  event_organizer_email  in /home/sportou/public_html/_admin/events/event-add-new.php on line 55
+[17-Jun-2015 17:02:41] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 222
+[17-Jun-2015 17:02:50] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 222
+[17-Jun-2015 17:03:25] PHP Notice:  Undefined index:  event_organizer_email  in /home/sportou/public_html/_admin/events/event-add-new.php on line 55
+[17-Jun-2015 17:03:55] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 222
+[17-Jun-2015 17:03:57] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 222
+[17-Jun-2015 17:03:57] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 17:03:57] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 17:03:57] PHP Notice:  Undefined index:  delete_event_warning in /home/sportou/public_html/_admin/functions/output-functions.php on line 2460
+[17-Jun-2015 17:06:24] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 17:06:24] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 17:06:24] PHP Notice:  Undefined index:  delete_event_warning in /home/sportou/public_html/_admin/functions/output-functions.php on line 2460
+[17-Jun-2015 17:07:05] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 17:07:05] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 17:07:05] PHP Notice:  Undefined index:  delete_event_warning in /home/sportou/public_html/_admin/functions/output-functions.php on line 2460
+[17-Jun-2015 17:07:56] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 17:07:56] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 17:07:58] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 17:07:58] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 17:10:21] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 17:10:21] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 17:10:22] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 242
+[17-Jun-2015 17:11:48] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 242
+[17-Jun-2015 17:11:50] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 242
+[17-Jun-2015 17:12:43] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 240
+[17-Jun-2015 17:18:10] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 170
+[17-Jun-2015 17:19:54] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 170
+[17-Jun-2015 17:21:48] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 17:22:51] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:42:54] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:42:54] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:42:54] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:42:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[17-Jun-2015 18:42:54] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 18:42:54] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:42:57] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:42:57] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:42:57] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:42:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[17-Jun-2015 18:42:57] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 18:42:57] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:43:47] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:43:47] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:43:47] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:43:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[17-Jun-2015 18:43:47] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 18:43:47] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:43:48] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:43:48] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:43:48] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:43:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[17-Jun-2015 18:43:48] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 18:43:48] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:43:58] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:43:58] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:43:58] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:43:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 35
+[17-Jun-2015 18:43:58] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 77
+[17-Jun-2015 18:43:58] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:43:59] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:43:59] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:43:59] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:43:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 35
+[17-Jun-2015 18:43:59] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 77
+[17-Jun-2015 18:43:59] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:44:01] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:44:01] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:44:01] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:44:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/functions/action-functions.php:141) in /home/sportou/public_html/_admin/functions/output-functions.php on line 35
+[17-Jun-2015 18:44:01] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 77
+[17-Jun-2015 18:44:01] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:45:36] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:45:36] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:45:36] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:45:36] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 72
+[17-Jun-2015 18:45:36] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:45:38] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:45:38] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:45:38] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:45:38] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 72
+[17-Jun-2015 18:45:38] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 18:45:52] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 18:45:52] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 18:45:52] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 18:45:52] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 72
+[17-Jun-2015 18:45:52] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 18:45:52] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2431
+[17-Jun-2015 19:11:03] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 19:11:03] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 19:11:05] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 19:11:05] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 19:11:07] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 174
+[17-Jun-2015 19:15:58] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 19:15:58] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 22:11:59] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/action-functions.php on line 141
+[17-Jun-2015 22:11:59] PHP Notice:  Undefined index:  users_rights_edit in /home/sportou/public_html/_admin/events/events.php on line 10
+[17-Jun-2015 22:11:59] PHP Notice:  Undefined index:  users_rights_delete in /home/sportou/public_html/_admin/events/events.php on line 11
+[17-Jun-2015 22:11:59] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 22:11:59] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 22:11:59] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 22:13:52] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 22:13:52] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 22:18:44] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 22:18:44] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[17-Jun-2015 22:18:44] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:18:47] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:19:36] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:20:00] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:21:17] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:22:09] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:22:09] PHP Notice:  Undefined index:  event_text in /home/sportou/public_html/_admin/events/event-details.php on line 307
+[17-Jun-2015 22:22:50] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:23:13] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:23:17] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[17-Jun-2015 22:23:17] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[17-Jun-2015 22:23:17] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[22-Jun-2015 13:20:19] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[22-Jun-2015 13:20:19] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[22-Jun-2015 13:21:07] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[22-Jun-2015 13:21:07] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[22-Jun-2015 13:21:10] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-details.php on line 157
+[10-Jul-2015 14:36:44] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/events/events.php on line 65
+[10-Jul-2015 14:36:44] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435
+[10-Jul-2015 14:36:46] PHP Notice:  Undefined index:  title_breadcrumbs_event_categories in /home/sportou/public_html/_admin/events/event-add-new.php on line 222

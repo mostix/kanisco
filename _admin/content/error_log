@@ -1,0 +1,297 @@
+[17-Dec-2014 00:48:12] PHP Notice:  Undefined index:  categories in /home/art93/public_html/_admin/functions/output-functions.php on line 220
+[17-Dec-2014 00:48:18] PHP Fatal error:  Call to undefined function print_html_footer() in /home/art93/public_html/_admin/content/sliders.php on line 41
+[17-Dec-2014 14:46:03] PHP Notice:  Undefined index:  loading in /home/art93/public_html/_admin/functions/output-functions.php on line 62
+[20-Dec-2014 21:16:01] PHP Notice:  Undefined index:  user_fullname in /home/art93/public_html/_admin/functions/output-functions.php on line 73
+[20-Dec-2014 21:16:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/art93/public_html/_admin/functions/output-functions.php on line 219
+[20-Dec-2014 21:16:01] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/art93/public_html/_admin/functions/output-functions.php on line 220
+[20-Dec-2014 21:16:01] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/art93/public_html/_admin/functions/output-functions.php on line 221
+[02-Jan-2015 21:33:05] PHP Fatal error:  Call to undefined function print_html_footer() in /home/art93/public_html/_admin/content/sliders.php on line 41
+[23-Oct-2015 10:58:03 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[23-Oct-2015 10:58:52 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[27-Oct-2015 01:20:15 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[27-Oct-2015 01:26:33 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[27-Oct-2015 01:26:41 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 719
+[27-Oct-2015 01:27:20 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 719
+[27-Oct-2015 01:29:50 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[27-Oct-2015 01:30:02 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 653
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 654
+[27-Oct-2015 01:30:20 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 655
+[29-Oct-2015 01:22:07 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[29-Oct-2015 01:22:21 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[29-Oct-2015 01:22:23 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[29-Oct-2015 01:22:36 Europe/Sofia] PHP Notice:  Undefined index: categories in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 642
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 653
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 654
+[29-Oct-2015 01:30:00 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 655
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 218
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 385
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 801
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 929
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1112
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 09:29:49 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 11:13:22 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:13:22 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:13:22 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:13:43 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:13:43 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:13:43 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:15:48 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:15:48 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:15:48 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:23:55 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:23:55 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:23:55 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:25:37 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:25:37 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:25:37 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:26:22 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:26:22 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:26:22 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:38:14 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[03-Nov-2015 11:38:14 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[03-Nov-2015 11:38:14 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[03-Nov-2015 11:39:05 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[03-Nov-2015 11:39:05 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[03-Nov-2015 11:39:05 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[03-Nov-2015 11:40:08 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:40:08 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:40:08 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:41:37 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:41:37 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:41:37 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:43:25 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 11:43:25 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 11:43:25 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 11:43:54 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[03-Nov-2015 11:43:54 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[03-Nov-2015 11:43:54 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[03-Nov-2015 11:48:18 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[03-Nov-2015 11:48:18 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[03-Nov-2015 11:48:18 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 28
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 218
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 385
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 619
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 801
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 929
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1112
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1139
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 12:44:55 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 1149
+[03-Nov-2015 13:05:21 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 13:05:21 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 13:05:21 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 13:11:12 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 13:11:12 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 13:11:12 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 14:41:13 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 14:41:13 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 14:41:13 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 14:42:10 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 14:42:10 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 14:42:10 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[03-Nov-2015 19:02:51 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[03-Nov-2015 19:02:51 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[03-Nov-2015 19:02:51 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[04-Nov-2015 20:52:39 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:39 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:40 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:40 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:40 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:40 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:41 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:41 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:41 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:41 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:42 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:42 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:42 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:42 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:43 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:43 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 629
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 631
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 631
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 632
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 632
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 633
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: content_name in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 675
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: content_name in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 678
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 686
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 693
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 693
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 693
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 693
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 894
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1036
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1233
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1258
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1258
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1258
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1258
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1258
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1268
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1268
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1268
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1268
+[04-Nov-2015 20:52:44 Europe/Sofia] PHP Notice:  Undefined variable: current_content_type_id in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1268
+[04-Nov-2015 20:52:46 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:46 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 653
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 654
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 655
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:47 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:48 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:48 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:49 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:49 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:49 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:49 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:50 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:50 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:50 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:50 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:51 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:51 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:51 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:51 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:52 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:52 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:52 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:52 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 635
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 636
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/content/content-add-new.php on line 637
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 856
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 857
+[04-Nov-2015 20:52:53 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 858
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 191
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 192
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 898
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 899
+[04-Nov-2015 20:52:54 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 900
+[05-Nov-2015 00:32:36 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 00:32:36 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 00:32:36 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 00:35:18 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 00:35:18 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 00:35:18 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 00:36:46 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 00:36:46 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 00:36:46 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 00:37:06 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 00:37:06 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 00:37:06 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 00:37:35 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 00:37:35 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 00:37:35 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 00:51:46 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[05-Nov-2015 00:51:46 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[05-Nov-2015 00:51:46 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[05-Nov-2015 00:52:20 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 00:52:20 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 00:52:20 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 00:52:41 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[05-Nov-2015 00:52:41 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[05-Nov-2015 00:52:41 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[05-Nov-2015 00:53:23 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 00:53:23 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 00:53:23 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 01:01:27 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[05-Nov-2015 01:01:27 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[05-Nov-2015 01:01:27 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[05-Nov-2015 01:03:10 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[05-Nov-2015 01:03:10 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[05-Nov-2015 01:03:10 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[05-Nov-2015 01:03:36 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 01:03:36 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 01:03:36 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 01:03:59 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[05-Nov-2015 01:03:59 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[05-Nov-2015 01:03:59 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[05-Nov-2015 01:06:55 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 757
+[05-Nov-2015 01:06:55 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 879
+[05-Nov-2015 01:06:55 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 884
+[05-Nov-2015 01:06:58 Europe/Sofia] PHP Notice:  Undefined variable: content_menu_order in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1096
+[05-Nov-2015 01:06:58 Europe/Sofia] PHP Notice:  Undefined variable: content_last_modified_by in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1218
+[05-Nov-2015 01:06:58 Europe/Sofia] PHP Notice:  Undefined variable: content_modified_date in /home/civil3db/public_html/procad/_admin/content/content-details.php on line 1223
+[16-Nov-2015 18:12:28 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[16-Nov-2015 18:12:28 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[16-Nov-2015 19:30:32 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[16-Nov-2015 19:30:32 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[16-Nov-2015 20:52:56 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[16-Nov-2015 20:52:56 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[18-Nov-2015 03:24:13 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[18-Nov-2015 03:24:13 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[18-Nov-2015 05:01:06 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[18-Nov-2015 05:01:06 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[18-Nov-2015 06:09:50 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[18-Nov-2015 06:09:50 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[18-Nov-2015 07:25:30 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[18-Nov-2015 07:25:30 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[18-Nov-2015 08:18:19 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[18-Nov-2015 08:18:19 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94
+[18-Nov-2015 09:01:38 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[18-Nov-2015 09:01:38 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 94

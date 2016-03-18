@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="delete-option-value-image.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130600961570000000" remote="130600961570000000" Dst="1" />
+<file name="delete-category-to-option.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130594785450000000" remote="130594785450000000" Dst="1" />
+<file name="delete-attribute-group.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130595872450000000" remote="130595872450000000" Dst="1" />
+<file name="set-category-active-inactive.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="get-attributes-by-attribute-group.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="move-category-forward-backward.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="delete-attribute.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="delete-category.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="move-option-value-forward-backward.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130596744220000000" remote="130596744220000000" Dst="1" />
+<file name="delete-option-value.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130595884340000000" remote="130595884340000000" Dst="1" />
+<file name="delete-category-image.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="move-option-forward-backward.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130595844350000000" remote="130595844350000000" Dst="1" />
+<file name="toggle-expand-category.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="delete-option.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130595874540000000" remote="130595874540000000" Dst="1" />
+<file name="move-attribute-group-forward-backward.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="move-attribute-forward-backward.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130589805350000000" remote="130589805350000000" Dst="1" />
+<file name="delete-category-to-attribute-group.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130591462030000000" remote="130591462030000000" Dst="1" />
+</dwsync>

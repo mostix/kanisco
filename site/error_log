@@ -1,0 +1,146 @@
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 26
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 26
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 27
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 27
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/art93/public_html/frontstore/index.php on line 28
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 178
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 178
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 179
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 179
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/art93/public_html/frontstore/index.php on line 180
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: current_lang in /home/art93/public_html/frontstore/index.php on line 198
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 200
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 200
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 201
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 201
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/art93/public_html/frontstore/index.php on line 202
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 217
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 217
+[13-Dec-2014 19:42:04] PHP Notice:  Undefined variable: db_link in /home/art93/public_html/frontstore/index.php on line 218
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/art93/public_html/frontstore/index.php on line 218
+[13-Dec-2014 19:42:04] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/art93/public_html/frontstore/index.php on line 219
+[13-Dec-2014 19:42:04] PHP Fatal error:  Call to undefined function print_html_header() in /home/art93/public_html/frontstore/index.php on line 228
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 26
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 26
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 27
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 27
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 28
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 45
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 47
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 47
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 48
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 48
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 49
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 68
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 68
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 69
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 69
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 70
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 90
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 92
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 92
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 93
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 93
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 94
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 109
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 109
+[11-Nov-2015 02:43:41 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 110
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 110
+[11-Nov-2015 02:43:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 111
+[11-Nov-2015 02:43:41 UTC] PHP Fatal error:  Call to undefined function print_html_header() in /home/civil3db/public_html/procad/site/index.php on line 347
+[23-Nov-2015 04:31:09 Europe/Sofia] PHP Notice:  Undefined variable: email_subject in /home/civil3db/public_html/procad/site/inquiery.php on line 33
+[23-Nov-2015 04:31:09 Europe/Sofia] PHP Notice:  Undefined variable: customer_name in /home/civil3db/public_html/procad/site/inquiery.php on line 57
+[23-Nov-2015 04:31:09 Europe/Sofia] PHP Notice:  Undefined variable: customer_email in /home/civil3db/public_html/procad/site/inquiery.php on line 62
+[23-Nov-2015 04:31:09 Europe/Sofia] PHP Notice:  Undefined variable: inquiery_message in /home/civil3db/public_html/procad/site/inquiery.php on line 69
+[23-Nov-2015 04:31:09 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/inquiery.php on line 72
+[23-Nov-2015 04:31:09 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/site/inquiery.php on line 72
+[23-Nov-2015 04:31:11 Europe/Sofia] PHP Notice:  Undefined variable: email_subject in /home/civil3db/public_html/procad/site/inquiery.php on line 33
+[23-Nov-2015 04:31:11 Europe/Sofia] PHP Notice:  Undefined variable: customer_name in /home/civil3db/public_html/procad/site/inquiery.php on line 57
+[23-Nov-2015 04:31:11 Europe/Sofia] PHP Notice:  Undefined variable: customer_email in /home/civil3db/public_html/procad/site/inquiery.php on line 62
+[23-Nov-2015 04:31:11 Europe/Sofia] PHP Notice:  Undefined variable: inquiery_message in /home/civil3db/public_html/procad/site/inquiery.php on line 69
+[23-Nov-2015 04:31:11 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/inquiery.php on line 72
+[23-Nov-2015 04:31:11 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/site/inquiery.php on line 72
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 26
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 26
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 27
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 27
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 28
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 45
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 47
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 47
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 48
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 48
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 49
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 68
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 68
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 69
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 69
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 70
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 90
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 92
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 92
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 93
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 93
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 94
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 109
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 109
+[27-Dec-2015 05:15:00 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 110
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 110
+[27-Dec-2015 05:15:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 111
+[27-Dec-2015 05:15:00 UTC] PHP Fatal error:  Call to undefined function print_html_header() in /home/civil3db/public_html/procad/site/index.php on line 347
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 35
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 35
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 36
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 36
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 37
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 43
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 45
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 45
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 46
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 46
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 47
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 67
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 67
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 68
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 68
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 69
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 90
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 92
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 92
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 93
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 93
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 94
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 109
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 109
+[02-Feb-2016 09:34:09 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 110
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 110
+[02-Feb-2016 09:34:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 111
+[02-Feb-2016 09:34:09 UTC] PHP Fatal error:  Call to undefined function print_html_header() in /home/civil3db/public_html/procad/site/index.php on line 348
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 35
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 35
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 36
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 36
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 37
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 43
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 45
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 45
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 46
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 46
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 47
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 67
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 67
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 68
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 68
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 69
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/site/index.php on line 90
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 92
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 92
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 93
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 93
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 94
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 109
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 109
+[02-Feb-2016 09:34:12 UTC] PHP Notice:  Undefined variable: db_link in /home/civil3db/public_html/procad/site/index.php on line 110
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/site/index.php on line 110
+[02-Feb-2016 09:34:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/site/index.php on line 111
+[02-Feb-2016 09:34:12 UTC] PHP Fatal error:  Call to undefined function print_html_header() in /home/civil3db/public_html/procad/site/index.php on line 348

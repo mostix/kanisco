@@ -1,0 +1,836 @@
+[09-May-2015 22:01:27] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[09-May-2015 22:01:27] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 96
+[09-May-2015 22:01:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[09-May-2015 22:01:27] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 194
+[09-May-2015 22:01:27] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 195
+[09-May-2015 22:01:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-add-new.php on line 624
+[09-May-2015 22:01:27] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-add-new.php on line 625
+[09-May-2015 22:01:27] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/content/content-add-new.php on line 626
+[09-May-2015 22:01:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 810
+[09-May-2015 22:01:27] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 811
+[09-May-2015 22:01:27] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 812
+[10-May-2015 13:30:28] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[10-May-2015 13:39:47] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[10-May-2015 13:53:03] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[10-May-2015 13:53:03] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[10-May-2015 13:53:03] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[10-May-2015 15:35:34] PHP Notice:  Undefined index:  content_menu_text in /home/sportou/public_html/_admin/functions/output-functions.php on line 202
+[10-May-2015 15:35:35] PHP Notice:  Undefined index:  content_menu_text in /home/sportou/public_html/_admin/functions/output-functions.php on line 202
+[10-May-2015 17:35:10] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[10-May-2015 17:35:10] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[10-May-2015 17:35:10] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[10-May-2015 17:50:30] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[10-May-2015 17:50:30] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[10-May-2015 17:50:30] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[10-May-2015 18:20:53] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[10-May-2015 18:20:53] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 96
+[10-May-2015 18:20:53] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[10-May-2015 18:20:53] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 194
+[10-May-2015 18:20:53] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 195
+[10-May-2015 18:20:53] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 644
+[10-May-2015 18:20:53] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 645
+[10-May-2015 18:20:53] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 646
+[10-May-2015 20:35:19] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[11-May-2015 14:57:16] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[11-May-2015 14:57:16] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[11-May-2015 14:57:16] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[11-May-2015 16:22:02] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[13-May-2015 17:36:03] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[13-May-2015 17:39:47] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[13-May-2015 17:39:47] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[13-May-2015 17:39:47] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[13-May-2015 17:39:47] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[13-May-2015 17:39:47] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[13-May-2015 17:39:47] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[13-May-2015 17:39:47] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 639
+[13-May-2015 17:39:47] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[13-May-2015 17:39:47] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[13-May-2015 19:40:56] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 10:26:10] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 13:43:36] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 13:43:40] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:19:43] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:19:45] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:20:23] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:20:45] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:20:51] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:20:56] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:21:02] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:21:14] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:21:40] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:22:05] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:22:07] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:22:13] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:22:18] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 14:22:28] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:28:08] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:28:13] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:28:18] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:28:23] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:30:58] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:31:22] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:31:29] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:31:32] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:58:33] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 17:59:02] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 18:06:10] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 18:06:12] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 18:06:34] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[14-May-2015 18:07:43] PHP Notice:  Undefined index:  title_open_close in /home/sportou/public_html/_admin/functions/output-functions.php on line 89
+[18-May-2015 22:50:04] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[18-May-2015 22:50:04] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[18-May-2015 22:50:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[18-May-2015 22:50:04] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[18-May-2015 22:50:04] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[18-May-2015 22:50:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 639
+[18-May-2015 22:50:04] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[18-May-2015 22:50:04] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[18-May-2015 23:43:22] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 623
+[18-May-2015 23:43:22] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[18-May-2015 23:43:22] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[18-May-2015 23:43:22] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[18-May-2015 23:43:22] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[18-May-2015 23:43:22] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/content/content-details.php on line 627
+[18-May-2015 23:43:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:623) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[18-May-2015 23:43:22] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[18-May-2015 23:43:22] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[18-May-2015 23:43:22] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[18-May-2015 23:43:22] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[18-May-2015 23:43:22] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[18-May-2015 23:43:22] PHP Notice:  Undefined variable: content_name in /home/sportou/public_html/_admin/content/content-details.php on line 668
+[18-May-2015 23:43:22] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 679
+[18-May-2015 23:43:22] PHP Notice:  Undefined variable: current_content_type_id in /home/sportou/public_html/_admin/content/content-details.php on line 686
+[18-May-2015 23:48:01] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[18-May-2015 23:48:01] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[18-May-2015 23:48:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[18-May-2015 23:48:01] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[18-May-2015 23:48:01] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[18-May-2015 23:48:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 639
+[18-May-2015 23:48:01] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[18-May-2015 23:48:01] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[19-May-2015 11:22:07] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[19-May-2015 11:22:07] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[19-May-2015 11:22:07] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[19-May-2015 12:46:36] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[19-May-2015 12:46:36] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[19-May-2015 18:00:25] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 249
+[19-May-2015 18:00:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:249) in /home/sportou/public_html/_admin/content/content-details.php on line 415
+[19-May-2015 18:00:25] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 924
+[19-May-2015 18:00:25] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1002
+[19-May-2015 18:00:25] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1007
+[19-May-2015 18:01:17] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 249
+[19-May-2015 18:01:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:249) in /home/sportou/public_html/_admin/content/content-details.php on line 415
+[19-May-2015 18:01:17] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 924
+[19-May-2015 18:01:17] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1002
+[19-May-2015 18:01:17] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1007
+[19-May-2015 18:04:11] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 249
+[19-May-2015 18:04:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:249) in /home/sportou/public_html/_admin/content/content-details.php on line 415
+[19-May-2015 18:04:11] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 924
+[19-May-2015 18:04:11] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1002
+[19-May-2015 18:04:11] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1007
+[19-May-2015 18:10:34] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 249
+[19-May-2015 18:10:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:249) in /home/sportou/public_html/_admin/content/content-details.php on line 415
+[19-May-2015 18:10:34] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 924
+[19-May-2015 18:10:34] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1002
+[19-May-2015 18:10:34] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1007
+[19-May-2015 18:11:35] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 249
+[19-May-2015 18:11:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:249) in /home/sportou/public_html/_admin/content/content-details.php on line 415
+[19-May-2015 18:11:35] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 924
+[19-May-2015 18:11:35] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1002
+[19-May-2015 18:11:35] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1007
+[19-May-2015 18:12:08] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 249
+[19-May-2015 18:12:08] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:249) in /home/sportou/public_html/_admin/content/content-details.php on line 415
+[19-May-2015 18:12:08] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 924
+[19-May-2015 18:12:08] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1002
+[19-May-2015 18:12:08] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1007
+[19-May-2015 18:13:08] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 249
+[19-May-2015 18:13:08] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:249) in /home/sportou/public_html/_admin/content/content-details.php on line 415
+[19-May-2015 18:13:08] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 924
+[19-May-2015 18:13:08] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1002
+[19-May-2015 18:13:08] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1007
+[19-May-2015 22:56:07] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[20-May-2015 00:37:19] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[20-May-2015 00:37:19] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[20-May-2015 00:37:19] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[20-May-2015 00:37:19] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[20-May-2015 00:37:19] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[20-May-2015 00:37:19] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 639
+[20-May-2015 00:37:19] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[20-May-2015 00:37:19] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[25-May-2015 22:16:59] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[25-May-2015 22:19:30] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[25-May-2015 22:19:30] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[25-May-2015 22:35:27] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[25-May-2015 22:35:27] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[25-May-2015 22:35:27] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[25-May-2015 22:41:38] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[25-May-2015 22:41:38] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[25-May-2015 22:41:38] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_pretty_url in /home/sportou/public_html/_admin/content/content-details.php on line 50
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 56
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_attribute_1 in /home/sportou/public_html/_admin/content/content-details.php on line 57
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_attribute_2 in /home/sportou/public_html/_admin/content/content-details.php on line 58
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_meta_title in /home/sportou/public_html/_admin/content/content-details.php on line 59
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_meta_description in /home/sportou/public_html/_admin/content/content-details.php on line 60
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_meta_keywords in /home/sportou/public_html/_admin/content/content-details.php on line 61
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_pretty_url in /home/sportou/public_html/_admin/content/content-details.php on line 118
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_meta_title in /home/sportou/public_html/_admin/content/content-details.php on line 119
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_meta_description in /home/sportou/public_html/_admin/content/content-details.php on line 120
+[25-May-2015 23:21:03] PHP Notice:  Undefined index:  content_meta_keywords in /home/sportou/public_html/_admin/content/content-details.php on line 121
+[25-May-2015 23:21:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:50) in /home/sportou/public_html/_admin/content/content-details.php on line 229
+[25-May-2015 23:21:03] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[25-May-2015 23:21:03] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[25-May-2015 23:21:03] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_pretty_url in /home/sportou/public_html/_admin/content/content-details.php on line 50
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 56
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_attribute_1 in /home/sportou/public_html/_admin/content/content-details.php on line 57
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_attribute_2 in /home/sportou/public_html/_admin/content/content-details.php on line 58
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_meta_title in /home/sportou/public_html/_admin/content/content-details.php on line 59
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_meta_description in /home/sportou/public_html/_admin/content/content-details.php on line 60
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_meta_keywords in /home/sportou/public_html/_admin/content/content-details.php on line 61
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_pretty_url in /home/sportou/public_html/_admin/content/content-details.php on line 118
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_meta_title in /home/sportou/public_html/_admin/content/content-details.php on line 119
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_meta_description in /home/sportou/public_html/_admin/content/content-details.php on line 120
+[25-May-2015 23:21:54] PHP Notice:  Undefined index:  content_meta_keywords in /home/sportou/public_html/_admin/content/content-details.php on line 121
+[25-May-2015 23:21:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:50) in /home/sportou/public_html/_admin/content/content-details.php on line 229
+[25-May-2015 23:21:54] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[25-May-2015 23:21:54] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[25-May-2015 23:21:54] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_pretty_url in /home/sportou/public_html/_admin/content/content-details.php on line 50
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_target in /home/sportou/public_html/_admin/content/content-details.php on line 56
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_attribute_1 in /home/sportou/public_html/_admin/content/content-details.php on line 57
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_attribute_2 in /home/sportou/public_html/_admin/content/content-details.php on line 58
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_meta_title in /home/sportou/public_html/_admin/content/content-details.php on line 59
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_meta_description in /home/sportou/public_html/_admin/content/content-details.php on line 60
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_meta_keywords in /home/sportou/public_html/_admin/content/content-details.php on line 61
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_pretty_url in /home/sportou/public_html/_admin/content/content-details.php on line 118
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_meta_title in /home/sportou/public_html/_admin/content/content-details.php on line 119
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_meta_description in /home/sportou/public_html/_admin/content/content-details.php on line 120
+[25-May-2015 23:23:02] PHP Notice:  Undefined index:  content_meta_keywords in /home/sportou/public_html/_admin/content/content-details.php on line 121
+[25-May-2015 23:23:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:50) in /home/sportou/public_html/_admin/content/content-details.php on line 229
+[25-May-2015 23:23:02] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[25-May-2015 23:23:02] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[25-May-2015 23:23:02] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[25-May-2015 23:28:06] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[25-May-2015 23:28:06] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[25-May-2015 23:28:06] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[25-May-2015 23:28:23] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[25-May-2015 23:28:23] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[25-May-2015 23:28:23] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[25-May-2015 23:28:23] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[25-May-2015 23:28:23] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[25-May-2015 23:28:23] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 639
+[25-May-2015 23:28:23] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[25-May-2015 23:28:23] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[26-May-2015 11:36:08] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[26-May-2015 11:36:08] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[26-May-2015 11:36:08] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[26-May-2015 11:59:25] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[26-May-2015 11:59:25] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[26-May-2015 11:59:25] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 15:24:44] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 15:56:56] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[27-May-2015 15:56:56] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[27-May-2015 15:56:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[27-May-2015 15:56:56] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[27-May-2015 15:56:56] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[27-May-2015 15:56:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 639
+[27-May-2015 15:56:56] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[27-May-2015 15:56:56] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[27-May-2015 17:46:51] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 17:46:51] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 17:46:51] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 17:54:37] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 17:54:37] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 17:54:37] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:00:14] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:00:14] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:00:14] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:03:21] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:03:21] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:03:21] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:04:09] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:04:09] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:04:09] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:05:58] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:10:51] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:10:51] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:10:51] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:19:05] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 623
+[27-May-2015 18:19:05] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[27-May-2015 18:19:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[27-May-2015 18:19:05] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[27-May-2015 18:19:05] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[27-May-2015 18:19:05] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/content/content-details.php on line 627
+[27-May-2015 18:19:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:623) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[27-May-2015 18:19:05] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[27-May-2015 18:19:05] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[27-May-2015 18:19:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[27-May-2015 18:19:05] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[27-May-2015 18:19:05] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[27-May-2015 18:19:05] PHP Notice:  Undefined variable: content_name in /home/sportou/public_html/_admin/content/content-details.php on line 668
+[27-May-2015 18:19:05] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 679
+[27-May-2015 18:19:05] PHP Notice:  Undefined variable: current_content_type_id in /home/sportou/public_html/_admin/content/content-details.php on line 686
+[27-May-2015 18:40:16] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:40:16] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:40:16] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:40:56] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:40:56] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:40:56] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:42:05] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:42:05] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:42:05] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[27-May-2015 18:51:39] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[27-May-2015 18:51:39] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[27-May-2015 18:51:39] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 15:41:11] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 15:41:11] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 15:41:11] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 15:45:10] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 15:45:10] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 15:45:10] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:19:11] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:19:11] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:19:11] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:29:32] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:29:32] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:29:32] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:31:49] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:31:49] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:31:49] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:32:41] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:32:41] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:32:41] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:33:56] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:33:56] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:33:56] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:36:07] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:36:07] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:36:07] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:44:16] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:44:16] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:44:16] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:50:45] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:50:45] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:50:45] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 16:58:25] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 16:58:25] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 16:58:25] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 17:00:28] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 17:00:28] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 17:00:28] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 17:02:07] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 17:02:07] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 17:02:07] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 17:03:51] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 17:03:51] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 17:03:51] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 19:09:03] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[28-May-2015 19:09:03] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1187
+[28-May-2015 19:09:03] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1192
+[28-May-2015 19:29:49] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[28-May-2015 19:29:49] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1187
+[28-May-2015 19:29:49] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1192
+[28-May-2015 21:25:37] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[28-May-2015 21:47:40] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[28-May-2015 22:12:43] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 22:12:43] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 22:12:43] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 22:35:09] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 22:35:09] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 22:35:09] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 22:35:20] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 22:35:20] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 22:35:20] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[28-May-2015 22:35:34] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[28-May-2015 22:35:34] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[28-May-2015 22:35:34] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[29-May-2015 12:32:44] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[29-May-2015 12:32:44] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[29-May-2015 12:32:44] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[29-May-2015 14:47:18] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[29-May-2015 14:50:37] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[29-May-2015 15:30:11] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[29-May-2015 16:29:27] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[29-May-2015 16:29:41] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[29-May-2015 16:38:23] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[29-May-2015 16:39:01] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[29-May-2015 18:28:55] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[29-May-2015 18:28:55] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[29-May-2015 18:28:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 188
+[29-May-2015 18:28:55] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[29-May-2015 18:28:55] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[29-May-2015 18:28:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 639
+[29-May-2015 18:28:55] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[29-May-2015 18:28:55] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[04-Jun-2015 00:04:07] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[04-Jun-2015 00:33:25] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[04-Jun-2015 00:33:25] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[04-Jun-2015 00:33:25] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[04-Jun-2015 00:35:05] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[04-Jun-2015 00:35:05] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[04-Jun-2015 00:35:05] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[04-Jun-2015 00:35:23] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[04-Jun-2015 00:35:35] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[04-Jun-2015 00:35:35] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[04-Jun-2015 00:35:35] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[04-Jun-2015 00:35:47] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[04-Jun-2015 00:35:47] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[04-Jun-2015 00:35:47] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[04-Jun-2015 00:45:18] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[04-Jun-2015 00:45:18] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 92
+[04-Jun-2015 00:45:18] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 189
+[04-Jun-2015 00:45:18] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 190
+[04-Jun-2015 00:45:18] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[04-Jun-2015 00:45:18] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 640
+[04-Jun-2015 00:45:18] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 641
+[04-Jun-2015 00:45:18] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 642
+[05-Jun-2015 12:32:32] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 74
+[06-Jun-2015 13:53:30] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 13:53:30] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 13:53:30] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 13:54:33] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 13:54:33] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 13:54:33] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:24:28] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:24:28] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:24:28] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:24:31] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:24:31] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:24:31] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:36:35] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:36:35] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:36:35] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:36:45] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:36:45] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:36:45] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:38:58] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:38:58] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:38:58] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:39:21] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:39:21] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:39:21] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:44:03] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:44:03] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:44:03] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:48:41] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:48:41] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:48:41] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 15:49:16] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 15:49:16] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 15:49:16] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[06-Jun-2015 16:10:41] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[06-Jun-2015 16:10:41] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[06-Jun-2015 16:10:41] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[07-Jun-2015 19:00:43] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[07-Jun-2015 19:00:43] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[07-Jun-2015 19:00:43] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[07-Jun-2015 19:13:44] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[07-Jun-2015 19:13:44] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[07-Jun-2015 19:13:44] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[07-Jun-2015 22:57:04] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[07-Jun-2015 23:02:34] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[07-Jun-2015 23:02:34] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[07-Jun-2015 23:02:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[07-Jun-2015 23:02:34] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[07-Jun-2015 23:02:34] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[07-Jun-2015 23:02:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 653
+[07-Jun-2015 23:02:34] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 654
+[07-Jun-2015 23:02:34] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 655
+[09-Jun-2015 00:03:09] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[09-Jun-2015 00:03:10] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[09-Jun-2015 00:03:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[09-Jun-2015 00:03:10] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[09-Jun-2015 00:03:10] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[09-Jun-2015 00:03:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 653
+[09-Jun-2015 00:03:10] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 654
+[09-Jun-2015 00:03:10] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 655
+[09-Jun-2015 10:44:32] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 10:44:32] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 10:44:32] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 10:45:59] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 10:45:59] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 10:45:59] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 11:53:34] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[09-Jun-2015 11:54:07] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 11:54:07] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 11:54:07] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 11:59:41] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 11:59:41] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 11:59:41] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 12:00:24] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 12:00:24] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 12:00:24] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 13:11:25] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[09-Jun-2015 13:11:51] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 13:11:51] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 13:11:51] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 13:15:25] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 13:15:25] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 13:15:25] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 13:23:59] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 13:29:58] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 13:29:58] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 13:29:58] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 13:36:40] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 13:51:45] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[09-Jun-2015 14:02:06] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[09-Jun-2015 14:03:25] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 14:03:25] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 14:03:25] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 14:04:31] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 14:04:31] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 14:04:31] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 14:05:18] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 14:05:18] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 14:05:18] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 14:07:45] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 14:07:45] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 14:07:45] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 623
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[09-Jun-2015 14:08:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[09-Jun-2015 14:08:38] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[09-Jun-2015 14:08:38] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/content/content-details.php on line 627
+[09-Jun-2015 14:08:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:623) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[09-Jun-2015 14:08:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[09-Jun-2015 14:08:38] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[09-Jun-2015 14:08:38] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined variable: content_name in /home/sportou/public_html/_admin/content/content-details.php on line 668
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 679
+[09-Jun-2015 14:08:38] PHP Notice:  Undefined variable: current_content_type_id in /home/sportou/public_html/_admin/content/content-details.php on line 686
+[09-Jun-2015 14:12:36] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[09-Jun-2015 14:12:36] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[09-Jun-2015 14:12:36] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[12-Jun-2015 13:31:33] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[12-Jun-2015 13:31:33] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[12-Jun-2015 13:31:33] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[12-Jun-2015 16:21:29] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[12-Jun-2015 16:26:22] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[12-Jun-2015 16:26:22] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[12-Jun-2015 16:26:22] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[12-Jun-2015 16:27:45] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[12-Jun-2015 16:27:45] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[12-Jun-2015 16:27:45] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[14-Jun-2015 14:17:50] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[14-Jun-2015 14:17:50] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[14-Jun-2015 14:17:50] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[14-Jun-2015 14:18:24] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[14-Jun-2015 14:18:24] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[14-Jun-2015 14:18:24] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[15-Jun-2015 09:51:30] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[15-Jun-2015 09:51:30] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[15-Jun-2015 09:51:30] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[15-Jun-2015 09:53:41] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[15-Jun-2015 09:53:41] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[15-Jun-2015 09:53:41] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[15-Jun-2015 14:34:17] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[15-Jun-2015 14:34:17] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[15-Jun-2015 14:34:17] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[15-Jun-2015 14:34:39] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[15-Jun-2015 14:34:39] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[15-Jun-2015 14:34:39] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[15-Jun-2015 21:14:22] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[15-Jun-2015 21:14:22] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1187
+[15-Jun-2015 21:14:22] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1192
+[16-Jun-2015 13:57:48] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[16-Jun-2015 13:57:48] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[16-Jun-2015 13:57:48] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[16-Jun-2015 13:59:38] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[16-Jun-2015 13:59:38] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[16-Jun-2015 13:59:38] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[16-Jun-2015 14:15:00] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[16-Jun-2015 14:15:00] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[16-Jun-2015 14:15:00] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[16-Jun-2015 14:15:35] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[16-Jun-2015 14:15:35] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[16-Jun-2015 14:15:35] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[16-Jun-2015 14:46:10] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[16-Jun-2015 14:46:10] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[16-Jun-2015 14:46:10] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[16-Jun-2015 14:48:20] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[16-Jun-2015 14:48:20] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1187
+[16-Jun-2015 14:48:20] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1192
+[16-Jun-2015 14:49:02] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1077
+[16-Jun-2015 14:49:02] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1187
+[16-Jun-2015 14:49:02] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1192
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 623
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[16-Jun-2015 23:18:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[16-Jun-2015 23:18:57] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[16-Jun-2015 23:18:57] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/content/content-details.php on line 627
+[16-Jun-2015 23:18:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:623) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[16-Jun-2015 23:18:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[16-Jun-2015 23:18:57] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[16-Jun-2015 23:18:57] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined variable: content_name in /home/sportou/public_html/_admin/content/content-details.php on line 668
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 679
+[16-Jun-2015 23:18:57] PHP Notice:  Undefined variable: current_content_type_id in /home/sportou/public_html/_admin/content/content-details.php on line 686
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 623
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[17-Jun-2015 12:02:18] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 625
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[17-Jun-2015 12:02:18] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 626
+[17-Jun-2015 12:02:18] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/content/content-details.php on line 627
+[17-Jun-2015 12:02:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sportou/public_html/_admin/content/content-details.php:623) in /home/sportou/public_html/_admin/functions/output-functions.php on line 34
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[17-Jun-2015 12:02:18] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[17-Jun-2015 12:02:18] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[17-Jun-2015 12:02:18] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined variable: content_name in /home/sportou/public_html/_admin/content/content-details.php on line 668
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 679
+[17-Jun-2015 12:02:18] PHP Notice:  Undefined variable: current_content_type_id in /home/sportou/public_html/_admin/content/content-details.php on line 686
+[17-Jun-2015 22:46:33] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[17-Jun-2015 22:46:33] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[17-Jun-2015 22:46:33] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[17-Jun-2015 22:47:18] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[17-Jun-2015 22:47:18] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[17-Jun-2015 22:47:18] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[17-Jun-2015 22:56:53] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[17-Jun-2015 22:56:53] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[17-Jun-2015 22:56:53] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[17-Jun-2015 22:58:58] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[17-Jun-2015 22:58:58] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[17-Jun-2015 22:58:58] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[17-Jun-2015 22:58:58] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[17-Jun-2015 22:58:58] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[17-Jun-2015 22:58:58] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 653
+[17-Jun-2015 22:58:58] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 654
+[17-Jun-2015 22:58:58] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 655
+[21-Jun-2015 18:41:06] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[21-Jun-2015 18:41:06] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[21-Jun-2015 18:41:06] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[21-Jun-2015 18:51:47] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[21-Jun-2015 18:51:47] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[21-Jun-2015 18:51:47] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[21-Jun-2015 18:53:26] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[21-Jun-2015 18:53:26] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[21-Jun-2015 18:53:26] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[21-Jun-2015 19:47:07] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 750
+[21-Jun-2015 19:47:07] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 860
+[21-Jun-2015 19:47:07] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 865
+[21-Jun-2015 21:08:44] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[21-Jun-2015 21:08:44] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[21-Jun-2015 21:08:44] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[21-Jun-2015 21:11:24] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[21-Jun-2015 21:11:24] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[21-Jun-2015 21:11:24] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[22-Jun-2015 00:11:54] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[22-Jun-2015 13:45:05] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[22-Jun-2015 13:45:05] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[22-Jun-2015 13:45:05] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[22-Jun-2015 13:46:23] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[22-Jun-2015 13:46:23] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[22-Jun-2015 13:46:23] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[22-Jun-2015 14:47:13] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[22-Jun-2015 16:04:53] PHP Notice:  Undefined index:  admin in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[22-Jun-2015 16:05:07] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[22-Jun-2015 16:05:07] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[22-Jun-2015 16:05:07] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[22-Jun-2015 17:50:44] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[22-Jun-2015 17:50:44] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[22-Jun-2015 17:50:44] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[22-Jun-2015 17:50:44] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[22-Jun-2015 17:50:44] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[22-Jun-2015 17:50:44] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 653
+[22-Jun-2015 17:50:44] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 654
+[22-Jun-2015 17:50:44] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 655
+[30-Jun-2015 12:12:23] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[30-Jun-2015 12:12:23] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[30-Jun-2015 12:12:23] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[30-Jun-2015 12:26:13] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[30-Jun-2015 12:26:13] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[30-Jun-2015 12:26:13] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[30-Jun-2015 12:26:32] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[30-Jun-2015 12:26:32] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[30-Jun-2015 12:26:32] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[07-Jul-2015 11:16:35] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[07-Jul-2015 11:16:35] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[07-Jul-2015 11:16:35] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[07-Jul-2015 11:17:09] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[07-Jul-2015 11:17:09] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[07-Jul-2015 11:17:09] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[08-Jul-2015 12:08:19] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[08-Jul-2015 12:08:19] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[08-Jul-2015 12:08:19] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[09-Jul-2015 13:33:28] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[09-Jul-2015 13:33:28] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[09-Jul-2015 13:33:28] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[09-Jul-2015 13:33:54] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[09-Jul-2015 13:33:54] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[09-Jul-2015 13:33:54] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[09-Jul-2015 14:02:12] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[09-Jul-2015 14:02:12] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[09-Jul-2015 14:02:12] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:07:36] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:07:36] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:07:36] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:07:59] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:07:59] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:07:59] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:25:37] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:25:37] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:25:37] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:26:12] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:26:12] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:26:12] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:26:43] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:26:43] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:26:43] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:28:27] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:28:27] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:32:51] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:32:51] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:32:51] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:35:54] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:35:54] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:35:54] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:36:42] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 12:36:42] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 12:36:42] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 629
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 631
+[10-Jul-2015 12:48:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 631
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined variable: db_link in /home/sportou/public_html/_admin/content/content-details.php on line 632
+[10-Jul-2015 12:48:27] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/content/content-details.php on line 632
+[10-Jul-2015 12:48:27] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/content/content-details.php on line 633
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined index:  user_fullname in /home/sportou/public_html/_admin/functions/output-functions.php on line 76
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined index:  user_id in /home/sportou/public_html/_admin/functions/output-functions.php on line 94
+[10-Jul-2015 12:48:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 191
+[10-Jul-2015 12:48:27] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 192
+[10-Jul-2015 12:48:27] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sportou/public_html/_admin/functions/output-functions.php on line 193
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined variable: content_name in /home/sportou/public_html/_admin/content/content-details.php on line 675
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined variable: current_content_id in /home/sportou/public_html/_admin/content/content-details.php on line 686
+[10-Jul-2015 12:48:27] PHP Notice:  Undefined variable: current_content_type_id in /home/sportou/public_html/_admin/content/content-details.php on line 693
+[10-Jul-2015 13:04:25] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:04:25] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:04:25] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:05:30] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:05:30] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:05:30] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:07:49] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:07:49] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:07:49] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:08:49] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:08:49] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:08:49] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:09:08] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:09:08] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:09:08] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:09:19] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:09:19] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:09:19] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:10:58] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:10:58] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:10:58] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:11:04] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:11:04] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:11:04] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:11:21] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:11:21] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:11:21] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:20:52] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:20:52] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:20:52] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 13:29:26] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 13:29:26] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 13:29:26] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:16:46] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:16:46] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:16:46] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:17:08] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:17:08] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:17:08] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:50:36] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:50:36] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:50:36] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:51:26] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:51:26] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:51:26] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:51:46] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:51:46] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:51:46] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:52:02] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:52:02] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:52:02] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:52:51] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:52:51] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:52:51] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:53:20] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:53:20] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:53:20] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:53:56] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:53:56] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:53:56] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:54:16] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:54:16] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:54:16] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 14:55:00] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 14:55:00] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 14:55:00] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:09:51] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:09:51] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:09:51] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:10:11] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:10:11] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:10:11] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:10:37] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:10:37] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:10:37] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:10:53] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:10:53] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:10:53] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:11:12] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:11:12] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:11:12] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:12:05] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 1096
+[10-Jul-2015 16:12:05] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 1218
+[10-Jul-2015 16:12:05] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 1223
+[10-Jul-2015 16:24:29] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:24:29] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:24:29] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:27:02] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:27:02] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:28:07] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:28:07] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:28:07] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 16:30:18] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 16:30:18] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 16:30:18] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:05:15] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:05:15] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:05:15] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:07:58] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:07:58] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:07:58] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:09:12] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:09:12] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:09:12] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:18:46] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:18:46] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:18:46] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:19:05] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:19:05] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:19:05] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:19:56] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:19:56] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:19:56] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:20:42] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:20:42] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:20:42] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 17:31:45] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 17:31:45] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 17:31:45] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[10-Jul-2015 21:46:18] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[10-Jul-2015 21:46:18] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[10-Jul-2015 21:46:18] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884
+[11-Jul-2015 15:55:27] PHP Notice:  Undefined variable: content_menu_order in /home/sportou/public_html/_admin/content/content-details.php on line 757
+[11-Jul-2015 15:55:27] PHP Notice:  Undefined variable: content_last_modified_by in /home/sportou/public_html/_admin/content/content-details.php on line 879
+[11-Jul-2015 15:55:27] PHP Notice:  Undefined variable: content_modified_date in /home/sportou/public_html/_admin/content/content-details.php on line 884

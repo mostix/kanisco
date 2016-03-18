@@ -1,0 +1,4 @@
+[24-Nov-2015 23:40:13 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/administration/ajax/edit/edit-menu-translation.php on line 23
+[24-Nov-2015 23:40:14 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/administration/ajax/edit/edit-menu-translation.php on line 23
+[29-Jan-2016 00:11:02 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/administration/ajax/edit/edit-menu-translation.php on line 23
+[29-Jan-2016 00:11:02 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/administration/ajax/edit/edit-menu-translation.php on line 23

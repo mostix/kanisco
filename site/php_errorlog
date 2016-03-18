@@ -1,0 +1,29 @@
+[07-Aug-2015 14:11:14] PHP Warning:  include_once(/functions/include-functions.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/sportou/public_html/frontstore/subscribe.php on line 6
+[07-Aug-2015 14:11:14] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '/functions/include-functions.php' for inclusion (include_path='.:/usr/local/php52/pear') in /home/sportou/public_html/frontstore/subscribe.php on line 6
+[07-Aug-2015 14:11:14] PHP Warning:  include_once(/functions/include-functions.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/sportou/public_html/frontstore/subscribe.php on line 6
+[07-Aug-2015 14:11:14] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '/functions/include-functions.php' for inclusion (include_path='.:/usr/local/php52/pear') in /home/sportou/public_html/frontstore/subscribe.php on line 6
+[07-Aug-2015 14:31:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/sportou/public_html/frontstore/subscribe.php:5) in /home/sportou/public_html/frontstore/config.php on line 12
+[07-Aug-2015 14:31:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/sportou/public_html/frontstore/subscribe.php:5) in /home/sportou/public_html/frontstore/config.php on line 12
+[07-Aug-2015 14:31:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/sportou/public_html/frontstore/subscribe.php:5) in /home/sportou/public_html/frontstore/config.php on line 12
+[07-Aug-2015 14:31:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/sportou/public_html/frontstore/subscribe.php:5) in /home/sportou/public_html/frontstore/config.php on line 12
+[11-Aug-2015 14:22:20] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[11-Aug-2015 14:22:20] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[25-Aug-2015 23:53:23] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[25-Aug-2015 23:53:23] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[26-Aug-2015 00:01:43] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[26-Aug-2015 00:01:43] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[26-Aug-2015 00:03:27] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[26-Aug-2015 00:03:27] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[26-Aug-2015 00:53:14] PHP Notice:  Array to string conversion in /home/sportou/public_html/frontstore/subscribe.php on line 17
+[26-Aug-2015 00:53:14] PHP Notice:  Array to string conversion in /home/sportou/public_html/frontstore/subscribe.php on line 17
+[26-Aug-2015 00:54:17] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[26-Aug-2015 00:54:17] PHP Notice:  Undefined index:  campaign_name_0 in /home/sportou/public_html/frontstore/subscribe.php on line 33
+[26-Aug-2015 00:58:48] PHP Notice:  Undefined variable: campaigns in /home/sportou/public_html/frontstore/subscribe.php on line 19
+[31-Aug-2015 00:25:55] PHP Notice:  Undefined variable: current_lang in /home/sportou/public_html/frontstore/inquiery.php on line 33
+[31-Aug-2015 00:25:55] PHP Notice:  Undefined variable: languages in /home/sportou/public_html/frontstore/inquiery.php on line 33
+[31-Aug-2015 00:29:39] PHP Notice:  Undefined variable: current_lang in /home/sportou/public_html/frontstore/inquiery.php on line 37
+[31-Aug-2015 00:29:39] PHP Notice:  Undefined index:   in /home/sportou/public_html/frontstore/inquiery.php on line 37
+[31-Aug-2015 00:30:46] PHP Notice:  Undefined variable: current_lang in /home/sportou/public_html/frontstore/inquiery.php on line 37
+[31-Aug-2015 00:30:46] PHP Notice:  Undefined index:   in /home/sportou/public_html/frontstore/inquiery.php on line 37
+[31-Aug-2015 00:31:05] PHP Notice:  Undefined variable: current_lang in /home/sportou/public_html/frontstore/inquiery.php on line 37
+[31-Aug-2015 00:31:05] PHP Notice:  Undefined index:   in /home/sportou/public_html/frontstore/inquiery.php on line 37

@@ -1,0 +1,4 @@
+[04-Jan-2016 11:15:38 Europe/Sofia] PHP Notice:  Undefined index: btn_add_new_user in /home/civil3db/public_html/procad/_admin/administration/ajax/get/get-users-for-type.php on line 48
+[04-Jan-2016 11:15:41 Europe/Sofia] PHP Notice:  Undefined index: btn_add_new_user in /home/civil3db/public_html/procad/_admin/administration/ajax/get/get-users-for-type.php on line 48
+[04-Jan-2016 11:15:42 Europe/Sofia] PHP Notice:  Undefined index: btn_add_new_user in /home/civil3db/public_html/procad/_admin/administration/ajax/get/get-users-for-type.php on line 48
+[27-Jan-2016 11:08:42 Europe/Sofia] PHP Notice:  Undefined index: btn_add_new_user in /home/civil3db/public_html/procad/_admin/administration/ajax/get/get-users-for-type.php on line 48

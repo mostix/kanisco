@@ -1,0 +1,9 @@
+[04-Dec-2015 11:53:40 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 117
+[04-Dec-2015 11:53:40 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 134
+[04-Dec-2015 11:53:40 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 151
+[07-Dec-2015 15:21:03 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 117
+[07-Dec-2015 15:21:03 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 134
+[07-Dec-2015 15:21:03 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 151
+[07-Dec-2015 15:42:03 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 117
+[07-Dec-2015 15:42:03 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 134
+[07-Dec-2015 15:42:03 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/catalog/ajax/delete/delete-product.php on line 151

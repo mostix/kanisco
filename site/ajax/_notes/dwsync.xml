@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="check-if-user-password-is-valid.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130620982650000000" remote="130620982650000000" Dst="1" />
+<file name="sort-products-by-option-value.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130625578410000000" remote="130625578410000000" Dst="1" />
+<file name="check-if-user-email-is-valid.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130624507460000000" remote="130624507460000000" Dst="1" />
+<file name="add-product-to-cart.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130622663190000000" remote="130622663190000000" Dst="1" />
+<file name="load-option-values-for-category.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130623602890000000" remote="130623602890000000" Dst="1" />
+<file name="log-in-user.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130625572340000000" remote="130625572340000000" Dst="1" />
+<file name="get-product-by-model.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130624983040000000" remote="130624983040000000" Dst="1" />
+<file name="sort-products-by-price.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130623595460000000" remote="130623595460000000" Dst="1" />
+<file name="load-pagination-products-for-category.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130625578950000000" remote="130625578950000000" Dst="1" />
+<file name="update-product-count-in-cart.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130624717230000000" remote="130624717230000000" Dst="1" />
+<file name="delete-customer-address.php" server="192.168.3.2:34022//var/www/html/e-shop/" local="130625379030000000" remote="130625379030000000" Dst="1" />
+</dwsync>
