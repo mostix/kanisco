@@ -862,24 +862,44 @@ function get_slider_last_order_value() {
   return $slider_sort_order;
 }
 
-function get_instructor_last_order_value() {
+function get_team_member_last_order_value() {
   
   global $db_link;
   
-  $query_instructor_sort_order = "SELECT `instructor_sort_order` FROM `instructors` ORDER BY `instructor_sort_order` DESC LIMIT 1";
-  //echo $query_instructor_sort_order;exit;
-  $result_instructor_sort_order = mysqli_query($db_link, $query_instructor_sort_order);
-  if(!$result_instructor_sort_order) echo mysqli_error($db_link);
-  if(mysqli_num_rows($result_instructor_sort_order) > 0) {
-    $row_instructor_sort_order = mysqli_fetch_assoc($result_instructor_sort_order);
-    $instructor_sort_order = $row_instructor_sort_order['instructor_sort_order'];
-    mysqli_free_result($result_instructor_sort_order);
+  $query_team_member_sort_order = "SELECT `team_member_sort_order` FROM `team_members` ORDER BY `team_member_sort_order` DESC LIMIT 1";
+  //echo $query_team_member_sort_order;exit;
+  $result_team_member_sort_order = mysqli_query($db_link, $query_team_member_sort_order);
+  if(!$result_team_member_sort_order) echo mysqli_error($db_link);
+  if(mysqli_num_rows($result_team_member_sort_order) > 0) {
+    $row_team_member_sort_order = mysqli_fetch_assoc($result_team_member_sort_order);
+    $team_member_sort_order = $row_team_member_sort_order['team_member_sort_order'];
+    mysqli_free_result($result_team_member_sort_order);
   }
   else {
-    $instructor_sort_order = 0;
+    $team_member_sort_order = 0;
   }
   
-  return $instructor_sort_order;
+  return $team_member_sort_order;
+}
+
+function get_client_last_order_value() {
+  
+  global $db_link;
+  
+  $query_client_sort_order = "SELECT `client_sort_order` FROM `clients` ORDER BY `client_sort_order` DESC LIMIT 1";
+  //echo $query_client_sort_order;exit;
+  $result_client_sort_order = mysqli_query($db_link, $query_client_sort_order);
+  if(!$result_client_sort_order) echo mysqli_error($db_link);
+  if(mysqli_num_rows($result_client_sort_order) > 0) {
+    $row_client_sort_order = mysqli_fetch_assoc($result_client_sort_order);
+    $client_sort_order = $row_client_sort_order['client_sort_order'];
+    mysqli_free_result($result_client_sort_order);
+  }
+  else {
+    $client_sort_order = 0;
+  }
+  
+  return $client_sort_order;
 }
 
 ?>

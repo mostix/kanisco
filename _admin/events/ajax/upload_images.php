@@ -11,18 +11,8 @@
   $upload_path = "";
 
   $event_id = $_POST['event_id'];
+  $event_image = $_POST['event_image'];
   
-  $query_event_details = "SELECT `event_image`
-                        FROM `events`
-                        WHERE `event_id` = '$event_id'";
-  //echo $query_event_details;exit;
-  $result_event_details = mysqli_query($db_link, $query_event_details);
-  if(!$result_event_details) echo mysqli_error($db_link);
-  if(mysqli_num_rows($result_event_details) > 0) {
-    $event_details = mysqli_fetch_assoc($result_event_details);
-
-    $event_image = $event_details['event_image'];
-  }
   $event_image_exploded = explode(".", $event_image);
   $current_event_image_name = $event_image_exploded[0];
   $current_event_image_exstension = $event_image_exploded[1];
@@ -30,12 +20,16 @@
   
   $file = $upload_path."$current_event_image_name.$current_event_image_exstension";
   
-  unlink($file);
+  if(file_exists($file)) {
+    unlink($file);
+  }
 
   $image_admin_thumb_name = $current_event_image_name."_thumb.".$current_event_image_exstension;
   $image_admin_thumb = "$upload_path$image_admin_thumb_name";
   
-  unlink($image_admin_thumb);
+  if(file_exists($image_admin_thumb)) {
+    unlink($image_admin_thumb);
+  }
 
   //print_r($_FILES);exit;
   

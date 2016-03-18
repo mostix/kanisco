@@ -37,3 +37,205 @@
 [16-Nov-2015 09:07:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
 [16-Nov-2015 15:26:41 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
 [17-Nov-2015 10:33:34 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[24-Nov-2015 18:11:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[25-Nov-2015 14:45:41 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[26-Nov-2015 11:14:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[26-Nov-2015 11:45:16 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[26-Nov-2015 12:05:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[02-Dec-2015 16:13:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[03-Dec-2015 15:19:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[16-Dec-2015 10:45:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[04-Jan-2016 11:18:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[04-Jan-2016 11:18:25 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 141
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 149
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 150
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 151
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index: users_rights_edit in /home/civil3db/public_html/procad/_admin/events/events.php on line 10
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index: users_rights_delete in /home/civil3db/public_html/procad/_admin/events/events.php on line 11
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/_admin/events/events.php on line 21
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 21
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 67
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 81
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 82
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 96
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 194
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 195
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 32
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 32
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 34
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 37
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 41
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 42
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 50
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 51
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 52
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 53
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 54
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 55
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 56
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 57
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 66
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 66
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2437
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2438
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2439
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2451
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2452
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2453
+[05-Jan-2016 12:39:41 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[05-Jan-2016 13:44:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[06-Jan-2016 15:05:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[06-Jan-2016 15:05:53 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[06-Jan-2016 15:13:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[06-Jan-2016 16:02:34 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[07-Jan-2016 11:09:08 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[13-Jan-2016 11:01:53 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[13-Jan-2016 11:02:01 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[13-Jan-2016 11:02:38 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[13-Jan-2016 11:03:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[13-Jan-2016 11:03:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[13-Jan-2016 11:04:53 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[19-Jan-2016 22:30:25 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[19-Jan-2016 22:30:27 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[19-Jan-2016 22:32:42 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[19-Jan-2016 22:32:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[19-Jan-2016 23:57:37 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:04:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:04:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:07:47 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:07:47 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:07:49 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:08:47 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:08:47 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:10:21 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:10:39 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:11:20 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:18:02 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:18:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:18:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:18:45 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[20-Jan-2016 00:19:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:19:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:19:06 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:19:19 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:19:19 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:19:31 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[20-Jan-2016 00:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:24:14 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:24:18 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[20-Jan-2016 00:24:24 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:24:24 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:24:27 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:24:32 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:26:35 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:26:58 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:27:30 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 00:31:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:31:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 141
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 149
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 150
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 151
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index: users_rights_edit in /home/civil3db/public_html/procad/_admin/events/events.php on line 10
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index: users_rights_delete in /home/civil3db/public_html/procad/_admin/events/events.php on line 11
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/_admin/events/events.php on line 21
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 21
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 65
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 79
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 80
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 90
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 185
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 186
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 187
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 32
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 32
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 34
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 37
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 41
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 42
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 50
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 51
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 52
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 53
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 54
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 55
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 56
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 57
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 66
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/events/events.php on line 66
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2341
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2342
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2343
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2355
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2356
+[20-Jan-2016 00:43:05 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2357
+[20-Jan-2016 12:07:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 12:07:50 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 12:07:59 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 12:08:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 12:08:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 12:08:24 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[20-Jan-2016 12:08:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 12:08:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 19:17:16 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 19:17:16 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 19:17:20 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[20-Jan-2016 19:17:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 19:17:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 19:17:37 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[20-Jan-2016 19:17:39 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[20-Jan-2016 19:17:39 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[20-Jan-2016 19:17:44 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[28-Jan-2016 10:36:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 10:36:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[28-Jan-2016 10:36:13 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[28-Jan-2016 10:36:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 10:36:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[28-Jan-2016 10:36:21 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[28-Jan-2016 10:36:30 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 10:36:30 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[28-Jan-2016 22:54:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 22:54:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[28-Jan-2016 23:45:57 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 23:45:57 Europe/Sofia] PHP Fatal error:  Call to undefined function list_events() in /home/civil3db/public_html/procad/_admin/events/events.php on line 70
+[28-Jan-2016 23:46:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 23:46:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[28-Jan-2016 23:46:29 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[28-Jan-2016 23:46:39 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[28-Jan-2016 23:47:28 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[28-Jan-2016 23:47:30 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 23:47:30 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[28-Jan-2016 23:47:32 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-add-new.php on line 222
+[28-Jan-2016 23:47:39 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 23:47:39 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[28-Jan-2016 23:50:01 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[28-Jan-2016 23:50:01 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[29-Jan-2016 00:13:34 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[29-Jan-2016 00:13:34 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2385
+[30-Jan-2016 00:38:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[30-Jan-2016 00:38:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2384
+[30-Jan-2016 00:38:22 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157
+[30-Jan-2016 00:38:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[30-Jan-2016 00:38:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2384
+[02-Feb-2016 10:08:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[02-Feb-2016 10:08:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2384
+[02-Feb-2016 10:09:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[02-Feb-2016 10:09:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2384
+[02-Feb-2016 14:07:40 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/events/events.php on line 65
+[02-Feb-2016 14:07:40 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2384
+[02-Feb-2016 14:07:42 Europe/Sofia] PHP Notice:  Undefined index: title_breadcrumbs_event_categories in /home/civil3db/public_html/procad/_admin/events/event-details.php on line 157

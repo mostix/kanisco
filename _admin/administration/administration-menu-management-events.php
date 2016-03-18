@@ -3,7 +3,7 @@
   include_once '../../config.php';
   include_once '../functions/include-functions.php';
  
-  $page_title = $languages[$current_lang]['menu_evnets'];
+  $page_title = $languages[$current_lang]['menu_events'];
   $page_description = "E-shop администрация";
   
   print_html_admin_header($page_title, $page_description);
@@ -14,7 +14,7 @@
       <section id="breadcrumbs">
         <a href="/" title="<?=$languages[$current_lang]['title_breadcrumbs_homepage'];?>"><?=$languages[$current_lang]['menu_home'];?></a>
         <span>&raquo;</span>
-        <?=$languages[$current_lang]['menu_evnets'];?>
+        <?=$languages[$current_lang]['menu_events'];?>
       </section>
       
       <h1 id="pagetitle"><?=$page_title;?></h1>

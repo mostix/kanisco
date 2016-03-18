@@ -605,18 +605,30 @@ input[type="checkbox"] {
   position: relative;
   top: 2px;
 }
+input[disabled="disabled"] {
+  cursor: not-allowed;
+}
 input:hover, 
 input:focus, 
 textarea:hover, 
 textarea:focus,
 select:hover,
 select:focus {
-  border: 1px solid #aaa !important;
-  outline: 0 !important;
-  background: #fff !important;
+  border: 1px solid #aaa;
+  outline: 0;
+  background: #fff;
   -moz-box-shadow: 0 0 4px 0 #FCCD32;
   -webkit-box-shadow: 0 0 4px 0 #FCCD32;
   box-shadow: 0 0 4px 0 #FCCD32;
+}
+input[disabled="disabled"]:hover {
+  border: 1px solid #AAA;
+  border-bottom: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  background: #F2F2F2;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 #orders_list select {
   width: auto;
@@ -1099,11 +1111,11 @@ table td .button {
 }
 main#page_details input[type=text],
 main#page_details select {
-  padding: 4px 5px;
+/*  padding: 4px 5px;
   background: #EDEDED;
   border: 1px solid #AAA;
   border-bottom: 1px solid #DDD;
-  border-right: 1px solid #DDD;
+  border-right: 1px solid #DDD;*/
 }
 main#page_details .input_form {
   padding: 0.5%;

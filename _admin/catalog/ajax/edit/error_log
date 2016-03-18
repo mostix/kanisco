@@ -330,3 +330,22 @@
 [12-Jan-2016 14:45:53 Europe/Sofia] PHP Notice:  Undefined variable: is_there_old_categories_list in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 153
 [12-Jan-2016 14:46:33 Europe/Sofia] PHP Notice:  Undefined variable: is_there_old_categories_list in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 153
 [12-Jan-2016 14:47:18 Europe/Sofia] PHP Notice:  Undefined variable: is_there_old_categories_list in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 153
+[13-Jan-2016 11:38:26 Europe/Sofia] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 41
+[13-Jan-2016 11:58:03 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 11:58:03 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 11:58:41 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 11:58:41 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 11:59:09 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 11:59:09 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 12:00:18 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 12:00:18 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 12:00:22 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 12:00:22 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 12:00:53 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 12:00:53 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 12:01:15 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 12:01:15 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 12:01:39 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 12:01:39 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66
+[13-Jan-2016 12:02:39 Europe/Sofia] PHP Notice:  Undefined variable: product_trial_url in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 65
+[13-Jan-2016 12:02:39 Europe/Sofia] PHP Notice:  Undefined variable: product_is_active in /home/civil3db/public_html/procad/_admin/catalog/ajax/edit/edit-product-main-tab.php on line 66

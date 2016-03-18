@@ -49,9 +49,9 @@
     $all_queries = "";
     
     foreach($_POST['news_title'] as $language_id => $news_title) {
-      if(empty($news_title)) $news_errors['news_title'][$language_id] = $languages[$current_lang]['required_field_error'];
-      if(empty($_POST['news_summary'][$language_id])) $news_errors['news_summary'][$language_id] = $languages[$current_lang]['required_field_error'];
-      if(empty($_POST['news_text'][$language_id])) $news_errors['news_text'][$language_id] = $languages[$current_lang]['required_field_error'];
+//      if(empty($news_title)) $news_errors['news_title'][$language_id] = $languages[$current_lang]['required_field_error'];
+//      if(empty($_POST['news_summary'][$language_id])) $news_errors['news_summary'][$language_id] = $languages[$current_lang]['required_field_error'];
+//      if(empty($_POST['news_text'][$language_id])) $news_errors['news_text'][$language_id] = $languages[$current_lang]['required_field_error'];
       
       $news_titles_array[$language_id] = $_POST['news_title'][$language_id];
       $news_summaries_array[$language_id] = $_POST['news_summary'][$language_id];
@@ -394,7 +394,7 @@
 ?>
         <div id="<?=$language_code;?>" class="language_tab tab">
           <div>
-            <label for="news_title" class="title"><?=$languages[$current_lang]['header_news_title'];?><span class="red">*</span></label>
+            <label for="news_title" class="title"><?=$languages[$current_lang]['header_news_title'];?></label>
             <?php
               if(isset($news_errors['news_title'][$language_id])) {
                 echo "<div class='error'>".$news_errors['news_title'][$language_id]."</div>";
@@ -413,7 +413,7 @@
           </div>
 
           <div>
-            <label for="news_text" class="title"><?=$languages[$current_lang]['header_news_text'];?><span class="red">*</span></label>
+            <label for="news_text" class="title"><?=$languages[$current_lang]['header_news_text'];?></label>
             <?php
               if(isset($news_errors['news_text'][$language_id])) {
                 echo "<div class='error'>".$news_errors['news_text'][$language_id]."</div>";

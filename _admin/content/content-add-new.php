@@ -25,7 +25,7 @@
     $content_errors = array();
     $all_queries = "";
     
-    if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7) { // content or categories or language
+    if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) { // content or categories or language
       
       $content_name = $_POST['content_name'];
         if(empty($content_name)) $content_errors['content_name'] = $languages[$current_lang]['required_field_error'];
@@ -69,9 +69,13 @@
       $content_show_in_menu = 0;
       $content_show_in_footer = 0;
       $content_is_active = 0;
+      $content_show_newsletter = 0;
         if(isset($_POST['content_show_in_menu'])) $content_show_in_menu = 1;
         if(isset($_POST['content_show_in_footer'])) $content_show_in_footer = 1;
         if(isset($_POST['content_is_active'])) $content_is_active = 1;
+        if(isset($_POST['content_show_newsletter'])) $content_show_newsletter = 1;
+      if(isset($_POST['content_show_clients'])) $content_show_clients = "'".$_POST['content_show_clients']."'";
+      else $content_show_clients = "NULL";
       $content_target = $_POST['content_target'];
       $content_attribute_1 = $_POST['content_attribute_1'];
       $content_attribute_2 = $_POST['content_attribute_2'];
@@ -141,6 +145,8 @@
                                                         `content_pretty_url`, 
                                                         `content_menu_order`, 
                                                         `content_is_active`, 
+                                                        `content_show_newsletter`, 
+                                                        `content_show_clients`, 
                                                         `content_target`, 
                                                         `content_attribute_1`, 
                                                         `content_attribute_2`, 
@@ -168,6 +174,8 @@
                                                         '$content_pretty_url',
                                                         '$content_menu_order',
                                                         '$content_is_active',
+                                                        '$content_show_newsletter',
+                                                        $content_show_clients,
                                                         $content_target,
                                                         $content_attribute_1, 
                                                         $content_attribute_2, 
@@ -259,6 +267,8 @@
       $content_show_in_footer = 0;
       $content_collapsed = 1;
       $content_is_active = 1;
+      $content_show_newsletter = 0;
+      $content_show_clients = "NULL";
       $content_target = "NULL";
       $content_attribute_1 = "NULL";
       $content_attribute_2 = "NULL";
@@ -308,6 +318,8 @@
                                                         `content_pretty_url`,  
                                                         `content_menu_order`, 
                                                         `content_is_active`, 
+                                                        `content_show_newsletter`, 
+                                                        `content_show_clients`, 
                                                         `content_target`, 
                                                         `content_attribute_1`, 
                                                         `content_attribute_2`, 
@@ -335,6 +347,8 @@
                                                         '$content_pretty_url',
                                                         '$content_menu_order',
                                                         '$content_is_active',
+                                                        '$content_show_newsletter',
+                                                        $content_show_clients,
                                                         $content_target,
                                                         $content_attribute_1, 
                                                         $content_attribute_2, 
@@ -427,9 +441,13 @@
       $content_show_in_menu = 0;
       $content_show_in_footer = 0;
       $content_is_active = 0;
+      $content_show_newsletter = 0;
         if(isset($_POST['content_show_in_menu'])) $content_show_in_menu = 1;
         if(isset($_POST['content_show_in_footer'])) $content_show_in_footer = 1;
         if(isset($_POST['content_is_active'])) $content_is_active = 1;
+        if(isset($_POST['content_show_newsletter'])) $content_show_newsletter = 1;
+      if(isset($_POST['content_show_clients'])) $content_show_clients = "'".$_POST['content_show_clients']."'";
+      else $content_show_clients = "NULL";
       $content_target = $_POST['content_target'];
       $content_attribute_1 = $_POST['content_attribute_1'];
       $content_attribute_2 = $_POST['content_attribute_2'];
@@ -499,7 +517,9 @@
                                                         `content_text`, 
                                                         `content_pretty_url`, 
                                                         `content_menu_order`, 
-                                                        `content_is_active`, 
+                                                        `content_is_active`,
+                                                        `content_show_newsletter`, 
+                                                        `content_show_clients`,  
                                                         `content_target`, 
                                                         `content_attribute_1`, 
                                                         `content_attribute_2`, 
@@ -527,6 +547,8 @@
                                                         '$content_pretty_url',
                                                         '$content_menu_order',
                                                         '$content_is_active',
+                                                        '$content_show_newsletter',
+                                                        $content_show_clients,
                                                         $content_target,
                                                         $content_attribute_1, 
                                                         $content_attribute_2, 
@@ -616,7 +638,7 @@
         <p><i class="info"><?=$languages[$current_lang]['required_fields'];?></i></p>
         
 <?php
-      if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7) {
+      if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) {
         // content_type is content or categories or language
         
         // if the form was not submitted but the content type was changed
@@ -739,6 +761,31 @@
               }
               else echo '<input type="checkbox" name="content_is_active" id="content_is_active" checked="checked" />';
             ?>
+          </div>
+          <div class="clearfix"></div>
+          
+          <div>
+            <label for="content_show_newsletter" class="title"><?=$languages[$current_lang]['header_content_show_newsletter'];?></label>
+            <?php
+              if(isset($content_show_newsletter)) {
+                if($content_show_newsletter == 0) echo '<input type="checkbox" name="content_show_newsletter" id="content_show_newsletter" />';
+                else echo '<input type="checkbox" name="content_show_newsletter" id="content_show_newsletter" checked="checked" />';
+              }
+              else echo '<input type="checkbox" name="content_show_newsletter" id="content_show_newsletter" />';
+            ?>
+          </div>
+          <div class="clearfix"></div>
+          
+          <div>
+            <label for="content_show_clients" class="title"><?=$languages[$current_lang]['header_content_show_clients'];?></label>
+            <?php
+              if(isset($content_show_clients)) {
+                if($content_show_clients == 0) echo '<input type="checkbox" name="anable_disable_show_clients" id="anable_disable_show_clients" />';
+                else echo '<input type="checkbox" name="anable_disable_show_clients" id="anable_disable_show_clients" checked="checked" />';
+              }
+              else echo '<input type="checkbox" name="anable_disable_show_clients" id="anable_disable_show_clients" />';
+            ?>
+            <input type="text" name="content_show_clients" style="width: 40px;" id="content_show_clients" <?php if($content_show_clients == 0) echo "disabled='disabled'"; else echo "value='$content_show_clients'";?>>
           </div>
           <div class="clearfix"></div>
           
@@ -1136,7 +1183,7 @@
  
   print_html_admin_footer();
   
-  if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7) {
+  if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) {
 ?>
 <!-- CK Configuration -->
   <script type="text/javascript" src="/modules/elfinder_ckeditor/ckeditor/ckeditor.js"></script>
@@ -1146,7 +1193,7 @@
 ?>
   <script type="text/javascript">
     $(document).ready(function() {
-<?php if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7) echo "CKEDITOR.replace('ckeditor');";?>
+<?php if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) echo "CKEDITOR.replace('ckeditor');";?>
 
       // tab switcher
       $(".tabs li").removeClass("active");
@@ -1163,6 +1210,15 @@
         event.preventDefault();
       });
       // end tab switcher
+      
+      $("#anable_disable_show_clients").click(function() {
+        if($(this).is(':checked')) {
+          $("#content_show_clients").attr("disabled",false);
+        }
+        else {
+          $("#content_show_clients").attr("disabled",true);
+        }
+      });
     });
   </script>
 </body>

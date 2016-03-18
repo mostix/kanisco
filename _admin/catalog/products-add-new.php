@@ -161,6 +161,8 @@
         $pd_overview = mysqli_real_escape_string($db_link, $_POST['pd_overview'][$language_id]);
         $pd_novations = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['pd_novations'][$language_id]));
         $pd_system_requirements = mysqli_real_escape_string($db_link, $_POST['pd_system_requirements'][$language_id]);
+        $pd_downloads = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['pd_downloads'][$language_id]));
+        $pd_news_url = mysqli_real_escape_string($db_link, $_POST['pd_news_url'][$language_id]);
         $pd_tags = "NULL";
 
         $query_insert_pd_description = "INSERT INTO `product_description`(`product_id`, 
@@ -170,6 +172,8 @@
                                                                           `pd_overview`, 
                                                                           `pd_novations`, 
                                                                           `pd_system_requirements`, 
+                                                                          `pd_downloads`, 
+                                                                          `pd_news_url`, 
                                                                           `pd_meta_title`, 
                                                                           `pd_meta_description`, 
                                                                           `pd_meta_keywords`, 
@@ -181,6 +185,8 @@
                                                                           '$pd_overview',
                                                                           $pd_novations,
                                                                           '$pd_system_requirements',
+                                                                          $pd_downloads,
+                                                                          $pd_news_url,
                                                                           $pd_meta_title,
                                                                           $pd_meta_description,
                                                                           $pd_meta_keywords,
@@ -526,6 +532,17 @@
             <div class="clearfix"></div>
             
             <div>
+              <label for="pd_news_url" class="title"><?=$languages[$current_lang]['header_product_news_url'];?></label>
+              <?php
+                if(isset($product_errors['pd_news_url'][$language_id])) {
+                  echo "<div class='error'>".$product_errors['pd_news_url'][$language_id]."</div>";
+                }
+              ?>
+              <input type="text" name="pd_news_url[<?=$language_id;?>]" id="pd_news_url_<?=$language_id;?>" style="width: 400px;" value="<?php if(isset($_POST['pd_news_url'][$language_id])) echo $_POST['pd_news_url'][$language_id];?>" />
+            </div>
+            <div class="clearfix"></div>
+            
+            <div>
               <label for="product_meta_title" class="title"><?=$languages[$current_lang]['header_product_meta_title'];?></label>
               <input type="text" name="pd_meta_title[<?=$language_id;?>]" id="pd_meta_title" onkeyup="CountCharacters(this,'100')" style="width: 60%;" value="<?php if(isset($_POST['pd_meta_title'][$language_id])) echo $_POST['pd_meta_title'][$language_id];?>" />
               <span class="info"><b></b></span>
@@ -571,6 +588,11 @@
             <div>
               <label for="product_system_requirements" class="title"><?=$languages[$current_lang]['header_product_system_requirements'];?><span class="red">*</span></label>
               <textarea name="pd_system_requirements[<?=$language_id;?>]"><?php if(isset($_POST['pd_system_requirements'][$language_id])) echo $_POST['pd_system_requirements'][$language_id];?></textarea>
+            </div>
+            
+            <div>
+              <label for="product_downloads" class="title"><?=$languages[$current_lang]['header_product_downloads'];?></label>
+              <textarea name="pd_downloads[<?=$language_id;?>]"><?php if(isset($_POST['pd_downloads'][$language_id])) echo $_POST['pd_downloads'][$language_id];?></textarea>
             </div>
             
             <div class="clearfix">
@@ -671,6 +693,7 @@
           CKEDITOR.replace('pd_overview[<?=$language_id;?>]');
           CKEDITOR.replace('pd_novations[<?=$language_id;?>]');
           CKEDITOR.replace('pd_system_requirements[<?=$language_id;?>]');
+          CKEDITOR.replace('pd_downloads[<?=$language_id;?>]');
           CKEDITOR.add
 <?php
         }

@@ -30,7 +30,7 @@
     $all_queries = "";
     $user_id = $_SESSION['admin']['user_id'];
     
-    if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7) {
+    if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) {
       // content or categories or language or news
     
       $content_name = $_POST['content_name'];
@@ -704,7 +704,7 @@
         </div>
         <div class="clearfix"></div>
 <?php
-      if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7) {
+      if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) {
         // content_type is content or categories or language
         
         // if the form was not submitted but the content type was changed
@@ -1204,31 +1204,6 @@
           <div class="clearfix"></div>
           
           <div>
-            <label for="content_show_newsletter" class="title"><?=$languages[$current_lang]['header_content_show_newsletter'];?></label>
-            <?php
-              if(isset($content_show_newsletter)) {
-                if($content_show_newsletter == 0) echo '<input type="checkbox" name="content_show_newsletter" id="content_show_newsletter" />';
-                else echo '<input type="checkbox" name="content_show_newsletter" id="content_show_newsletter" checked="checked" />';
-              }
-              else echo '<input type="checkbox" name="content_show_newsletter" id="content_show_newsletter" />';
-            ?>
-          </div>
-          <div class="clearfix"></div>
-          
-          <div>
-            <label for="content_show_clients" class="title"><?=$languages[$current_lang]['header_content_show_clients'];?></label>
-            <?php
-              if(isset($content_show_clients)) {
-                if($content_show_clients == 0) echo '<input type="checkbox" name="anable_disable_show_clients" id="anable_disable_show_clients" />';
-                else echo '<input type="checkbox" name="anable_disable_show_clients" id="anable_disable_show_clients" checked="checked" />';
-              }
-              else echo '<input type="checkbox" name="anable_disable_show_clients" id="anable_disable_show_clients" />';
-            ?>
-            <input type="text" name="content_show_clients" style="width: 40px;" id="content_show_clients" <?php if($content_show_clients == 0) echo "disabled='disabled'"; else echo "value='$content_show_clients'";?>>
-          </div>
-          <div class="clearfix"></div>
-          
-          <div>
             <label for="content_target" class="title"><?=$languages[$current_lang]['header_content_target'];?></label>
             <select name="content_target" id="content_target" style="width: 100px;">
               <option value=""><?=$languages[$current_lang]['option_no_content_target'];?></option>
@@ -1319,7 +1294,7 @@
  
   print_html_admin_footer();
   
-  if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7) {
+  if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) {
 ?>
 <!-- CK Configuration -->
   <script type="text/javascript" src="/modules/elfinder_ckeditor/ckeditor/ckeditor.js"></script>
@@ -1330,7 +1305,7 @@
   <script type="text/javascript">
     $(document).ready(function() {
 <?php 
-  if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7) {
+  if($current_content_type_id == 1 || $current_content_type_id == 2 || $current_content_type_id == 3 || $current_content_type_id == 6 || $current_content_type_id == 7 || $current_content_type_id == 8 || $current_content_type_id == 9 ) {
 ?>
     CKEDITOR.replace('ckeditor');
 <?php

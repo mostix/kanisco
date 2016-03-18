@@ -45,6 +45,7 @@
     $current_news_cat_parent_id = $_POST['current_news_cat_parent_id'];
     $current_news_cat_hierarchy_level = $_POST['current_news_cat_hierarchy_level'];
     $current_news_cat_sort_order = $_POST['current_news_cat_sort_order'];
+    $news_category_image = $_POST['news_category_image'];
     
     /*
      * we have to check if the news_category has new parent
@@ -86,6 +87,7 @@
       //if there are no form errors we can insert the information
       
       $news_cat_created_user = $_SESSION['admin']['user_id'];
+      $news_category_image_db = prepare_for_null_row($news_category_image);
 
       $query_update_news_category = "UPDATE `news_categories` SET ";
       if($current_news_cat_parent_id != $news_cat_parent_id) {
@@ -94,7 +96,8 @@
                                             `news_cat_hierarchy_level`='$news_cat_hierarchy_level',
                                             `news_cat_sort_order`='$news_cat_sort_order_db',";
       }
-            $query_update_news_category .= "`news_cat_modified_date`=NOW()
+            $query_update_news_category .= "`news_category_image` = $news_category_image_db,
+                                            `news_cat_modified_date`=NOW()
                                   WHERE `news_category_id` = '$current_news_category_id'";
       $all_queries .= "<br>".$query_update_news_category;
       $result_update_news_category = mysqli_query($db_link, $query_update_news_category);
@@ -244,7 +247,7 @@
   } //if(isset($_POST['submit'])
   {
     //$current_news_category_id
-    $query_news_categories = "SELECT `news_category_id`,`news_cat_parent_id`,`news_cat_hierarchy_level`,`news_cat_sort_order` 
+    $query_news_categories = "SELECT `news_category_id`,`news_cat_parent_id`,`news_cat_hierarchy_level`,`news_cat_sort_order`,`news_category_image` 
                               FROM `news_categories` 
                               WHERE `news_category_id` = '$current_news_category_id'
                               ORDER BY `news_cat_sort_order` ASC";
@@ -260,6 +263,7 @@
       $news_cat_parent_id = $news_category_row['news_cat_parent_id'];
       $news_cat_hierarchy_level = $news_category_row['news_cat_hierarchy_level'];
       $news_cat_sort_order = $news_category_row['news_cat_sort_order'];
+      $news_category_image = $news_category_row['news_category_image'];
     }
   }
   
@@ -342,6 +346,12 @@
             list_news_categories_for_select($news_cat_parent_id);
 ?> 
           </select>
+        </div>
+        <div class="clearfix"></div>
+        
+        <div>
+          <p class="title"><?=$languages[$current_lang]['header_image'];?></p>
+          <input type="text" name="news_category_image" style="width: 49%;" value="<?=$news_category_image;?>" />
         </div>
         <div class="clearfix"></div>
         

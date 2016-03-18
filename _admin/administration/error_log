@@ -50,3 +50,328 @@
 [02-Nov-2015 12:21:52 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
 [02-Nov-2015 12:21:52 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
 [02-Nov-2015 12:21:52 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Undefined index: first_menu_level_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 138
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Undefined index: first_menu_level_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 138
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Undefined index: first_menu_level_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 138
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Undefined index: first_menu_level_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 138
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:40:40 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:51:09 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[24-Nov-2015 23:51:09 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[24-Nov-2015 23:51:09 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:51:09 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:51:09 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:51:09 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:53:19 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[24-Nov-2015 23:53:19 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[24-Nov-2015 23:53:19 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:53:19 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:53:19 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:53:19 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:54:38 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[24-Nov-2015 23:54:38 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[24-Nov-2015 23:54:38 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:54:38 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:54:38 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:54:38 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:55:28 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[24-Nov-2015 23:55:28 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[24-Nov-2015 23:55:28 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:55:28 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:55:28 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:55:28 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:58:57 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[24-Nov-2015 23:58:57 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[24-Nov-2015 23:58:57 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:58:57 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:58:57 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:58:57 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:59:30 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[24-Nov-2015 23:59:30 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[24-Nov-2015 23:59:30 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:59:30 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[24-Nov-2015 23:59:30 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[24-Nov-2015 23:59:30 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[25-Nov-2015 00:10:27 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[25-Nov-2015 00:10:27 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[25-Nov-2015 00:10:27 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[25-Nov-2015 00:10:27 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[25-Nov-2015 00:10:27 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[25-Nov-2015 00:10:27 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[25-Nov-2015 00:11:25 Europe/Sofia] PHP Notice:  Undefined index: menu_evnets in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-events.php on line 6
+[25-Nov-2015 00:11:25 Europe/Sofia] PHP Notice:  Undefined index: menu_evnets in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-events.php on line 17
+[25-Nov-2015 00:36:37 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[25-Nov-2015 00:36:37 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[25-Nov-2015 00:36:37 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[25-Nov-2015 00:36:37 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[25-Nov-2015 00:36:37 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[25-Nov-2015 00:36:37 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Nov-2015 01:45:12 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[27-Nov-2015 01:45:12 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[27-Nov-2015 01:45:12 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Nov-2015 01:45:12 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Nov-2015 01:45:12 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Nov-2015 01:45:12 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Nov-2015 01:46:59 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[27-Nov-2015 01:46:59 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[27-Nov-2015 01:46:59 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Nov-2015 01:46:59 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Nov-2015 01:46:59 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Nov-2015 01:46:59 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: adminstrators in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 38
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_username_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 82
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_address_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 84
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_password_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 88
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_email_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 90
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_firstname_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 94
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_phone_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 96
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_lastname_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 100
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_info_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 102
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_create_account_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 106
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_assigned_to_warehouse_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 112
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 123
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_is_active_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 138
+[04-Jan-2016 11:15:24 Europe/Sofia] PHP Notice:  Undefined index: user_is_ip_in_use_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 144
+[04-Jan-2016 11:15:26 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[04-Jan-2016 11:15:26 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[04-Jan-2016 11:15:26 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:15:26 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:15:26 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:15:26 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: adminstrators in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 38
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_username_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 82
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_address_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 84
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_password_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 88
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_email_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 90
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_firstname_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 94
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_phone_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 96
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_lastname_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 100
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_info_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 102
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_create_account_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 106
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_assigned_to_warehouse_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 112
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 123
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_is_active_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 138
+[04-Jan-2016 11:15:30 Europe/Sofia] PHP Notice:  Undefined index: user_is_ip_in_use_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 144
+[04-Jan-2016 11:16:05 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[04-Jan-2016 11:16:05 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[04-Jan-2016 11:16:05 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:16:05 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:16:05 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:16:05 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:31:34 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:31:44 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[04-Jan-2016 11:31:44 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[04-Jan-2016 11:31:44 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:31:44 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 11:31:44 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 11:31:44 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 6
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 6
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 67
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 81
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 82
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 96
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 194
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 195
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 15
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 15
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 17
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 25
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 26
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 27
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 28
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 29
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 30
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 31
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 32
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 33
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 34
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 35
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 48
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 49
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 50
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 109
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 113
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 179
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 180
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 181
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 195
+[04-Jan-2016 12:28:39 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 198
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 6
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 6
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 67
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 81
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 82
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 96
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 194
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 195
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 15
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 15
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 17
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 24
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 25
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 26
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 27
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 28
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Notice:  Undefined variable: user_id in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 40
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 41
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 42
+[04-Jan-2016 12:53:18 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 43
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 6
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 6
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 67
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 78
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 81
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 82
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 96
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 193
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 194
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 195
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 15
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 15
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 17
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 24
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 25
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 26
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 27
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 28
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Notice:  Undefined variable: user_id in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 40
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 41
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 42
+[04-Jan-2016 13:48:18 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/administration/administration-users-account.php on line 43
+[27-Jan-2016 11:08:29 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[27-Jan-2016 11:08:29 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[27-Jan-2016 11:08:29 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:29 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:29 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:08:29 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:08:34 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[27-Jan-2016 11:08:34 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[27-Jan-2016 11:08:34 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:34 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:34 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:08:34 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:08:38 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[27-Jan-2016 11:08:38 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[27-Jan-2016 11:08:38 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:38 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:38 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:08:38 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: editor in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 38
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_username_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 82
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_address_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 84
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_password_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 88
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_email_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 90
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_firstname_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 94
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_phone_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 96
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_lastname_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 100
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_info_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 102
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_create_account_label in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 106
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_assigned_to_warehouse_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 112
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 123
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_is_active_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 138
+[27-Jan-2016 11:08:39 Europe/Sofia] PHP Notice:  Undefined index: user_is_ip_in_use_thead in /home/civil3db/public_html/procad/_admin/administration/administration-manage-users.php on line 144
+[27-Jan-2016 11:08:43 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[27-Jan-2016 11:08:43 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[27-Jan-2016 11:08:43 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:43 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:08:43 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:08:43 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 6
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 6
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 65
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 79
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 80
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 90
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 185
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 186
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 187
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 15
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 15
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 17
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 25
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 26
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 27
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 28
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 29
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 30
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 31
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 32
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 33
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 34
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 35
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 48
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 49
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 50
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 109
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 113
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 179
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 180
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 181
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 195
+[27-Jan-2016 11:09:21 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 198
+[29-Jan-2016 00:32:33 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[29-Jan-2016 00:32:33 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[29-Jan-2016 00:32:33 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[29-Jan-2016 00:32:33 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[29-Jan-2016 00:32:33 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[29-Jan-2016 00:32:33 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[29-Jan-2016 00:32:46 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[29-Jan-2016 00:32:46 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[29-Jan-2016 00:32:46 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[29-Jan-2016 00:32:46 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[29-Jan-2016 00:32:46 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[29-Jan-2016 00:32:46 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[29-Jan-2016 00:38:51 Europe/Sofia] PHP Notice:  Use of undefined constant SEARCH_AREA - assumed 'SEARCH_AREA' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 138
+[29-Jan-2016 00:38:51 Europe/Sofia] PHP Notice:  Use of undefined constant BTN_SEARCH - assumed 'BTN_SEARCH' in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 142
+[29-Jan-2016 00:38:51 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[29-Jan-2016 00:38:51 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 151
+[29-Jan-2016 00:38:51 Europe/Sofia] PHP Notice:  Undefined variable: theConn in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[29-Jan-2016 00:38:51 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/administration/administration-admin-users.php on line 153
+[29-Jan-2016 22:52:21 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 6
+[29-Jan-2016 22:52:21 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 17
+[29-Jan-2016 22:52:28 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 6
+[29-Jan-2016 22:52:28 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 17
+[29-Jan-2016 22:52:33 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 6
+[29-Jan-2016 22:52:33 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 17
+[29-Jan-2016 22:53:31 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 6
+[29-Jan-2016 22:53:31 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 17
+[29-Jan-2016 22:53:33 Europe/Sofia] PHP Notice:  Undefined index: header_instructors in /home/civil3db/public_html/procad/_admin/administration/administration-menu-management-team.php on line 6

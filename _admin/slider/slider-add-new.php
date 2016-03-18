@@ -29,8 +29,8 @@
     $all_queries = "";
     
     foreach($_POST['slider_header'] as $language_id => $slider_header) {
-      if(empty($slider_header)) $slider_errors['slider_header'][$language_id] = $languages[$current_lang]['required_field_error'];
-      if(empty($_POST['slider_text'][$language_id])) $slider_errors['slider_text'][$language_id] = $languages[$current_lang]['required_field_error'];
+      //if(empty($slider_header)) $slider_errors['slider_header'][$language_id] = $languages[$current_lang]['required_field_error'];
+      //if(empty($_POST['slider_text'][$language_id])) $slider_errors['slider_text'][$language_id] = $languages[$current_lang]['required_field_error'];
       
       $slider_headers_array[$language_id] = $_POST['slider_header'][$language_id];
       $slider_texts_array[$language_id] = $_POST['slider_text'][$language_id];
@@ -42,6 +42,7 @@
     
     define ("MAX_FILE_SIZE","2048000");
     $valid_formats = array("jpg", "jpeg", "png", "gif");
+    $slider_image_name = "";
     
     if(isset($_FILES['slider_image'])) {
       if($_FILES['slider_image']['error'] != 4) {
@@ -224,7 +225,7 @@
 ?>
         <div id="<?=$language_code;?>" class="language_tab tab">
           <div>
-            <label for="slider_header" class="title"><?=$languages[$current_lang]['header_slider_header'];?><span class="red">*</span></label>
+            <label for="slider_header" class="title"><?=$languages[$current_lang]['header_slider_header'];?></label>
             <?php
               if(isset($slider_errors['slider_header'][$language_id])) {
                 echo "<div class='error'>".$slider_errors['slider_header'][$language_id]."</div>";
@@ -246,7 +247,7 @@
           <div class="clearfix"></div>
 
           <div>
-            <label for="slider_text" class="title"><?=$languages[$current_lang]['header_slider_text'];?><span class="red">*</span></label>
+            <label for="slider_text" class="title"><?=$languages[$current_lang]['header_slider_text'];?></label>
             <?php
               if(isset($slider_errors['slider_text'][$language_id])) {
                 echo "<div class='error'>".$slider_errors['slider_text'][$language_id]."</div>";

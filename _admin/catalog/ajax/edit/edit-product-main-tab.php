@@ -37,6 +37,12 @@
   if(isset($_POST['pd_system_requirements'])) {
     $pd_system_requirements =  $_POST['pd_system_requirements'];
   }
+  if(isset($_POST['pd_downloads'])) {
+    $pd_downloads =  $_POST['pd_downloads'];
+  }
+  if(isset($_POST['pd_news_urls'])) {
+    $pd_news_urls =  $_POST['pd_news_urls'];
+  }
   if(isset($_POST['product_trial_url'])) {
     $product_trial_url = prepare_for_null_row(mysqli_real_escape_string($db_link,$_POST['product_trial_url']));
   }
@@ -80,6 +86,8 @@
       $pd_overview = mysqli_real_escape_string($db_link, $pd_overviews[$key]);
       $pd_novations_db = prepare_for_null_row(mysqli_real_escape_string($db_link, $pd_novations[$key]));
       $pd_system_requirements_db = mysqli_real_escape_string($db_link, $pd_system_requirements[$key]);
+      $pd_downloads_db = prepare_for_null_row(mysqli_real_escape_string($db_link, $pd_downloads[$key]));
+      $pd_news_urls_db = prepare_for_null_row(mysqli_real_escape_string($db_link, $pd_news_urls[$key]));
       $pd_meta_title = prepare_for_null_row(mysqli_real_escape_string($db_link, $pd_meta_titles[$key]));
       $pd_meta_description = prepare_for_null_row(mysqli_real_escape_string($db_link, $pd_meta_descriptions[$key]));
       $pd_meta_keywords = prepare_for_null_row(mysqli_real_escape_string($db_link, $pd_meta_keywords_array[$key]));
@@ -98,6 +106,8 @@
                                                               `pd_overview`='$pd_overview',
                                                               `pd_novations`=$pd_novations_db,
                                                               `pd_system_requirements`='$pd_system_requirements_db',
+                                                              `pd_downloads`=$pd_downloads_db,
+                                                              `pd_news_url`=$pd_news_urls_db,
                                                               `pd_meta_title`=$pd_meta_title,
                                                               `pd_meta_description`=$pd_meta_description,
                                                               `pd_meta_keywords`=$pd_meta_keywords,
@@ -107,7 +117,7 @@
         //echo $query_update_pd;
         $result_update_pd = mysqli_query($db_link, $query_update_pd);
         if(!$result_update_pd) {
-          echo $languages[$current_lang]['sql_error_update']." - 1 `product_description` ".mysqli_error($db_link);
+          echo $languages[$current_lang]['sql_error_update']." - 1 `product_description` update ".mysqli_error($db_link);
           mysqli_query($db_link,"ROLLBACK");
           exit;
         }
@@ -123,6 +133,8 @@
                                                               `pd_overview`, 
                                                               `pd_novations`, 
                                                               `pd_system_requirements`, 
+                                                              `pd_downloads`, 
+                                                              `pd_news_url`, 
                                                               `pd_meta_title`, 
                                                               `pd_meta_description`, 
                                                               `pd_meta_keywords`, 
@@ -134,6 +146,8 @@
                                                               '$pd_overview',
                                                               $pd_novations_db,
                                                               '$pd_system_requirements_db',
+                                                              $pd_downloads_db,
+                                                              $pd_news_urls_db,
                                                               $pd_meta_title,
                                                               $pd_meta_description,
                                                               $pd_meta_keywords,
@@ -142,7 +156,7 @@
         //echo $query_insert_pd;
         $result_insert_pd = mysqli_query($db_link, $query_insert_pd);
         if(mysqli_affected_rows($db_link) <= 0) {
-          echo $languages[$current_lang]['sql_error_insert']." - 2 `product_description`".mysqli_error($db_link);
+          echo $languages[$current_lang]['sql_error_insert']." - 2 `product_description` insert".mysqli_error($db_link);
           mysqli_query($db_link,"ROLLBACK");
           exit;
         }

@@ -1639,3 +1639,503 @@
 [07-Jan-2016 15:55:04 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2358
 [07-Jan-2016 15:55:04 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2358
 [07-Jan-2016 15:55:04 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2358
+[15-Jan-2016 00:31:15 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[15-Jan-2016 00:31:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[15-Jan-2016 00:31:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:31:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:31:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:31:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:31:17 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[15-Jan-2016 00:31:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[15-Jan-2016 00:31:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:31:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:31:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:31:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 141
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 149
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 150
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 151
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index: users_rights_edit in /home/civil3db/public_html/procad/_admin/news/news.php on line 10
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index: users_rights_delete in /home/civil3db/public_html/procad/_admin/news/news.php on line 11
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined variable: current_lang in /home/civil3db/public_html/procad/_admin/news/news.php on line 40
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 40
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 65
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index: user_fullname in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 79
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 80
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 90
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index: user_id in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 185
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 186
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 187
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 51
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 51
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 53
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 56
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 59
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 62
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 64
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2602
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2603
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2604
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 69
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 72
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 74
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 75
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 76
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 77
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 78
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 79
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 80
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 81
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 85
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 93
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 98
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 106
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 107
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 115
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 116
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 117
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 118
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 119
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 120
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 121
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 122
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 131
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Notice:  Undefined index:  in /home/civil3db/public_html/procad/_admin/news/news.php on line 131
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2218
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2219
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2220
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2233
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2234
+[15-Jan-2016 00:36:37 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2235
+[18-Jan-2016 12:49:55 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 12:49:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 12:49:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 12:49:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 12:49:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 12:49:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 12:50:17 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 12:50:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 12:50:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 12:50:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 12:50:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 12:50:17 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:15:54 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:15:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:15:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:15:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:15:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:15:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:15:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:17:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:19:49 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:23 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:20:52 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:21:12 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:22:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:25:26 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:26:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:27:34 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:27:34 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:27:35 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:27:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:27:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:27:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:27:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:27:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:27:35 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[18-Jan-2016 13:28:54 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:24:51 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[19-Jan-2016 23:24:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[19-Jan-2016 23:24:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:24:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:24:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:24:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:24:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:09 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[19-Jan-2016 23:43:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[19-Jan-2016 23:43:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:43:20 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:44:51 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[19-Jan-2016 23:44:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[19-Jan-2016 23:44:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:44:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:44:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:44:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[19-Jan-2016 23:44:51 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 141
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: users_rights_edit in /home/civil3db/public_html/procad/_admin/news/news.php on line 10
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: users_rights_delete in /home/civil3db/public_html/procad/_admin/news/news.php on line 11
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:28 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:33 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[27-Jan-2016 12:30:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[27-Jan-2016 12:30:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[27-Jan-2016 12:30:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:36 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:13:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:13:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:13:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:14:06 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:18:03 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:15 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:19:43 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:20:42 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:23:00 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:11 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:56 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:24:56 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:24:57 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:24:57 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:24:57 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:57 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:57 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:57 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:24:57 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:26:26 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:26:26 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:26:27 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:26:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:26:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:26:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:26:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:26:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:26:27 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:27:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:28:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:29:56 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:30:46 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:09 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:31:31 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:21 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:44 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:32:44 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:32:45 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:32:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:32:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:32:45 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:22 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:33:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:34:55 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:29 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:35:48 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:36:33 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:36:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:36:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:36:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:36:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:36:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:36:33 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined variable: news_image in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined variable: thumb_image_dimensions in /home/civil3db/public_html/procad/_admin/news/news-details.php on line 426
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 10:37:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/action-functions.php on line 141
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: users_rights_edit in /home/civil3db/public_html/procad/_admin/news/news.php on line 10
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: users_rights_delete in /home/civil3db/public_html/procad/_admin/news/news.php on line 11
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 76
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: admin in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 93
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[28-Jan-2016 16:18:36 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2263
+[01-Feb-2016 14:43:02 Europe/Sofia] PHP Notice:  Undefined index: title_news_add_new in /home/civil3db/public_html/procad/_admin/news/news.php on line 105
+[01-Feb-2016 14:43:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/news/news.php on line 130
+[01-Feb-2016 14:43:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2262
+[01-Feb-2016 14:43:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2262
+[01-Feb-2016 14:43:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2262
+[01-Feb-2016 14:43:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2262
+[01-Feb-2016 14:43:02 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2262

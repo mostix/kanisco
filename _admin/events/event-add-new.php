@@ -67,6 +67,7 @@
       
     define ("MAX_FILE_SIZE","2048000");
     $valid_formats = array("jpg", "jpeg", "png", "gif");
+    $event_image_name = "";
     
     if(isset($_FILES['event_image'])) {
       if($_FILES['event_image']['error'] != 4) {
@@ -219,7 +220,7 @@
       <section id="breadcrumbs">
         <a href="/_admin/index.php" title="<?=$languages[$current_lang]['title_breadcrumbs_homepage'];?>"><?=$languages[$current_lang]['header_home'];?></a>
         <span>&raquo;</span>
-        <a href="/_admin/event/events.php" title="<?=$languages[$current_lang]['title_breadcrumbs_event_categories'];?>"><?=$languages[$current_lang]['header_events'];?></a>
+        <a href="/_admin/events/events.php" title="<?=$languages[$current_lang]['title_breadcrumbs_event_categories'];?>"><?=$languages[$current_lang]['header_events'];?></a>
         <span>&raquo;</span>
         <?=$languages[$current_lang]['header_event_add_new'];?>
       </section>

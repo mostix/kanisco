@@ -21,23 +21,6 @@
   }
   
   $form_is_submitted = false;
-  $recaptcha_response = false;
-  if(isset($_POST['g-recaptcha-response'])) {
-    $g_recaptcha_response = $_POST['g-recaptcha-response'];
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-    $data = array('secret' => '6LcwcRQTAAAAAPWfdj14MLQoc3V9oYbAJuaPGhNl', 'response' => $g_recaptcha_response);
-
-    // use key 'http' even if you send the request to https://...
-    $options = array(
-        'http' => array(
-            'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
-            'method'  => 'POST',
-            'content' => http_build_query($data),
-        ),
-    );
-    $context  = stream_context_create($options);
-    $result = json_decode(file_get_contents($url, false, $context));
-  }
   
   $db_link = DB_OpenI();
 
@@ -49,13 +32,15 @@
   if(isset($_POST['login'])) {
     
     $form_is_submitted = true;
-    $recaptcha_response = $result->success;
-    if(!$recaptcha_response) {
-      $errors['recaptcha_response_field'] = "<h2 class='red'>".$languages[$current_lang]['error_create_customer_recaptcha']."</h2>";  
-    }
+    $recaptcha_response = true;
   
-//    if($recaptcha_response = $result->success) {
-    if(true){
+    //your site secret key
+    $secret = '6LcwcRQTAAAAAPWfdj14MLQoc3V9oYbAJuaPGhNl';
+    //get verify response data
+    $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+    $responseData = json_decode($verifyResponse);
+    if($responseData->success) {
+//    if(true){
       //unset($_SESSION['captcha_error']);
       $password = $_POST['password'];
       $user_username = $_POST['user_username'];
@@ -144,6 +129,10 @@
         $_SESSION['login_error']['count'] ++;
         $_SESSION['login_error']['text'] = "<h2 class='red'>Username and password mismatch</h2>";
       }
+    }
+    else {
+      $recaptcha_response = false;
+      $errors['recaptcha_response_field'] = "<h2 class='red'>".$languages[$current_lang]['error_create_customer_recaptcha']."</h2>";  
     }
   }// if(isset($_POST['login']))
   //echo $_SESSION['query'];

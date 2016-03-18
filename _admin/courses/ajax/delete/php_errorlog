@@ -1,0 +1,3 @@
+[13-Nov-2015 17:18:38] PHP Fatal error:  Call to undefined function  list_events() in /home/sportou/public_html/_admin/events/ajax/delete/delete-event.php on line 36
+[04-Dec-2015 14:13:46] PHP Notice:  Undefined index:  title_deactivate in /home/sportou/public_html/_admin/functions/output-functions.php on line 2428
+[04-Dec-2015 14:13:46] PHP Notice:  Undefined variable: content_hierarchy_path in /home/sportou/public_html/_admin/functions/output-functions.php on line 2435

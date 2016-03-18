@@ -14,3 +14,4 @@
 [03-Nov-2015 18:28:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2316
 [03-Nov-2015 18:28:44 Europe/Sofia] PHP Notice:  Undefined index: title_deactivate in /home/civil3db/public_html/procad/_admin/functions/output-functions.php on line 2316
 [06-Jan-2016 15:10:31 Europe/Sofia] PHP Notice:  Undefined variable: news_cat_parent_id in /home/civil3db/public_html/procad/_admin/news/ajax/delete/delete-news-category.php on line 63
+[19-Jan-2016 23:46:27 Europe/Sofia] PHP Notice:  Undefined variable: news_cat_parent_id in /home/civil3db/public_html/procad/_admin/news/ajax/delete/delete-news-category.php on line 63

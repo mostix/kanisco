@@ -70,7 +70,7 @@
       $old_categories_list .= "$category_id,";
       $exclude_categories_array[] = $category_id;
       $delete_warning = $languages[$current_lang]['delete_category_warning'];
-      $category_li_block .= "<li id='$category_id'><b>-$cd_name</b> (<a onclick='if(confirm(\"$delete_warning\")) DeleteCategoryFromOption(\"$category_id\",\"$current_product_id\")' style='display:inline-block;color:red;'>x</a>)</li>";
+      $category_li_block .= "<li id='$category_id'><b>-$cd_name</b> (<a onclick='if(confirm(\"$delete_warning\")) DeleteCategoryFromProduct(\"$category_id\",\"$current_product_id\")' style='display:inline-block;color:red;'>x</a>)</li>";
       $categories_key++;
     }
   }
@@ -83,7 +83,7 @@
     if($categories_count > 0) {
       $all_categories_to_attribute_text = $languages[$current_lang]['header_categories_to_attribute_text'];
       $delete_warning = $languages[$current_lang]['delete_category_warning'];
-      $category_li_block .= "<li id='0'><b>-$all_categories_to_attribute_text</b> (<a onclick='if(confirm(\"$delete_warning\")) DeleteCategoryFromOption(\"0\",\"$current_product_id\")' style='display:inline-block;color:red;'>x</a>)</li>";
+      $category_li_block .= "<li id='0'><b>-$all_categories_to_attribute_text</b> (<a onclick='if(confirm(\"$delete_warning\")) DeleteCategoryFromProduct(\"0\",\"$current_product_id\")' style='display:inline-block;color:red;'>x</a>)</li>";
     }
   }
 ?>
@@ -194,6 +194,11 @@
               if(isset($_POST['pd_name'][$language_id])) {
                 $pd_name = $_POST['pd_name'][$language_id];
                 $pd_description = $_POST['pd_description'][$language_id];
+                $pd_overview = $_POST['pd_overview'][$language_id];
+                $pd_novations = $_POST['pd_novations'][$language_id];
+                $pd_system_requirements = $_POST['pd_system_requirements'][$language_id];
+                $pd_downloads = $_POST['pd_downloads'][$language_id];
+                $pd_news_url = $_POST['pd_news_url'][$language_id];
                 $pd_meta_title = $_POST['pd_meta_title'][$language_id];
                 $pd_meta_description = $_POST['pd_meta_description'][$language_id];
                 $pd_meta_keywords = $_POST['pd_meta_keywords'][$language_id];
@@ -213,6 +218,8 @@
                   $pd_overview = stripslashes($product_desc_row['pd_overview']);
                   $pd_novations = stripslashes($product_desc_row['pd_novations']);
                   $pd_system_requirements = stripslashes($product_desc_row['pd_system_requirements']);
+                  $pd_downloads = stripslashes($product_desc_row['pd_downloads']);
+                  $pd_news_url = $product_desc_row['pd_news_url'];
                   $pd_meta_title = $product_desc_row['pd_meta_title'];
                   $pd_meta_description = $product_desc_row['pd_meta_description'];
                   $pd_meta_keywords = $product_desc_row['pd_meta_keywords'];
@@ -223,6 +230,8 @@
                   $pd_overview = "";
                   $pd_novations = "";
                   $pd_system_requirements = "";
+                  $pd_downloads = "";
+                  $pd_news_url = "";
                   $pd_meta_title = "";
                   $pd_meta_description = "";
                   $pd_meta_keywords = "";
@@ -239,6 +248,17 @@
                 }
               ?>
               <input type="text" name="pd_name[<?=$language_id;?>]" id="pd_name_<?=$language_id;?>" style="width: 400px;" value="<?=$pd_name;?>" />
+            </div>
+            <div class="clearfix"></div>
+            
+            <div>
+              <label for="pd_news_url" class="title"><?=$languages[$current_lang]['header_product_news_url'];?></label>
+              <?php
+                if(isset($product_errors['pd_news_url'][$language_id])) {
+                  echo "<div class='error'>".$product_errors['pd_news_url'][$language_id]."</div>";
+                }
+              ?>
+              <input type="text" name="pd_news_url[<?=$language_id;?>]" id="pd_news_url_<?=$language_id;?>" style="width: 400px;" value="<?=$pd_news_url;?>" />
             </div>
             <div class="clearfix"></div>
             
@@ -288,6 +308,11 @@
             <div>
               <label for="product_system_requirements" class="title"><?=$languages[$current_lang]['header_product_system_requirements'];?><span class="red">*</span></label>
               <textarea name="pd_system_requirements[<?=$language_id;?>]"><?=$pd_system_requirements;?></textarea>
+            </div>
+            
+            <div>
+              <label for="product_downloads" class="title"><?=$languages[$current_lang]['header_product_downloads'];?></label>
+              <textarea name="pd_downloads[<?=$language_id;?>]"><?=$pd_downloads;?></textarea>
             </div>
             
             <div class="clearfix">
@@ -454,6 +479,7 @@
           CKEDITOR.replace('pd_overview[<?=$language_id;?>]');
           CKEDITOR.replace('pd_novations[<?=$language_id;?>]');
           CKEDITOR.replace('pd_system_requirements[<?=$language_id;?>]');
+          CKEDITOR.replace('pd_downloads[<?=$language_id;?>]');
 <?php
         }
       }

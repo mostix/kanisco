@@ -65,9 +65,9 @@
         <img src="/_admin/images/true.gif" class="systemicon img_active" alt="<?=$languages[$current_lang]['alt_deactivate'];?>" title="<?=$languages[$current_lang]['title_deactivate'];?>" width="16" height="16" />
         <img src="/_admin/images/false.gif" class="systemicon img_inactive" alt="<?=$languages[$current_lang]['alt_activate'];?>" title="<?=$languages[$current_lang]['title_activate'];?>" width="16" height="16" />
       </div>
-      <div id="event_list" class="list_container">
+      <div id="events_list" class="list_container">
 <?php
-        list_event();
+        list_events();
 ?>
       </div>
     </div>

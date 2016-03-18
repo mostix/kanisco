@@ -34,7 +34,7 @@
       if(empty($_POST['event_text'][$language_id])) $event_errors['event_text'][$language_id] = $languages[$current_lang]['required_field_error'];
       
       $event_names_array[$language_id] = $_POST['event_name'][$language_id];
-      $event_summaries_array[$language_id] = $_POST['event_text'][$language_id];
+      $event_summaries_array[$language_id] = $_POST['event_summary'][$language_id];
       $event_texts_array[$language_id] = $_POST['event_text'][$language_id];
     }
     
@@ -139,6 +139,14 @@
       $event_map_lat = $event_row['event_map_lat'];
       $event_map_lng = $event_row['event_map_lng'];
       $event_is_active = $event_row['event_is_active'];
+      $event_image = "";
+      $thumb_image_dimensions = "";
+      $event_images_folder = "/site/images/events/";
+      if(!empty($event_row['event_image'])) {
+        $event_image = $event_images_folder.$event_row['event_image'];
+        @$thumb_image_params = getimagesize($_SERVER['DOCUMENT_ROOT'].$event_image);
+        @$thumb_image_dimensions = $thumb_image_params[3];
+      }
     }
   }
   
@@ -154,7 +162,7 @@
       <section id="breadcrumbs">
         <a href="/_admin/index.php" title="<?=$languages[$current_lang]['title_breadcrumbs_homepage'];?>"><?=$languages[$current_lang]['header_home'];?></a>
         <span>&raquo;</span>
-        <a href="/_admin/event/events.php" title="<?=$languages[$current_lang]['title_breadcrumbs_event_categories'];?>"><?=$languages[$current_lang]['header_events'];?></a>
+        <a href="/_admin/events/events.php" title="<?=$languages[$current_lang]['title_breadcrumbs_event_categories'];?>"><?=$languages[$current_lang]['header_events'];?></a>
         <span>&raquo;</span>
         <?=$languages[$current_lang]['header_event_add_new'];?>
       </section>
@@ -308,7 +316,7 @@
               }
             ?>
             <textarea name="event_summary[<?=$language_id;?>]" id="ckeditor_event_summary_<?=$language_code;?>" class="default_text">
-              <?php if(isset($event_summaries_array[$language_id])) echo $event_summaries_array[$language_id];?>
+              <?php if(isset($event_summaries_array[$language_id])) echo stripslashes($event_summaries_array[$language_id]);?>
             </textarea>
           </div>
 
@@ -320,23 +328,46 @@
               }
             ?>
             <textarea name="event_text[<?=$language_id;?>]" id="ckeditor_event_text_<?=$language_code;?>" class="default_text">
-              <?php if(isset($event_texts_array[$language_id])) echo $event_texts_array[$language_id];?>
+              <?php if(isset($event_texts_array[$language_id])) echo stripslashes($event_texts_array[$language_id]);?>
             </textarea>
-          </div>
-          <div class="clearfix">
-            <p>&nbsp;</p>
           </div>
         </div>
 <?php
-    }
-  }
+        } //foreach($languages_array as $key => $row_languages)
+      }
 ?>
+        <div class="clearfix">
+          <p>&nbsp;</p>
+        </div>
+
+        <h2><?=$languages[$current_lang]['header_current_image'];?></h2>
+        <p></p>
+        <p><i class="info"><?=$languages[$current_lang]['info_slider_image']." ".$languages[$current_lang]['btn_save'];?></i></p>
+
+        <div id="dropzone" style="padding-bottom: 410px;">
+          <div id="current_image">
+            <img src="<?=$event_image;?>" width="700" height="auto">
+          </div>
+          <p>&nbsp;</p>
+          <h2><?=$languages[$current_lang]['header_change_image'];?></h2>
+        </div>
+        <div class="clearfix">
+          <p>&nbsp;</p>
+        </div>
+        
         <div>
           <button type="submit" name="update_event" class="button green"><i class="icon icon_save_sign"></i><?=$languages[$current_lang]['btn_save'];?></button>
           <button type="submit" name="cancel" class="button blue"><i class="icon icon_cancel_sign"></i><?=$languages[$current_lang]['btn_cancel'];?></button>
         </div>
         <div class="clearfix"></div>
         
+      </form>
+      
+      <form action="ajax/upload_images.php" id="filedrop" class="dropzone" style="display: block;">
+        <input type="hidden" name="ajaxmessage" id="ajaxmessage" value="" >
+        <input type="hidden" name="event_image" id="event_image" value="<?=$event_row['event_image'];?>" >
+        <input type="hidden" name="event_id" id="event_id" value="<?=$current_event_id;?>" >
+        <input type="hidden" id="text_drag_and_drop_upload" value="<?=$languages[$current_lang]['text_drag_and_drop_upload'];?>" >
       </form>
       <div class="clearfix"></div>
     </div>
@@ -352,6 +383,27 @@
   <script type="text/javascript" src="/modules/elfinder_ckeditor/ckeditor/ckeditor.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      Dropzone.options.filedrop = {
+        dictDefaultMessage: $("#text_drag_and_drop_upload").val(),
+        init: function () {
+          this.on("complete", function (file) {
+            if (this.getUploadingFiles().length === 0 && this.getQueuedFiles().length === 0) {
+              GetEventImage(<?=$current_event_id;?>);
+            }
+            this.removeFile(file);
+          });
+          this.on("success", function(file, responseText) {
+            if(responseText == "" || responseText == " ") {
+              
+            }
+            else {
+              alert(responseText);
+              this.removeFile(file);
+            }
+          });
+        }
+      };
+      
       $(".datepicker").datepicker({ dateFormat: "yy-mm-dd" });
 <?php
           if(!empty($languages_array)) {
