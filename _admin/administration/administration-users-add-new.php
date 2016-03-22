@@ -15,7 +15,6 @@
     
     $all_queries = "";
     
-    $store_id = 1;
     $user_username = mysqli_real_escape_string($db_link, $_POST['user_username']);
     $user_firstname = mysqli_real_escape_string($db_link, $_POST['user_firstname']);
     $user_lastname = mysqli_real_escape_string($db_link, $_POST['user_lastname']);
@@ -33,7 +32,6 @@
     
     $query_insert_user = "INSERT INTO `users`(`user_id`, 
                                               `user_type_id`, 
-                                              `store_id`, 
                                               `user_username`, 
                                               `user_salted_password`, 
                                               `user_firstname`, 
@@ -43,7 +41,6 @@
                                               `user_is_active`)
                                         VALUES ('',
                                                 '$user_type_id',
-                                                '$store_id',
                                                 '$user_username',
                                                 '$bcrypt_password',
                                                 '$user_firstname',
