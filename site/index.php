@@ -419,15 +419,15 @@
 
 <!-- CONTENT -->
 	<div class="container clearfix">
-		<div id="news_list" class="eleven columns m-bot-25">
+		<div id="news_list" class="twelve columns m-bot-25">
       
       <?php list_news(); ?>
 
     </div>
-    <!--<div class="eleven columns m-bot-25">-->
+    <!--<div class="twelve columns m-bot-25">-->
     
     <!-- SIDEBAR -->
-    <div class="five columns">
+    <div class="four columns">
       
       <div class="sidebar-item m-bot-25">
 				<div class="content-container-white">
@@ -442,7 +442,7 @@
 			</div>
       
     </div>
-    <!--<div class="five columns">-->
+    <!--<div class="four columns">-->
   </div>
 <?php
         if($content_show_newsletter == 1) {

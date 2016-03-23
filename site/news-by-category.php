@@ -249,7 +249,7 @@
 ?>
             
     </div>
-    <!--<div class="eleven columns m-bot-25">-->
+    <!--<div class="twelve columns m-bot-25">-->
     
     <!-- SIDEBAR -->
     <div class="four columns">
