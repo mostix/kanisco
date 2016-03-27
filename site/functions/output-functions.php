@@ -1018,16 +1018,21 @@ function print_events_blocks($blocks_count) {
                       INNER JOIN `events_descriptions` ON `events_descriptions`.`event_id` = `events`.`event_id`
                       WHERE `events`.`event_is_active` = '1' AND `events`.`event_date` = '$event_date'
                         AND `events_descriptions`.`language_id` = '$current_language_id'
-                      ORDER BY `events`.`event_date` DESC $limit";
+                      ORDER BY `events`.`event_date` ASC $limit";
       //echo $query_event;exit;
       $result_event = mysqli_query($db_link, $query_event);
       if(!$result_event) echo mysqli_error($db_link);
       $event_count = mysqli_num_rows($result_event);
       if($event_count > 0) {
 ?>
-          <div class="dt-sc-hr-invisible-small"></div>
-          <div class="dt-sc-clear"></div>
-          <span class='tribe-events-list-separator-month'><span><?="$event_date_month $event_date_year";?></span></span>
+        <p>&nbsp;</p>
+        <div class="latest-work-caption-container tribe-events-list-separator-month">
+          <div class="caption-main-container clearfix">
+            <div class="caption-text-container">
+              <span class="bold"><?=$event_date_month;?></span> <?=$event_date_year;?>
+            </div>
+          </div>
+        </div>
 <?php
         $block = 1;
         while($event_row = mysqli_fetch_assoc($result_event)) {
@@ -1043,24 +1048,25 @@ function print_events_blocks($blocks_count) {
           $event_date_year = date("Y", strtotime($event_row['event_date']));
           $event_time_start = (!is_null($event_row['event_time_start'])) ? date("H:i", strtotime($event_row['event_time_start'])) : "";
           $event_time_end = (!is_null($event_row['event_time_end'])) ? date("H:i", strtotime($event_row['event_time_end'])) : "";
-          $event_map_address = $event_row['event_map_address'];
+          $event_map_address = stripslashes($event_row['event_map_address']);
           $event_is_active = $event_row['event_is_active'];
           $event_image = $event_row['event_image'];
           $event_image_exploded = explode(".", $event_image);
-          $event_image_name = $event_image_exploded[0];
-          $event_image_exstension = $event_image_exploded[1];
+          @$event_image_name = $event_image_exploded[0];
+          @$event_image_exstension = $event_image_exploded[1];
           $event_image_thumb = "/site/images/events/".$event_image_name."_thumb.".$event_image_exstension;
           @$thumb_image_params = getimagesize($_SERVER['DOCUMENT_ROOT'].$event_image_thumb);
-          $thumb_image_dimensions = $thumb_image_params[3];
+//          $thumb_image_dimensions = $thumb_image_params[3];
+          $thumb_image_dimensions = 'width="351" height="215"';
           $event_details_link = $_SERVER['REDIRECT_URL']."/$event_name_url?eid=$event_id";
 
           $class_first = ($block == 1) ? " tribe-events-first" : "";
     ?>
-          <div id="post-<?=$event_id;?>" class="hentry vevent type-tribe_events post-<?=$event_id;?> tribe-clearfix tribe-events-category-destiny<?=$class_first;?>" >
+          <div id="post_<?=$event_id;?>" class="event_block post-<?=$event_id;?><?=$class_first;?>" >
             <!-- Event Image -->
             <div class="tribe-events-event-image">
               <a href="<?=$event_details_link;?>">
-                <img title="<?=$event_name;?>" class="attachment-gallery-threecol wp-post-image" alt="<?=$event_name;?>" src="<?=$event_image_thumb;?>" <?=$thumb_image_dimensions;?>>
+                <img title="<?=$event_name;?>" alt="<?=$event_name;?>" src="<?=$event_image_thumb;?>" <?=$thumb_image_dimensions;?>>
               </a>
             </div>
             <div class="tribe-events-list-event-detail">
@@ -1076,20 +1082,14 @@ function print_events_blocks($blocks_count) {
                   <!-- Schedule & Recurrence Details -->
                   <div class="updated published time-details">
                     <?="$event_date_day $event_date_month $event_date_year @ $event_time_start - $event_time_end";?>
-    <!--                  <span class="date-start dtstart"><?="$event_date_month $event_date_day";?>, 2016 @ 8:00 am<span class="value-title" title="2016-02-28UTC08:00"></span></span>
-                    - 
-                    <span class="date-end dtend">March 1, 2016 @ 5:00 pm<span class="value-title" title="2016-03-01UTC05:00"></span></span> -->
                   </div>
                   <!-- Venue Display Info -->
                   <div class="tribe-events-venue-details">
-    <!--                  <span class="author fn org">
-                      <a href="http://wedesignthemes.com/themes/fitness-zone/venue/resort/">Resort</a>
-                    </span> -->
                     <address class="tribe-events-address">
                       <span class="adr">
-                        <span class="street-address"><?=$event_map_address?>,</span>
+                        <span class="street-address"><?=$event_map_address?></span>
                       </span>
-                    </address> <!--<a class="tribe-events-gmap" href="https://www.google.bg/maps/place/%D1%83%D0%BB.+%E2%80%9E%D1%81%D0%B2.+%D0%A2%D0%B5%D0%BE%D0%B4%D0%BE%D1%81%D0%B8%D0%B9+%D0%A2%D1%8A%D1%80%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%E2%80%9C+60,+1407+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6723366,23.3259849,17z/data=!4m2!3m1!1s0x40aa85ab4f2dfd3b:0xf6540a72223add02" title="Click to view a Google Map" target="_blank">Карта</a>-->
+                    </address>
                   </div> <!-- .tribe-events-venue-details -->
                 </div>
               </div><!-- .tribe-events-event-meta -->
@@ -1098,9 +1098,10 @@ function print_events_blocks($blocks_count) {
                 <p><?=$event_summary;?></p>
                 <div class="dt-sc-hr-invisible-small"></div>
                 <!-- Event Cost -->
-                <a href="<?=$event_details_link;?>" class="tribe-events-read-more" rel="bookmark"><?=$languages[$current_lang]['btn_read_more'];?></a>
+                <a href="<?=$event_details_link;?>" class="button small" rel="bookmark"><?=$languages[$current_lang]['btn_read_more'];?></a>
               </div><!-- .tribe-events-list-event-description -->
-            </div>	
+            </div>
+            <div class="clearfix"></div>
           </div><!-- .hentry .vevent -->
     <?php
           $block++;
@@ -1110,8 +1111,7 @@ function print_events_blocks($blocks_count) {
   } //if($event_dates_count = mysqli_num_rows($result_event_dates) > 0)
   else {
 ?>
-    <div class="dt-sc-hr-invisible-small"></div>
-    <div class="dt-sc-clear"></div>
+    <p>&nbsp;</p>
     <span class='tribe-events-list-separator-month'><span><?=$languages[$current_lang]['text_no_upcoming_events'];?></span></span>
 <?php
   }
@@ -1233,6 +1233,7 @@ function list_products_by_option_value($category_id,$offset,$current_cat_href,$c
   global $current_language_id;
   global $languages;
   global $current_lang;
+  global $current_category_id;
 
   if(!isset($order_by_price)) $order_by_price = "ASC";
 
@@ -1290,7 +1291,7 @@ function list_products_by_option_value($category_id,$offset,$current_cat_href,$c
 ?>
       <div>
         <h2>
-          <a href="<?="/$current_cat_href_final?pid=$product_id";?>" title="<?=$pd_name;?>" class="products">
+          <a href="<?="/$current_cat_href_final?rcid=$current_category_id&pid=$product_id";?>" title="<?=$pd_name;?>" class="products">
             <?=$pd_name;?>
           </a>
         </h2>
@@ -1715,7 +1716,25 @@ function list_news($offset = false,$news_count = false) {
   $offset = ($offset) ? $offset : 0;
   
   $and_news_category = (!isset($news_category_id) || empty($news_category_id) || $news_category_id == 1) ? "" : "AND `news`.`news_category_id` = '$news_category_id'";
-
+  if($news_category_id == 2) {
+    //products news
+    $query_news_categories = "SELECT `news_category_id`
+                              FROM `news_categories` 
+                              WHERE `news_categories`.`news_cat_parent_id` = '$news_category_id'
+                              ORDER BY `news_categories`.`news_cat_sort_order` ASC";
+    $result_news_categories = mysqli_query($db_link, $query_news_categories);
+    if(!$result_news_categories) echo mysqli_error($db_link);
+    if(mysqli_num_rows($result_news_categories) > 0) {
+      $and_news_category = "AND `news`.`news_category_id` IN(";
+      $key = 0;
+      while($news_category_row = mysqli_fetch_assoc($result_news_categories)) {
+        $and_news_category .= ($key == 0) ? $news_category_row['news_category_id'] : ",".$news_category_row['news_category_id'];
+        $key++;
+      }
+      $and_news_category .= ")";
+    }
+  }
+    
   if(!($news_count)) {
     $query_news = "SELECT `news`.`news_id`
                     FROM `news`
@@ -1874,8 +1893,8 @@ function list_news($offset = false,$news_count = false) {
       });
     </script>
 <?php
-    }
-  }
+    } //if(isset($page_count))
+  } //if(mysqli_num_rows($result_news) > 0)
 }
 
 function list_news_in_footer($news_count = false) {
@@ -2104,10 +2123,10 @@ function list_latest_news_for_category($current_news_id, $news_category_id, $new
       $news_details_link = "/$current_lang/$content_pretty_url/$news_title_url?ncid_d=$news_category_id&nid=$news_id";
 ?>
       <li class="latest-post-sidebar clearfix">
-        <div class="lp-img-cont left">
+        <div>
           <a href="<?=$news_details_link;?>" ><img src="<?=$news_image;?>" alt="<?=$news_title;?>" ></a>
         </div>
-        <div class="lp-title-cont right">
+        <div>
           <p class="latest-post-sidebar-title"><a href="<?=$news_details_link;?>"><?=$news_title;?></a></p>
           <p class="latest-post-sidebar-date"><?="$news_post_date_day $news_post_date_month $news_post_date_year";?></p>
           <!--<p class="latest-post-sidebar-comm view"><?=$news_views;?> <?=$languages[$current_lang]['text_views'];?></p>-->

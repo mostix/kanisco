@@ -10,25 +10,27 @@
   $valid_formats = array("jpg", "jpeg", "png", "gif");
   $upload_path = "";
 
-  $event_id = $_POST['event_id'];
-  $event_image = $_POST['event_image'];
-  
-  $event_image_exploded = explode(".", $event_image);
-  $current_event_image_name = $event_image_exploded[0];
-  $current_event_image_exstension = $event_image_exploded[1];
-  $upload_path = $_SERVER['DOCUMENT_ROOT']."/site/images/events/";
-  
-  $file = $upload_path."$current_event_image_name.$current_event_image_exstension";
-  
-  if(file_exists($file)) {
-    unlink($file);
-  }
+  if(isset($_POST['event_id']) && !empty($_POST['event_id'])) {
+    $event_id = $_POST['event_id'];
+    $event_image = $_POST['event_image'];
 
-  $image_admin_thumb_name = $current_event_image_name."_thumb.".$current_event_image_exstension;
-  $image_admin_thumb = "$upload_path$image_admin_thumb_name";
-  
-  if(file_exists($image_admin_thumb)) {
-    unlink($image_admin_thumb);
+    $event_image_exploded = explode(".", $event_image);
+    $current_event_image_name = $event_image_exploded[0];
+    $current_event_image_exstension = $event_image_exploded[1];
+    $upload_path = $_SERVER['DOCUMENT_ROOT']."/site/images/events/";
+
+    $file = $upload_path."$current_event_image_name.$current_event_image_exstension";
+
+    if(file_exists($file)) {
+      unlink($file);
+    }
+
+    $image_admin_thumb_name = $current_event_image_name."_thumb.".$current_event_image_exstension;
+    $image_admin_thumb = "$upload_path$image_admin_thumb_name";
+
+    if(file_exists($image_admin_thumb)) {
+      unlink($image_admin_thumb);
+    }
   }
 
   //print_r($_FILES);exit;

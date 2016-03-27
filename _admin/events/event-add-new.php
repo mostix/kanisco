@@ -27,7 +27,8 @@
   
   if(isset($_POST['add_event'])) {
     
-    //echo"<pre>";print_r($_POST);exit;
+    echo"<pre>";print_r($_POST);
+    echo"<pre>";print_r($_FILES);
     
     mysqli_query($db_link,"BEGIN");
     
@@ -38,6 +39,7 @@
       if(empty($_POST['event_text'][$language_id])) $event_errors['event_text'][$language_id] = $languages[$current_lang]['required_field_error'];
       
       $event_names_array[$language_id] = $_POST['event_name'][$language_id];
+      $event_summaries_array[$language_id] = $_POST['event_summary'][$language_id];
       $event_texts_array[$language_id] = $_POST['event_text'][$language_id];
     }
     
@@ -69,37 +71,36 @@
     $valid_formats = array("jpg", "jpeg", "png", "gif");
     $event_image_name = "";
     
-    if(isset($_FILES['event_image'])) {
-      if($_FILES['event_image']['error'] != 4) {
-        $extension_array = explode("/", $_FILES['event_image']['type']);
-        $extension = $extension_array[1];
-        if(!in_array($extension, $valid_formats)) {
-          $product_errors['event_image'] = $languages[$current_lang]['image_extension_error']."$extension<br>";
-        }
+    if(isset($_FILES['event_image']) && $_FILES['event_image']['error'] != 4) {
+      $extension_array = explode("/", $_FILES['event_image']['type']);
+      $extension = $extension_array[1];
+      if(!in_array($extension, $valid_formats)) {
+        $product_errors['event_image'] = $languages[$current_lang]['image_extension_error']."$extension<br>";
+      }
 
-        if(($_FILES['event_image']['size'] < MAX_FILE_SIZE) && ($_FILES['event_image']['error'] == 0)) {
-          // no error
+      if(($_FILES['event_image']['size'] < MAX_FILE_SIZE) && ($_FILES['event_image']['error'] == 0)) {
+        // no error
 
-          $event_image_tmp_name  = $_FILES['event_image']['tmp_name'];
-          $event_image_name = $_FILES['event_image']['name'];
-          $event_image_name_exploded = explode(".", $event_image_name);
-          $image_name = $event_image_name_exploded[0];
-          $image_exstension = mb_convert_case($event_image_name_exploded[1], MB_CASE_LOWER, "UTF-8");
+        $event_image_tmp_name  = $_FILES['event_image']['tmp_name'];
+        $event_image_name = $_FILES['event_image']['name'];
+        $event_image_name_exploded = explode(".", $event_image_name);
+        $image_name = $event_image_name_exploded[0];
+        $image_exstension = mb_convert_case($event_image_name_exploded[1], MB_CASE_LOWER, "UTF-8");
+      }
+      elseif(($_FILES['event_image']['size'] > MAX_FILE_SIZE) || ($_FILES['event_image']['error'] == 1 || $_FILES['event_image']['error'] == 2)) {
+        $product_errors['event_image'] .= $languages[$current_lang]['image_size_error']."4MB<br>";
+      }
+      else {
+        if($_FILES['event_image']['error'] != 4) { // error 4 means no file was uploaded
+          $product_errors['event_image'] .= $languages[$current_lang]['image_uploading_error']."<br>";
         }
-        elseif(($_FILES['event_image']['size'] > MAX_FILE_SIZE) || ($_FILES['event_image']['error'] == 1 || $_FILES['event_image']['error'] == 2)) {
-          $product_errors['event_image'] .= $languages[$current_lang]['image_size_error']."4MB<br>";
-        }
-        else {
-          if($_FILES['event_image']['error'] != 4) { // error 4 means no file was uploaded
-            $product_errors['event_image'] .= $languages[$current_lang]['image_uploading_error']."<br>";
-          }
-        }
-      } 
+      }
     }
     
     if(!isset($event_errors)) {
       //if there are no form errors we can insert the information
     
+      $event_map_address_db = mysqli_real_escape_string($db_link, $event_map_address);
       $event_author_id = $_SESSION['admin']['user_id'];
 
       $query_insert_event = "INSERT INTO `events`(`event_id`,   
@@ -124,7 +125,7 @@
                                                 '$event_cost',
                                                 '$event_organizer_phone',
                                                 '$event_organizer_email',
-                                                '$event_map_address',
+                                                '$event_map_address_db',
                                                 '$event_phone',
                                                 '$event_map_lat',
                                                 '$event_map_lng',
@@ -143,15 +144,18 @@
       foreach($event_names_array as $language_id => $event_name) {
         
         $event_name_db = mysqli_real_escape_string($db_link, $event_name);
+        $event_summary_db = mysqli_real_escape_string($db_link, $event_summaries_array[$language_id]);
         $event_text_db = mysqli_real_escape_string($db_link, $event_texts_array[$language_id]);
       
         $query_insert_event_descriptions = "INSERT INTO `events_descriptions`(`event_id`, 
                                                                               `language_id`, 
                                                                               `event_name`, 
+                                                                              `event_summary`,
                                                                               `event_text`)
                                                                       VALUES ('$event_id',
                                                                               '$language_id',
                                                                               '$event_name_db',
+                                                                              '$event_summary_db',
                                                                               '$event_text_db')";
         $all_queries .= "<br>".$query_insert_event_descriptions;
         $result_insert_event_descriptions = mysqli_query($db_link, $query_insert_event_descriptions);
@@ -162,42 +166,44 @@
         }
       }
       
-      $upload_path = $_SERVER['DOCUMENT_ROOT']."/site/images/events/";
-    
-      if(is_uploaded_file($event_image_tmp_name)) {
-        move_uploaded_file($event_image_tmp_name, $upload_path.$event_image_name);
-      }
-      else {
-        echo $languages[$current_lang]['sql_error_insert']." - 4 ".mysqli_error($db_link);
-        mysqli_query($db_link,"ROLLBACK");
-        exit;
+      if(isset($_FILES['event_image']) && $_FILES['event_image']['error'] != 4) {
+        $upload_path = $_SERVER['DOCUMENT_ROOT']."/site/images/events/";
+
+        if(is_uploaded_file($event_image_tmp_name)) {
+          move_uploaded_file($event_image_tmp_name, $upload_path.$event_image_name);
+        }
+        else {
+          echo $languages[$current_lang]['sql_error_insert']." - 4 ".mysqli_error($db_link);
+          mysqli_query($db_link,"ROLLBACK");
+          exit;
+        }
+
+        $file = $upload_path.$event_image_name;
+
+        list($width,$height) = getimagesize($file);
+
+        $image = new SimpleImage();
+        $image->load($file);
+
+        $image_thumb_name = $image_name."_thumb.".$image_exstension;
+        $image_thumb = $upload_path.$image_thumb_name;
+
+        switch($image_exstension) {
+          case "gif" : $image_type = 1;
+            break;
+          case "jpg" : $image_type = 2;
+            break;
+          case "jpeg" : $image_type = 2;
+            break;
+          case "png" : $image_type = 3;
+            break;
+        }
+
+        $image->resizeToWidth(351);
+
+        $image->save($image_thumb,$image_type);
       }
       
-      $file = $upload_path.$event_image_name;
-    
-      list($width,$height) = getimagesize($file);
-
-      $image = new SimpleImage();
-      $image->load($file);
-
-      $image_thumb_name = $image_name."_thumb.".$image_exstension;
-      $image_thumb = $upload_path.$image_thumb_name;
-
-      switch($image_exstension) {
-        case "gif" : $image_type = 1;
-          break;
-        case "jpg" : $image_type = 2;
-          break;
-        case "jpeg" : $image_type = 2;
-          break;
-        case "png" : $image_type = 3;
-          break;
-      }
-
-      $image->resizeToWidth(351);
-
-      $image->save($image_thumb,$image_type);
-
       //echo $all_queries;mysqli_query($db_link,"ROLLBACK");exit;
 
       mysqli_query($db_link,"COMMIT");
@@ -237,7 +243,12 @@
         
         <div>
           <label for="event_date" class="title"><?=$languages[$current_lang]['header_event_date'];?><span class="red">*</span></label>
-          <input type="text" name="event_date" class="datepicker" style="width: 160px;">
+          <?php
+            if(isset($product_errors['event_date'])) {
+              echo "<div class='error'>".$product_errors['event_date']."</div>";
+            }
+          ?>
+          <input type="text" name="event_date" class="datepicker" value="<?php if(isset($_POST['event_date'])) echo $_POST['event_date'];?>" style="width: 160px;">
         </div>
         <p class="clearfix"></p>
         
@@ -295,13 +306,18 @@
         <p class="clearfix"></p>
         
         <div>
-          <label for="event_phone" class="title"><?=$languages[$current_lang]['header_event_phone'];?></label>
+          <label for="event_phone" class="title"><?=$languages[$current_lang]['header_event_phone'];?><span class="red">*</span></label>
+          <?php
+            if(isset($product_errors['event_phone'])) {
+              echo "<div class='error'>".$product_errors['event_phone']."</div>";
+            }
+          ?>
           <input type="text" name="event_phone" id="event_phone" value="<?php if(isset($_POST['event_phone'])) echo $_POST['event_phone'];?>" style="width: 200px;">
         </div>
         <p class="clearfix"></p>
         
         <div>
-          <label for="event_image" class="title"><?=$languages[$current_lang]['header_add_image'];?></label>
+          <label for="event_image" class="title"><?=$languages[$current_lang]['header_add_image'];?> (351x215px)</label>
           <?php
             if(isset($product_errors['event_image'])) {
               echo "<div class='error'>".$product_errors['event_image']."</div>";
@@ -365,6 +381,19 @@
           <div class="clearfix"></div>
 
           <div>
+            <label for="event_summary" class="title"><?=$languages[$current_lang]['header_event_summary'];?><span class="red">*</span></label>
+            <?php
+              if(isset($event_errors['event_summary'][$language_id])) {
+                echo "<div class='error'>".$event_errors['event_summary'][$language_id]."</div>";
+              }
+            ?>
+            <textarea name="event_summary[<?=$language_id;?>]" id="ckeditor_event_summary_<?=$language_code;?>" class="default_text">
+              <?php if(isset($_POST['event_summary'][$language_id])) echo $_POST['event_summary'][$language_id];?>
+            </textarea>
+          </div>
+          <div class="clearfix"></div>
+
+          <div>
             <label for="event_text" class="title"><?=$languages[$current_lang]['header_event_text'];?><span class="red">*</span></label>
             <?php
               if(isset($event_errors['event_text'][$language_id])) {
@@ -411,6 +440,7 @@
               
               $language_code = $row_languages['language_code'];
 ?>
+              CKEDITOR.replace('ckeditor_event_summary_<?=$language_code;?>');
               CKEDITOR.replace('ckeditor_event_text_<?=$language_code;?>');
 <?php
     }

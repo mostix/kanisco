@@ -63,6 +63,8 @@
     
     if(!isset($event_errors)) {
       //if there are no form errors we can insert the information
+      
+      $event_map_address_db = mysqli_real_escape_string($db_link, $event_map_address);
 
        $query_update_event = "UPDATE `events` SET `event_date`='$event_date',
                                                   `event_time_start`='$event_time_start', 
@@ -70,7 +72,7 @@
                                                   `event_cost`='$event_cost', 
                                                   `event_organizer_phone`='$event_organizer_phone', 
                                                   `event_organizer_email`='$event_organizer_email', 
-                                                  `event_map_address`='$event_map_address', 
+                                                  `event_map_address`='$event_map_address_db', 
                                                   `event_phone`='$event_phone', 
                                                   `event_map_lat`='$event_map_lat', 
                                                   `event_map_lng`='$event_map_lng', 
@@ -349,7 +351,7 @@
             <img src="<?=$event_image;?>" width="700" height="auto">
           </div>
           <p>&nbsp;</p>
-          <h2><?=$languages[$current_lang]['header_change_image'];?></h2>
+          <h2><?=$languages[$current_lang]['header_change_image'];?> (351x215px)</h2>
         </div>
         <div class="clearfix">
           <p>&nbsp;</p>

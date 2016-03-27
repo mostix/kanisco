@@ -122,6 +122,10 @@ b, strong {
 }
 .blog-text-container {
   padding: 10px 15px 45px;
+  overflow: hidden;
+}
+#news_list .blog-text-container {
+  overflow: visible;
 }
 body.product .blog-text-container,
 .partners .blog-text-container {
@@ -544,4 +548,52 @@ ul.course-details {
 .pagination-1 .pag-next,
 .pagination-1 .pag-prev {
   padding: 19px 13px;
+}
+.tribe-events-list .tribe-events-list-separator-month {
+  margin: 0 0 3% 0;
+  text-align: center;
+  display: block;
+  font-size: 26px;
+  font-weight: bold;
+}
+.tribe-events-list .event_block {
+  overflow: hidden;
+}
+.tribe-events-list .tribe-events-event-image {
+  float: left;
+  margin: 0 3% 0 0;
+}
+.tribe-events-list .tribe-events-event-image img {
+  height: 215px;
+}
+div.tribe-events-list-event-detail h2.tribe-events-list-event-title, #tribe-geo-results h2.tribe-events-map-event-title.summary {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0 0 10px;
+}
+.latest-post-container li {
+  border-top: none; 
+}
+.latest-post-sidebar {
+  padding: 4px 0 0;
+  margin-bottom: 6px;
+}
+.latest-post-sidebar p.latest-post-sidebar-date {
+    margin-top: 3px;
+}
+.latest-post-sidebar img {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #d6d6d6;
+  width: 100%;
+  height: auto;
+  float: none; 
+  margin: 0; 
+  padding: 3px;
+  transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
 }

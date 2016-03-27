@@ -2,6 +2,9 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 
+if (isset($_GET['rcid'])) {
+  $current_category_id = $_GET['rcid']; // current selected root category id
+}
 if (isset($_GET['pid'])) {
   $current_product_id = $_GET['pid']; // current selected product
 }
@@ -24,6 +27,7 @@ if (isset($_GET['page']) && !empty($_GET['page'])) {
   $current_lang = $current_category_path[0];
   $category_cd_name_1 = str_replace("-", " ", mb_convert_case($current_category_path[1], MB_CASE_TITLE, "UTF-8"));
   $category_cd_name_2 = str_replace("-", " ", mb_convert_case($current_category_path[2], MB_CASE_TITLE, "UTF-8"));
+  $category_cd_name_url = $current_category_path[1]."/".$current_category_path[2];
   $current_cd_name = str_replace("-", " ", $current_category_path[$count_category_path_elements]);
 }
 
@@ -99,7 +103,7 @@ print_html_header($pd_name, $pd_meta_description, $pd_meta_keywords, $additional
       <h1 class="page-title">
         <a href="/<?=$home_page_url;?>"><?=$languages[$current_lang]['header_home'];?></a> 
         <span class="sub-title">/ <?= $category_cd_name_1; ?></span> 
-        <span class="sub-title">/ <?= $category_cd_name_2; ?></span> 
+        <a href="/<?=$current_lang;?>/<?=$category_cd_name_url;?>?cid=<?=$current_category_id;?>">/ <?= $category_cd_name_2; ?></a> 
         <span class="sub-title">/ <?= $pd_name; ?></span>
       </h1>
       <ul class="portfolio-pagination">

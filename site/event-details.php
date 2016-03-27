@@ -88,180 +88,68 @@
     <div class="page-title-container clearfix">
       <h1 class="page-title">
         <a href="/<?=$home_page_url;?>"><?=$languages[$current_lang]['header_home'];?></a> 
-        /<a href="/<?= $current_lang; ?>/<?= $content_pretty_url; ?>"> <?=$languages[$current_lang]['menu_event'];?></a> 
+        /<a href="/<?= $current_lang; ?>/<?= $content_pretty_url; ?>"> <?=$languages[$current_lang]['menu_events'];?></a> 
         <span class="sub-title">/ <?= $event_name; ?></span>
       </h1>
     </div>	
   </div>
 </div>
 
-  <div id="main">
-    <!-- main-content starts here -->
-    <div id="main-content">
-      <div class="container">
-        <div class="dt-sc-hr-invisible"></div>
-        <section id="primary" class="content-full-width">
-<!--          <article id="post-<?=$event_id;?>" class="post-<?=$event_id;?> page type-page status-draft hentry">
-            <div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-datepicker_format="0" data-category="">
-              <div class="tribe-events-before-html"></div>
-              <div id="tribe-events-content" class="tribe-events-single vevent hentry">
-                <p class="tribe-events-back">
-                  <a href="/bg/събития"> &laquo; <?=$languages[$current_lang]['btn_back_to_all_events'];?></a>
-                </p>
-                 Notices 
-                 Event featured image, but exclude link 
-                <div class="tribe-events-event-image">
-                  <img src="<?=$event_image;?>" class="attachment-full wp-post-image" alt="<?=$event_name;?>" title="<?=$event_name;?>">
-                  <h2 class="border-title"><span><?=$event_name;?></span></h2>
-                  <div class="tribe-events-schedule updated published tribe-clearfix">
-                    <h3>
-                      <span class="date-start dtstart">February 28, 2016 @ 8:00 am<span class="value-title" title="2016-02-28UTC08:00"></span></span> 
-                        - 
-                      <span class="date-end dtend">March 1, 2016 @ 5:00 pm<span class="value-title" title="2016-03-01UTC05:00"></span></span>
-                    </h3><span class="tribe-events-divider"> | </span><span class="tribe-events-cost"><?=$event_cost;?>лв.</span>
-                  </div>
-                <div id="post-246" class="post-246 tribe_events type-tribe_events status-publish has-post-thumbnail tag-valley tribe_events_cat-destiny cat_destiny">
-                   Event content 
-                  <div class="tribe-events-single-event-description tribe-events-content entry-content description">
-                    <?=$event_text;?>
-                  </div>
-                   .tribe-events-single-event-description 
-                  <div class="tribe-events-cal-links"><a class="tribe-events-gcal tribe-events-button" href="http://www.google.com/calendar/event?action=TEMPLATE&#038;text=Avalanche+Trip&#038;dates=20160228T080000/20160301T170000&#038;details=Maecenas+convallis+quam+eget+urna+imperdiet%2C+eget+gravida+erat+rutrum.+Pellentesque+rhoncus+odio+et+lorem+pharetra+dictum.+Nam+blandit+metus+diam%2C+ut+maximus+arcu+commodo+in.+Integer+auctor+sapien+enim%2C+viverra+vulputate+orci+posuere+eu.+Nulla+pretium+elit+orci%2C+eu+facilisis+ligula+hendrerit+ut.+Suspendisse+malesuada+eros+ut+euismod+euismod.+Fusce+vestibulum+ornare+augue%2C+eu+mollis+orci+volutpat+non.+Pellentesque+habitant+morbi+tristique+senectus+et+netus+et+malesuada+fames+ac+turpis+egestas.+Nulla+leo+lorem%2C+bibendum+et+sapien+vel%2C+venenatis+ultrices+libero.+%0ASuspendisse+arcu+odio%2C+elementum+et+nisl+nec%2C+maximus+consectetur+purus.+Maecenas+lacus+magna%2C+malesuada+et+gravida+sit+amet%2C+rutrum+non+nisl.+Sed+non+suscipit+nunc%2C+ac+varius+sapien.+Vestibulum+euismod+vehicula+mauris.+Ut+et+faucibus+dui.+Cras+ornare+nulla+eget+massa+semper%2C+a+viverra+lectus+aliquam.+Mauris+sollicitudin+turpis+eget+est+eleifend%2C+et+pretium+nunc+feugiat.+Aenean+tristique+velit+magna.+Curabitur+a+turpis+orci.++%28View+Full+Event+Description+Here%3A+http%3A%2F%2Fwedesignthemes.com%2Fthemes%2Ffitness-zone%2Fevent%2Favalanche-trip%2F%29&#038;location=Avalanche%2C+Ooty%2C+87455%2C+India&#038;sprop=website:http://wedesignthemes.com/themes/fitness-zone&#038;trp=false" title="Add to Google Calendar">+ Google Calendar</a><a class="tribe-events-ical tribe-events-button" href="http://wedesignthemes.com/themes/fitness-zone/events/?ical=1" title="Download .ics file" >+ iCal Export</a></div> .tribe-events-cal-links 
-                   Event meta 
-                  <div class="tribe-events-single-section tribe-events-event-meta primary tribe-clearfix">
-                    <div class="tribe-events-meta-group tribe-events-meta-group-details">
-                      <h3 class="tribe-events-single-section-title"> Details </h3>
-                      <dl>
-                        <dt> Start: </dt>
-                        <dd>
-                          <abbr class="tribe-events-abbr updated published dtstart" title="2016-02-28"> February 28, 2016 @ 8:00 am </abbr>
-                        </dd>
-                        <dt> End: </dt>
-                        <dd>
-                          <abbr class="tribe-events-abbr dtend" title="2016-03-01"> March 1, 2016 @ 5:00 pm </abbr>
-                        </dd>
-                        <dt> Cost: </dt>
-                        <dd class="tribe-events-event-cost"> $30 </dd>
-                        <dt>Event Category:</dt> <dd class="tribe-events-event-categories"><a href="http://wedesignthemes.com/themes/fitness-zone/events/category/destiny/" rel="tag">destiny</a></dd>
-                        <dt>Event Tags:</dt><dd class="tribe-event-tags"><a href="http://wedesignthemes.com/themes/fitness-zone/tag/valley/" rel="tag">valley</a></dd>
-                        <dt> Website: </dt>
-                        <dd class="tribe-events-event-url"> <a href="http://iamdesigning.com" target="self">http://iamdesigning.com</a> </dd>
-                      </dl>
-                    </div>
-                    <div class="tribe-events-meta-group tribe-events-meta-group-organizer">
-                      <h3 class="tribe-events-single-section-title">Organizer</h3>
-                      <dl>
-                        <dd class="fn org">
-                          <a href="http://wedesignthemes.com/themes/fitness-zone/organizer/ram/">Ram</a>
-                        </dd>
-                        <dt>Phone:</dt>
-                        <dd class="tel">125478963</dd>
-                        <dt>Email:</dt>
-                        <dd class="email">http://iamdesigning.com</dd>
-                        <dt>Website:</dt>
-                        <dd class="url">
-                          <a href="http://iamdesigning.com" target="self">http://iamdesigning.com</a>
-                        </dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <div class="tribe-events-single-section tribe-events-event-meta secondary tribe-clearfix">
-                    <div class="tribe-events-meta-group tribe-events-meta-group-venue">
-                      <h3 class="tribe-events-single-section-title"> Venue </h3>
-                      <dl>
-                        <dd class="author fn org"> <a href="http://wedesignthemes.com/themes/fitness-zone/venue/resort/">Resort</a> </dd>
-                        <dd class="location">
-                          <address class="tribe-events-address">
-                            <span class="adr">
-                              <span class="street-address">Avalanche</span>
-                              <br>
-                              <span class="locality">Ooty</span><span class="delimiter">,</span>
-                              <span class="postal-code">87455</span>
-                              <span class="country-name">India</span>
-                            </span>
-                            <a class="tribe-events-gmap" href="http://maps.google.com/maps?f=q&#038;source=s_q&#038;hl=en&#038;geocode=&#038;q=Avalanche+Ooty+87455+India" title="Click to view a Google Map" target="_blank">+ Google Map</a>									</address>
-                        </dd>
-                        <dt> Phone: </dt>
-                        <dd class="tel"> 459876213 </dd>
-                        <dt> Website: </dt>
-                        <dd class="url"> <a href="http://iamdesigning.com" target="self">http://iamdesigning.com</a> </dd>
-                      </dl>
-                    </div>
-                    <div class="tribe-events-venue-map">
-                      <div id="tribe-events-gmap-0" style="height: 350px; width: 100%"></div> #tribe-events-gmap-0 
-                    </div>
-                  </div>
-                  <div class="dt-sc-hr-invisible-small"></div>
-                </div>  #post-x 
-               Event footer 
-              <div id="tribe-events-footer">
-                 Navigation 
-                <h3 class="tribe-events-visuallyhidden">Event Navigation</h3>
-                <ul class="tribe-events-sub-nav">
-                  <li class="tribe-events-nav-previous"></li>
-                  <li class="tribe-events-nav-next"><a href="http://wedesignthemes.com/themes/fitness-zone/event/yoga-in-office/">Yoga in office <span>&raquo;</span></a></li>
-                </ul>
-                 .tribe-events-sub-nav 
+<!-- CONTENT -->
+<div class="container clearfix">
+  <div class="sixteen columns m-bot-25">
+    <!-- BLOG ITEM -->
+    <div class="blog-item m-bot-25">
+        
+      <section id="primary" class="content-full-width">
+        <article>
+          <div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-datepicker_format="0" data-category="">
+              <div class="entry-thumb">
+                  <a href="#"><img src="<?=$event_image;?>" class="img-responsive" alt="<?=$event_name;?>" title="<?=$event_name;?>"></a>
+  <!--                <div class="entry-meta">
+                      <div class="date">
+                          <span><?=$event_date_day;?></span>
+                          <?=$event_date_month;?><br>
+                          <?=$event_date_year;?>
+                      </div>
+                  </div>-->
               </div>
-               #tribe-events-footer 
-              </div> #tribe-events-content 
-              <div class="tribe-events-after-html"></div>
-            </div> #tribe-events 
-          </article>-->
-          <article id="post-<?=$event_id;?>" class="post-<?=$event_id;?> page type-page status-draft hentry">
-              <div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-datepicker_format="0" data-category="">
-                  <div class="entry-thumb">
-                      <a href="#"><img src="<?=$event_image;?>" alt="<?=$event_name;?>" title="<?=$event_name;?>"></a>
-<!--                      <div class="entry-meta">
-                          <div class="date">
-                              <span><?=$event_date_day;?></span>
-                              <?=$event_date_month;?><br>
-                              <?=$event_date_year;?>
-                          </div>
-                      </div>-->
-                  </div>
-                  <div class="entry-metadata">
-<!--                    <div class="post-meta">
-                        <p class="author"><a href="#"> <span class="fa fa-user"> </span> ram</a></p>
-                        <p><a title="" href="#"><span class="fa fa-comment"> </span>0</a></p>
-                    </div>
-                    <p class="tags"><a href="#">Workout </a> / <a href="#"> Diet</a></p>-->
-                    <h2 class="border-title"><span><?=$event_name;?></span></h2>
+              <div class="entry-metadata">
+                <h2 class="border-title"><span><?=$event_name;?></span></h2>
 
-                    <p><?=$event_text;?></p>
-                  </div>
+                <p><?=$event_text;?></p>
               </div>
-          </article>
-          <div id="map"></div>
-          <a href="<?=$current_event_page;?>">
-            &laquo; <?=$languages[$current_lang]['btn_back_to_all_events'];?>
-          </a>
-        </section>
-        <div class="dt-sc-hr-invisible-large"></div>
-      </div>
+          </div>
+        </article>
+        <div id="map"></div>
+        <a href="<?=$current_event_page;?>">
+          &laquo; <?=$languages[$current_lang]['btn_back_to_all_events'];?>
+        </a>
+      </section>
+        
     </div>
-    <!-- main-content ends here -->
   </div>
-  <script>
-    function initMap() {
-      var myLatLng = {lat: <?=$event_map_lat?>, lng: <?=$event_map_lng?>};
+  <!-- main-content ends here -->
+</div>
+<script>
+  function initMap() {
+    var myLatLng = {lat: <?=$event_map_lat?>, lng: <?=$event_map_lng?>};
 
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 17,
-        center: myLatLng
-      });
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 17,
+      center: myLatLng
+    });
 
-      var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: 'http://www.procad-bg.com/site/images/apple-touch-icon.png',
-        title: '<?=$event_name;?>'
-      });
+    var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+//        icon: 'http://www.procad-bg.com/site/images/apple-touch-icon.png',
+      title: '<?=$event_name;?>'
+    });
 //      showInfoWindow(marker);
-    }
-  </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhmGbiJIya3wRteCUJR0EL5a4E1ayAPPY&callback=initMap"></script>
-  
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBRtep5nzeJd-3HwTOnJiIBnY5BQfKagw&callback=initMap"></script>
 <?php
   print_html_footer();
 ?>

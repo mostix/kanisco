@@ -465,7 +465,9 @@
       
   <div class="container clearfix">
     <div class="sixteen columns m-bot-35">
-      <?php print_events_blocks($blocks_count = 12); ?>
+      <div id="tribe-events-content" class="tribe-events-list">
+        <?php print_events_blocks($blocks_count = 12); ?>
+      </div>
     </div>
   </div>
 
