@@ -17,6 +17,9 @@ b, strong {
 .info-top ul a {
   font-size: 114%;
 }
+h2 {
+  font-size: 30px;
+}
 .accordion.active span {
   background-color: #4986B3;
   background-image: url("../images/minus.png");
@@ -70,7 +73,7 @@ b, strong {
   z-index: 9999;
 }
 .nl-text-container.part {
-  width: 456px;
+  /*width: 456px;*/
 }
 #cookies_policy p a {
   color: #e21712;
@@ -90,6 +93,7 @@ b, strong {
 }
 #choose_language {
   position: relative;
+  top: 2px;
 }
 #choose_language a {
   display: inline-block;
@@ -378,17 +382,6 @@ ul.social-links li {
     width: 100%;
   }
 }
-@media only screen and (max-width: 480px) {
-  .logo.partners {
-    width: 94px;
-  }
-  .logo.partners:last-child {
-    width: 114px;
-  }
-  form.newsletterform button.button {
-    padding: 15px 30px 15px 30px;
-  }
-}
 .flex-direction-nav {
   display: none;
 }
@@ -400,9 +393,8 @@ ul.social-links li {
 .iconed-box.invalid_email:before {
   background-position: -36px center;
 }
-#contact_form textarea {
-  margin-bottom: 10px;
-  height: 200px
+#contact-form textarea {
+  height: 352px;
 }
 ul.contact-info-page .icon_fax {
   margin-bottom: 10px;
@@ -410,6 +402,12 @@ ul.contact-info-page .icon_fax {
 }
 ul.contact-info-page .icon_fax i {
   margin-right: 13px;
+}
+footer .icon_fax {
+  margin-bottom: 10px;
+}
+footer .icon_fax i {
+  margin-right: 18px;
 }
 #ajax_subscribe_msg .alert {
   margin: 10px 0;
@@ -596,4 +594,11 @@ div.tribe-events-list-event-detail h2.tribe-events-list-event-title, #tribe-geo-
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
+}
+#map {
+  height: 400px;
+  border: 2px solid #4986b3;
+}
+.event_details article {
+  margin: 0 0 20px;
 }

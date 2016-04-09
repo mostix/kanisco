@@ -1,241 +1,232 @@
 <?php
  
-  function print_html_header($content_meta_title, $content_meta_description, $content_meta_keywords, $additional_script = false, $body_class = false) {
-    
-    global $db_link;
-    global $languages;
-    global $current_language_id;
-    global $current_lang;
-    global $current_page_path_string;
-    global $home_page_url;
-    global $fb_image;
-    
-    if(!isset($fb_image)) $fb_image = "http://www.procad-bg.com/site/images/logo.png";
+function print_html_header($content_meta_title, $content_meta_description, $content_meta_keywords, $additional_script = false, $body_class = false) {
+
+  global $db_link;
+  global $languages;
+  global $current_language_id;
+  global $current_lang;
+  global $current_page_path_string;
+  global $home_page_url;
+  global $fb_image;
+
+  if(!isset($fb_image)) $fb_image = "http://www.procad-bg.com/site/images/logo.png";
 //    unset($_SESSION);
 //    session_destroy();
-    
-    $_SESSION['captcha123'] = array();
-    $_SESSION['captcha_error']['count'] = 0;
-    $rnd=rand(1,99);
-    $query = "SELECT `captchas`.* FROM `captchas` LIMIT $rnd,1";
-    //echo $query;
-    $result = mysqli_query($db_link, $query);
-    if(!$result) echo mysqli_error($db_link);
-    if(mysqli_num_rows($result) > 0) {
 
-      $captcha = mysqli_fetch_assoc($result);
-      $_SESSION['captcha123']['img'] = $captcha['captcha_image'];
-      $_SESSION['captcha123']['code'] = $captcha['captcha_number'];
-         
-    }
+  $_SESSION['captcha123'] = array();
+  $_SESSION['captcha_error']['count'] = 0;
+  $rnd=rand(1,99);
+  $query = "SELECT `captchas`.* FROM `captchas` LIMIT $rnd,1";
+  //echo $query;
+  $result = mysqli_query($db_link, $query);
+  if(!$result) echo mysqli_error($db_link);
+  if(mysqli_num_rows($result) > 0) {
+
+    $captcha = mysqli_fetch_assoc($result);
+    $_SESSION['captcha123']['img'] = $captcha['captcha_image'];
+    $_SESSION['captcha123']['code'] = $captcha['captcha_number'];
+
+  }
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html  class="ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html  class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html  class="ie8"> <![endif]-->
 <!--[if (gt IE 8)|!(IE)]><!--><html><!--<![endif]-->
-  <head>
-    <title><?=$languages[$current_lang]['e_shop_cms']." - ".strip_tags($content_meta_title);?></title>
-    <meta charset=utf-8 >
-    <meta name="robots" content="index, follow" > 
-    <meta name="description" content="<?=strip_tags($content_meta_description);?>">
-    <meta name="keywords" content="<?=strip_tags($content_meta_keywords);?>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="Iliyan Dimitrov">
-    <meta property="og:site_name" content="<?=$languages[$current_lang]['e_shop_cms'];?>">
-    <meta property="og:locale" content="bg_BG">
-    <meta property="fb:app_id" content="853213731463390">
-    <meta property="og:url" content="<?=urldecode($_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);?>" />
-    <meta property="og:type" content="AutoCAD LT Revit Civil Plateia Urbano Advance Design Advance Steel 3D Studio MAX визуализация BIM CAD курсов" />
-    <meta property="og:title" content="<?=strip_tags($content_meta_title);?>" />
-    <meta property="og:description" content="<?=strip_tags($content_meta_description);?>" />
-    <meta property="og:image" content="<?=$fb_image;?>" />
-    <link rel="shortcut icon" href="/site/images/index.ico">
-    <link rel="stylesheet" type="text/css" href="/site/css/bootstrap.css" >
-    <link rel="stylesheet" type="text/css" href="/site/css/style.css" >
-    <link rel="stylesheet" type="text/css" href="/site/css/skeleton.css" >
-    <link rel="stylesheet" type="text/css" href="/site/css/jquery.fancybox-1.3.4.css"  >
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/site/css/ie-warning.css" ><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" media="screen" href="/site/css/style-ie.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/site/css/ei8fix.css" ><![endif]-->
-    <!--<link rel="stylesheet" type="text/css" href="/site/css/sequencejs-theme.modern-slide-in.css" >-->
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" media="screen" href="/site/css/sequencejs-theme.modern-slide-in.ie.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/site/css/sequencejs-theme.modern-slide-in.ie8.css" ><![endif]--><!-- Flexslider CSS -->
-		<link rel="stylesheet" type="text/css" href="/site/css/flexslider.css" >
-    <link rel="stylesheet" type="text/css" href="/site/css/yellow.css" id="template-color">
-    <link rel="stylesheet" type="text/css" href="/site/css/custom.css">
-    
-    <script type="text/javascript" src="/site/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/site/js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="/site/js/superfish.js"></script>
-    <script type="text/javascript" src="/site/js/jquery-ui.min.js"></script>
-    <!-- Flexslider js -->
-		<script type="text/javascript" src="/site/js/jquery.flexslider.js"></script>
-		<script type="text/javascript" src="/site/js/flex-slider.js"></script>
-		<script type="text/javascript" src="/site/js/jquery.mousewheel.js"></script>
-		<!-- end Flexslider js -->
-    <script type="text/javascript" src="/site/js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="/site/js/jquery.fancybox-1.3.4.pack.js"></script>
-    <script type="text/javascript" src="/site/js/jQuery.BlackAndWhite.min.js"></script>
-    <!--<script type="text/javascript" src="/site/js/twitter/jquery.tweet.js"></script>-->
-    <script type="text/javascript" src="/site/js/jquery.validate.min.js"></script>
-    <!--<script type="text/javascript" src="/site/js/jflickrfeed.min.js"></script>-->
-    <script type="text/javascript" src="/site/js/jquery.quicksand.js"></script>
-    <script type="text/javascript" src="/site/js/main.js"></script>
-    <script type="text/javascript" src="/site/js/bootstrap.min.js"></script>
-    <?php if($additional_script) echo "$additional_script\n";?>
-    <script type="text/javascript">
-      WebFontConfig = {
-        google: { families: [ 'Open+Sans::latin,cyrillic' ] }
-      };
-      (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-      })(); 
-    </script>
-    <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body class="<?=$body_class?>">
+<head>
+  <title><?=$languages[$current_lang]['e_shop_cms']." - ".strip_tags($content_meta_title);?></title>
+  <meta charset=utf-8 >
+  <meta name="robots" content="index, follow" > 
+  <meta name="description" content="<?=strip_tags($content_meta_description);?>">
+  <meta name="keywords" content="<?=strip_tags($content_meta_keywords);?>" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="author" content="Iliyan Dimitrov">
+  <meta property="og:site_name" content="<?=$languages[$current_lang]['e_shop_cms'];?>">
+  <meta property="og:locale" content="bg_BG">
+  <meta property="fb:app_id" content="853213731463390">
+  <meta property="og:url" content="<?=urldecode($_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);?>" />
+  <meta property="og:type" content="AutoCAD LT Revit Civil Plateia Urbano Advance Design Advance Steel 3D Studio MAX визуализация BIM CAD курсов" />
+  <meta property="og:title" content="<?=strip_tags($content_meta_title);?>" />
+  <meta property="og:description" content="<?=strip_tags($content_meta_description);?>" />
+  <meta property="og:image" content="<?=$fb_image;?>" />
+  <link rel="shortcut icon" href="/site/images/index.ico">
+  <link rel="stylesheet" type="text/css" href="/site/css/bootstrap.css" >
+  <link rel="stylesheet" type="text/css" href="/site/css/style.css" >
+  <link rel="stylesheet" type="text/css" href="/site/css/skeleton.css" >
+  <link rel="stylesheet" type="text/css" href="/site/css/jquery.fancybox-1.3.4.css"  >
+  <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/site/css/ie-warning.css" ><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" type="text/css" media="screen" href="/site/css/style-ie.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/site/css/ei8fix.css" ><![endif]-->
+  <!--<link rel="stylesheet" type="text/css" href="/site/css/sequencejs-theme.modern-slide-in.css" >-->
+  <!--[if lt IE 9]><link rel="stylesheet" type="text/css" media="screen" href="/site/css/sequencejs-theme.modern-slide-in.ie.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/site/css/sequencejs-theme.modern-slide-in.ie8.css" ><![endif]--><!-- Flexslider CSS -->
+  <link rel="stylesheet" type="text/css" href="/site/css/flexslider.css" >
+  <link rel="stylesheet" type="text/css" href="/site/css/yellow.css" id="template-color">
+  <link rel="stylesheet" type="text/css" href="/site/css/custom.css">
+
+  <script type="text/javascript" src="/site/js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="/site/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="/site/js/superfish.js"></script>
+  <script type="text/javascript" src="/site/js/jquery-ui.min.js"></script>
+  <!-- Flexslider js -->
+  <script type="text/javascript" src="/site/js/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="/site/js/flex-slider.js"></script>
+  <script type="text/javascript" src="/site/js/jquery.mousewheel.js"></script>
+  <!-- end Flexslider js -->
+  <script type="text/javascript" src="/site/js/jquery.jcarousel.js"></script>
+  <script type="text/javascript" src="/site/js/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="/site/js/jQuery.BlackAndWhite.min.js"></script>
+  <!--<script type="text/javascript" src="/site/js/twitter/jquery.tweet.js"></script>-->
+  <script type="text/javascript" src="/site/js/jquery.validate.min.js"></script>
+  <!--<script type="text/javascript" src="/site/js/jflickrfeed.min.js"></script>-->
+  <script type="text/javascript" src="/site/js/jquery.quicksand.js"></script>
+  <script type="text/javascript" src="/site/js/main.js"></script>
+  <script type="text/javascript" src="/site/js/bootstrap.min.js"></script>
+  <?php if($additional_script) echo "$additional_script\n";?>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Open+Sans::latin,cyrillic' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); 
+  </script>
+  <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body class="<?=$body_class?>">
 <?php
-    if(!isset($_COOKIE['cookie_policy'])) {
+  if(!isset($_COOKIE['cookie_policy'])) {
 ?>
-      <div id="cookies_policy">
-        <a href="javascript:;" onclick="ConfirmCookiesPolicy()" class="pull-right button small"><?=$languages[$current_lang]['btn_cookies_agreed'];?></a>
-        <p class="no_margin">
-          <?=$languages[$current_lang]['text_cookies_policy'];?>
-          <a href="/bg/политика-за-бисквитките" target="_blank"><?=$languages[$current_lang]['btn_cookies_policy_more'];?></a>
-        </p>
-      </div>
-<?php } ?>
-  <!--[if lte IE 7]>
-  <div id="ie-container">
-    <div id="ie-cont-close">
-      <a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+    <div id="cookies_policy">
+      <a href="javascript:;" onclick="ConfirmCookiesPolicy()" class="pull-right button small"><?=$languages[$current_lang]['btn_cookies_agreed'];?></a>
+      <p class="no_margin">
+        <?=$languages[$current_lang]['text_cookies_policy'];?>
+        <a href="/bg/политика-за-бисквитките" target="_blank"><?=$languages[$current_lang]['btn_cookies_policy_more'];?></a>
+      </p>
     </div>
-    <div id="ie-cont-content">
-      <div id="ie-cont-warning"><img src='images/ie-warning.jpg' alt='Warning!'></div>
-      <div id="ie-cont-text">
-        <div id="ie-text-bold">You are using an outdated browser</div>
-        <div id="ie-text">For a better experience using this site, please upgrade to a modern web browser.</div>
+<?php } ?>
+<!--[if lte IE 7]>
+<div id="ie-container">
+  <div id="ie-cont-close">
+    <a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+  </div>
+  <div id="ie-cont-content">
+    <div id="ie-cont-warning"><img src='images/ie-warning.jpg' alt='Warning!'></div>
+    <div id="ie-cont-text">
+      <div id="ie-text-bold">You are using an outdated browser</div>
+      <div id="ie-text">For a better experience using this site, please upgrade to a modern web browser.</div>
+    </div>
+    <div id="ie-cont-brows" >
+      <a href='http://www.firefox.com' target='_blank'><img src='images/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+      <a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warning-opera.jpg' alt='Download Opera'></a>
+      <a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warning-safari.jpg' alt='Download Safari'></a>
+      <a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+    </div>
+  </div>
+</div>
+<![endif]-->
+
+<!-- HEADER -->
+<header id="header">
+  <div class="container">
+    <div class="top-header">
+      <div class="info-top col-lg-4 col-md-4 col-sm-4 col-xs-4 no_padding">
+        <div id="choose_language">
+          <?php print_header_language_menu();?>
+        </div>
       </div>
-      <div id="ie-cont-brows" >
-        <a href='http://www.firefox.com' target='_blank'><img src='images/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-        <a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warning-opera.jpg' alt='Download Opera'></a>
-        <a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warning-safari.jpg' alt='Download Safari'></a>
-        <a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+      <div class="info-top text-right col-lg-8 col-md-8 col-sm-8 col-xs-8 no_padding">
+        <ul id="social-links">
+          <li><a target="_blank" title="Facebook" href="http://themeforest.net/item/optimas-responsive-multipurpose-template/4238646?ref=abcgomel"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" title="Youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+          <li><a target="_blank" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <ul class="hidden">
+<?php if(isset($_SESSION['customer'])) { ?>
+          <li><a href="/<?=$current_lang;?>/users-profiles/user-profile-settings"><?=$languages[$current_lang]['customer_profile'];?></a></li>
+          <li><a href="/<?=$current_lang;?>/logout"><?=$languages[$current_lang]['logout'];?></a></li>
+<?php } else { ?>
+          <li><a href="/<?=$current_lang;?>/login"><i class="fa fa-sign-in"></i><?=$languages[$current_lang]['login_sign_in'];?></a></li>
+          <li><a href="/<?=$current_lang;?>/registration"><i class="fa fa-user"></i><?=$languages[$current_lang]['login_sign_up'];?></a></li>
+<?php } ?>
+        </ul>
       </div>
     </div>
   </div>
-  <![endif]-->
-
-  <!-- HEADER -->
-  <header id="header">
-    <div class="container">
-      <div class="top-header">
-        <div class="info-top col-lg-4 col-md-4 col-sm-4 col-xs-4 no_padding">
-          <div id="choose_language">
-            <?php print_header_language_menu();?>
-          </div>
-        </div>
-        <div class="info-top text-right col-lg-8 col-md-8 col-sm-8 col-xs-8 no_padding">
-          <ul>
-<?php if(isset($_SESSION['customer'])) { ?>
-            <li><a href="/<?=$current_lang;?>/users-profiles/user-profile-settings"><?=$languages[$current_lang]['customer_profile'];?></a></li>
-            <li><a href="/<?=$current_lang;?>/logout"><?=$languages[$current_lang]['logout'];?></a></li>
-<?php } else { ?>
-            <li><a href="/<?=$current_lang;?>/login"><i class="fa fa-sign-in"></i><?=$languages[$current_lang]['login_sign_in'];?></a></li>
-            <li><a href="/<?=$current_lang;?>/registration"><i class="fa fa-user"></i><?=$languages[$current_lang]['login_sign_up'];?></a></li>
-<?php } ?>
-          </ul>
-        </div>
+  <div class="container clearfix">
+    <div class="sixteen columns ">
+      <div id="logo-container" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">	
+        <a href="/<?= $home_page_url ?>" title="<?=$languages[$current_lang]['e_shop_cms'];?>" class="logo" rel="home">
+          <img src="/site/images/logo.jpg" title="<?=$languages[$current_lang]['e_shop_cms'];?>" alt="<?=$languages[$current_lang]['e_shop_cms'];?>" >
+        </a>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 no_padding">
+        <a href="/" title="<?=$languages[$current_lang]['e_shop_cms'];?>" class="logo partners" style="margin-right: -8px;" rel="home">
+          <img src="/site/images/partners-logo.png" title="Autodesk" alt="Autodesk" >
+        </a>
+        <a href="/" title="<?=$languages[$current_lang]['e_shop_cms'];?>" class="logo partners" style="position: relative;top:-3px;" rel="home">
+          <img src="/site/images/Peterschinegg-Kanisco-Logo.png" title="Peterschinegg GesmbH" alt="Peterschinegg GesmbH" >
+        </a>
       </div>
     </div>
+  </div>
+  <div id="nav_container">
     <div class="container clearfix">
-      <div class="sixteen columns ">
-        <div id="logo-container" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">	
-          <a href="/<?= $home_page_url ?>" title="<?=$languages[$current_lang]['e_shop_cms'];?>" class="logo" rel="home">
-            <img src="/site/images/logo.jpg" title="<?=$languages[$current_lang]['e_shop_cms'];?>" alt="<?=$languages[$current_lang]['e_shop_cms'];?>" >
-          </a>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 no_padding">
-          <a href="/" title="<?=$languages[$current_lang]['e_shop_cms'];?>" class="logo partners" style="margin-right: -8px;" rel="home">
-            <img src="/site/images/partners-logo.png" title="Autodesk" alt="Autodesk" >
-          </a>
-          <a href="/" title="<?=$languages[$current_lang]['e_shop_cms'];?>" class="logo partners" style="position: relative;top:-3px;" rel="home">
-            <img src="/site/images/Peterschinegg-Kanisco-Logo.png" title="Peterschinegg GesmbH" alt="Peterschinegg GesmbH" >
-          </a>
-        </div>
-<!--        <ul id="social-links" class="clearfix col-md-6">
-          <li><a id="facebook-link" target="_blank" title="Facebook" href=""></a></li>
-          <li><a id="skype-link" target="_blank" title="Skype" href=""></a></li>
-          <li><a id="twitter-link" target="_blank" title="Twitter" href=""></a></li>
-          <li><a id="flickr-link" target="_blank" title="Flickr" href=""></a></li>
-          <li><a id="vimeo-link" target="_blank" title="Vimeo" href=""></a></li>
-          <li><a id="rss-link" target="_blank" title="Dribbble" href=""></a></li>
-        </ul>-->
-      </div>
-    </div>
-    <div id="nav_container">
-      <div class="container clearfix">
-        <div class="sixteen columns nav-border">
-          <!-- TOP MENU -->
-          <nav id="main-nav">
-            <ul class="sf-menu">
-              <?php print_header_menu($content_parent_id = 0, $content_hierarchy_level_start = 2, $number_of_hierarchy_levels = 4);?>
-            </ul>
-          </nav>
-          <div class="search-container hidden-xs hidden-sm clearfix">
-            <form action="#" class="search-form">
-              <input type="text" name="search-form-txt" class="search-text" onblur="if (this.value == '') this.value = 'Search';" onfocus="if (this.value == 'Search') this.value = '';" value="Search">
-              <input type="submit" value="" class="search-submit" name="submit">
-            </form>
-          </div>
+      <div class="sixteen columns nav-border">
+        <!-- TOP MENU -->
+        <nav id="main-nav">
+          <ul class="sf-menu">
+            <?php print_header_menu($content_parent_id = 0, $content_hierarchy_level_start = 2, $number_of_hierarchy_levels = 4);?>
+          </ul>
+        </nav>
+        <div class="search-container hidden-xs hidden-sm clearfix">
+          <form action="#" class="search-form">
+            <input type="text" name="search-form-txt" class="search-text" onblur="if (this.value == '') this.value = 'Search';" onfocus="if (this.value == 'Search') this.value = '';" value="Search">
+            <input type="submit" value="" class="search-submit" name="submit">
+          </form>
         </div>
       </div>
     </div>
-    <input type="hidden" name="current_page_path_string" id="current_page_path_string" value="<?=$_SERVER['REQUEST_URI'];?>">
-    <input type="hidden" name="current_lang" id="current_lang" value="<?=$current_lang;?>">
-  </header>
+  </div>
+  <input type="hidden" name="current_page_path_string" id="current_page_path_string" value="<?=$_SERVER['REQUEST_URI'];?>">
+  <input type="hidden" name="current_lang" id="current_lang" value="<?=$current_lang;?>">
+</header>
 <?php
-    //echo"<pre>";print_r($_COOKIE);
-  } //function print_html_header
+  //echo"<pre>";print_r($_COOKIE);
+} //function print_html_header
   
-  
-  function print_html_user_profile_menu() {
-    global $current_lang;
+function print_html_user_profile_menu() {
+  global $current_lang;
 ?>
-      <ul class="h4_cart">
-        <li<?php if(is_active_page("user-profile-settings")) echo ' class="active"';?>>
-          <a href="/<?=$current_lang;?>/user-profiles/user-profile-settings">
-            <img src="/site/images/ico/settings.png" class="icon-cart">Настройки
-          </a>
-        </li>
-        <li<?php if(is_active_page("user-profile-orders")) echo ' class="active"';?>>
-          <a href="/<?=$current_lang;?>/user-profiles/user-profile-orders">
-            <img src="/site/images/ico/user_awake_checkmark.png" class="icon-cart">Поръчки
-          </a>
-        </li>
-        <li<?php if(is_active_page("user-profile-addresses") || is_active_page("user-profile-address-add") || is_active_page("user-profile-address-edit")) echo ' class="active"';?>>
-          <a href="/<?=$current_lang;?>/user-profiles/user-profile-addresses">
-            <img src="/site/images/ico/delivery.png" class="icon-cart">Адреси
-          </a>
-        </li>
-<!--        <li<?php if(is_active_page("user-profile-inquiry")) echo ' class="active"';?>>
-          <a href="/<?=$current_lang;?>/user-profiles/user-profile-inquiry">
-            <img src="/site/images/ico/mail_2_w.png" class="icon-cart">Обратна връзка
-          </a>
-        </li>-->
-        <hr class="featurette-divider">
-      </ul>
+    <ul class="h4_cart">
+      <li<?php if(is_active_page("user-profile-settings")) echo ' class="active"';?>>
+        <a href="/<?=$current_lang;?>/user-profiles/user-profile-settings">
+          <img src="/site/images/ico/settings.png" class="icon-cart">Настройки
+        </a>
+      </li>
+      <li<?php if(is_active_page("user-profile-orders")) echo ' class="active"';?>>
+        <a href="/<?=$current_lang;?>/user-profiles/user-profile-orders">
+          <img src="/site/images/ico/user_awake_checkmark.png" class="icon-cart">Поръчки
+        </a>
+      </li>
+      <li<?php if(is_active_page("user-profile-addresses") || is_active_page("user-profile-address-add") || is_active_page("user-profile-address-edit")) echo ' class="active"';?>>
+        <a href="/<?=$current_lang;?>/user-profiles/user-profile-addresses">
+          <img src="/site/images/ico/delivery.png" class="icon-cart">Адреси
+        </a>
+      </li>
+      <hr class="featurette-divider">
+    </ul>
 <?php  
-  }
+}
   
 function print_html_footer() {
   global $languages;
@@ -249,28 +240,24 @@ function print_html_footer() {
      <div class="container clearfix">
        <div class="four columns m-bot-25">
          <h3 class="caption">KANISCO</h3>
-         <p>Pellentesque tristique volutpat nunc, id rhoncus augue tristique sed. Donec id elit non mi porta gravida at eget. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-         <a class="right r-m-plus" href="portfolio.html">
-           <span class="bold">Read</span> More
+         <p><?=$languages[$current_lang]['text_company_footer'];?></p>
+         <a class="right r-m-plus" href="<?php if($current_lang == "bg") echo "/bg/за-нас/история"; else echo "/en/about-us/our-history" ?>">
+           <span class="bold"><?=$languages[$current_lang]['btn_read'];?></span> <?=$languages[$current_lang]['btn_more'];?>
          </a>
        </div>
-       <div class="four columns m-bot-25">
-         <h3 class="caption"><span class="bold">LATEST</span> FROM BLOG</h3>
+       <div class="eight columns m-bot-25">
+         <h3 class="caption"><span class="bold"><?=$languages[$current_lang]['header_lastest'];?></span> <?=$languages[$current_lang]['header_lastest_news'];?></h3>
          <ul class="latest-post">
            <?php list_news_in_footer("2");?>
          </ul>
        </div>
        <div class="four columns m-bot-25">
-         <h3 class="caption"><span class="bold">LATEST</span> TWEETS</h3>
-         <div class="tweet"></div>
-       </div>
-       <div class="four columns m-bot-25">
-         <h3 class="caption"><span class="bold">CONTACT</span> INFO</h3>
-         <p>Pellentesque tristique volutpat nunc, rhoncus augue tristique sed.</p>
-         <div title="Location" class="icon_loc">Corporation, Inc. 123 Aolsom Ave, Suite 600 New York, CA 246012</div>
-         <div title="Phone" class="icon_phone">(123) 456-7890<br>(123) 987-6540</div>
-         <div title="Email" class="icon_mail"><a href="#">email@fincom.com</a></div>	
+         <h3 class="caption"><span class="bold"><?=$languages[$current_lang]['header_for_contact'];?></span> <?=$languages[$current_lang]['header_contact'];?></h3>
+         <!--<p>Pellentesque tristique volutpat nunc, rhoncus augue tristique sed.</p>-->
+         <div title="Location" class="icon_loc"><?=$languages[$current_lang]['text_company_address'];?></div>
+         <div title="Phone" class="icon_phone">(+359 2) 983 14 10 <br>(+359 2) 988 78 80 <br>(+359 888) 11 91 85</div>
+         <div title="Fax" class="icon_fax"><i class="fa fa-fax"></i>(+359 2) 988 78 80</div>
+         <div title="Email" class="icon_mail"><a href="mailto:kanisco@kanisco.com">kanisco@kanisco.com</a></div>	
        </div>
      </div>
    </div>
@@ -279,16 +266,12 @@ function print_html_footer() {
        <div class="eight columns">
          <nav class="clearfix" id="footer-nav">
            <ul class="footer-menu">
-             <li><a href="index.html">Home</a></li>
-             <li><a href="elements.html">Features</a></li>
-             <li><a href="portfolio.html">Portfolio</a></li>
-             <li><a href="blog.html">Blog</a></li>
-             <li><a href="contact.html">Contact</a></li>
+             <?php print_footer_menu($content_parent_id = 0, $content_hierarchy_level_start = 2, $number_of_hierarchy_levels = 1) ?>
            </ul>
          </nav>
        </div>
        <div class="eight columns right-text">
-         Copyright &copy; Optimas - Template by <a class="author" href="http://themeforest.net/user/abcgomel/portfolio">AbcGomel</a>
+         <?=$languages[$current_lang]['text_rights'];?> &copy; <?=date("Y");?>
        </div>
      </div>
    </div>
@@ -318,21 +301,23 @@ function print_newsletter_form() {
 	</div>
 	<div class="container m-bot-35 clearfix">
 		<div class="sixteen columns">
-      <div class="content-container-white nl-img-container">
-        <img src="/site/images/mail-big-icon.png" alt="mail">
+      <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs no_padding">
+        <div class="content-container-white nl-img-container col-lg-2 col-md-2 col-sm-2">
+          <img src="/site/images/mail-big-icon.png" width="48" height="34" alt="mail">
+        </div>
+        <div class="side-box-bg news-letter col-lg-1 col-md-1 col-sm-1">&nbsp;</div>
+        <div class="nl-text-container part col-lg-9 col-md-9 col-sm-9">
+          <div class="nl-text"><?=$languages[$current_lang]['text_newsletter'];?></div>
+        </div>
       </div>
-      <div class="side-box-bg news-letter">&nbsp;</div>
-      <div class="nl-text-container part hidden-xs">
-        <div class="nl-text"><?=$languages[$current_lang]['text_newsletter'];?></div>
-      </div>	
-      <div class="nl-form-container">
+      <div class="nl-form-container col-lg-6 col-md-6 col-sm-6 col-xs-12 no_padding">
         <form name="newsletterform" method="post" action="/site/subscribe.php" class="newsletterform">
-          <div class="nl-form-part-container">
+          <div class="nl-form-part-container col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <input type="email" required="required" id="newsletter_email" name="email" placeholder="<?=$languages[$current_lang]['text_enter_email'];?>">
             <input type="hidden" name="current_lang" value="<?=$current_lang;?>">
           </div>
-          <div class="side-box-bg news-letter"></div>
-          <button type="submit" class="button large"><?=$languages[$current_lang]['btn_newslettter'];?></button>
+          <div class="side-box-bg news-letter col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+          <button type="submit" class="button large col-lg-5 col-md-5 col-sm-5 col-xs-5"><?=$languages[$current_lang]['btn_newslettter'];?></button>
         </form>
       </div>
 		</div>
@@ -1961,7 +1946,7 @@ function list_news_in_footer($news_count = false) {
       <li>
         <h4 class="title-post-footer"><a href="<?=$news_details_link;?>"><?=$news_title;?></a></h4>
         <h4 class="date-post-footer"><?="$news_post_date_day $news_post_date_month $news_post_date_year";?></h4>
-        <?=$news_summary;?>
+        <p><?=$news_summary;?></p>
       </li>
 <?php
     }
@@ -2198,8 +2183,8 @@ function list_news_products_categories_on_index_page($news_cat_parent_id,$news_c
             <a class="a-invert" href="<?=$news_category_link;?>" ><?=$news_cat_name;?></a>
           </div>
         </div>
-        <div class="under-box-bg"></div>		
-        <div class="content-container-white lw-item-text-container">
+        <div class="under-box-bg hidden"></div>		
+        <div class="content-container-white lw-item-text-container hidden">
           <p><?=$news_cat_name;?></p>
         </div>
       </li>

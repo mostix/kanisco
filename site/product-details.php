@@ -158,19 +158,19 @@ print_html_header($pd_name, $pd_meta_description, $pd_meta_keywords, $additional
       <div class="under-box-bg"></div>
 
       <div id="pd_overview" class="content-container-white blog-text-container">
-        <p><?= $pd_overview; ?></p>
+        <div><?= $pd_overview; ?></div>
       </div>	
 <?php if(!is_null($pd_novations) && !empty($pd_novations)) { ?>
       <div id="pd_novations" class="content-container-white blog-text-container">
-        <p><?= $pd_novations; ?></p>
+        <div><?= $pd_novations; ?></div>
       </div>
 <?php } ?>
       <div id="pd_system_requirements" class="content-container-white blog-text-container">
-        <p><?= $pd_system_requirements; ?></p>
+        <div><?= $pd_system_requirements; ?></div>
       </div>
 <?php if(!is_null($pd_downloads) && !empty($pd_downloads)) { ?>
       <div id="pd_downloads" class="content-container-white blog-text-container">
-        <p><?= $pd_downloads; ?></p>
+        <div><?= $pd_downloads; ?></div>
       </div>
 <?php } ?>
     </div>

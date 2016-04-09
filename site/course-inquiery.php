@@ -29,9 +29,9 @@
   
   mysqli_query($db_link,"BEGIN");
   
-//  $to_kanisco = "kanisco@kanisco.com";
+  $to_kanisco = "kanisco@kanisco.com";
 //  $to_kanisco = "idimitrov@eterrasystems.com";
-  $to_kanisco = "monywhy@gmail.com";
+//  $to_kanisco = "monywhy@gmail.com";
 //  $to_customer = $customer_email;
 
   $subject_kanisco = $languages[$current_lang]['email_inquiry_subject_text']." за $cd_name";

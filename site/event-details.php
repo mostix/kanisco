@@ -78,7 +78,7 @@
     $image_dimensions = @$image_params[3];
   }
   
-  $body_class = "single single-tribe_events postid-$event_id tribe-filter-live  tribe-events-uses-geolocation events-single tribe-events-style-full tribe-theme-fitnesszone page-template-tpl-events-php singular no-js";
+  $body_class = "event_details postid_$event_id";
   print_html_header($event_name, $event_summary, "",$additional_script = false, $body_class);
   //echo "<pre>";print_r($_SERVER);
   //echo "<pre>";print_r($_SESSION);
@@ -122,9 +122,9 @@
           </div>
         </article>
         <div id="map"></div>
-        <a href="<?=$current_event_page;?>">
+<!--        <a href="<?=$current_event_page;?>">
           &laquo; <?=$languages[$current_lang]['btn_back_to_all_events'];?>
-        </a>
+        </a>-->
       </section>
         
     </div>

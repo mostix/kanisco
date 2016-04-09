@@ -162,7 +162,7 @@
         $pd_novations = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['pd_novations'][$language_id]));
         $pd_system_requirements = mysqli_real_escape_string($db_link, $_POST['pd_system_requirements'][$language_id]);
         $pd_downloads = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['pd_downloads'][$language_id]));
-        $pd_news_url = mysqli_real_escape_string($db_link, $_POST['pd_news_url'][$language_id]);
+        $pd_news_url = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['pd_news_url'][$language_id]));
         $pd_tags = "NULL";
 
         $query_insert_pd_description = "INSERT INTO `product_description`(`product_id`, 
@@ -191,7 +191,7 @@
                                                                           $pd_meta_description,
                                                                           $pd_meta_keywords,
                                                                           $pd_tags)";
-        //echo $query_insert_pd_description;
+        echo $query_insert_pd_description;
         $all_queries .= "<br>".$query_insert_pd_description;
         $result_insert_pd_description = mysqli_query($db_link, $query_insert_pd_description);
         if(mysqli_affected_rows($db_link) <= 0) {
@@ -242,7 +242,7 @@
         //echo $query_insert_default_img;
         $result_insert_default_img = mysqli_query($db_link, $query_insert_default_img);
         if(mysqli_affected_rows($db_link) <= 0) {
-          echo $languages[$current_lang]['sql_error_insert']." - 5 `product_image` ".mysqli_error($db_link);
+          echo $languages[$current_lang]['sql_error_insert']." - 5 default_product_image `product_image` ".mysqli_error($db_link);
           mysqli_query($db_link,"ROLLBACK");
           exit;
         }
@@ -251,7 +251,7 @@
           move_uploaded_file($default_product_image_tmp_name, $upload_path.$default_product_image_name);
         }
         else {
-          echo $languages[$current_lang]['sql_error_insert']." - 5 image $default_product_image_name ($default_product_image_tmp_name) - ".mysqli_error($db_link);
+          echo $languages[$current_lang]['sql_error_insert']." - 6 default_product_image upload image $default_product_image_name ($default_product_image_tmp_name) - ".mysqli_error($db_link);
           mysqli_query($db_link,"ROLLBACK");
           exit;
         }
@@ -331,7 +331,7 @@
             //echo $query_insert_img;
             $result_insert_img = mysqli_query($db_link, $query_insert_img);
             if(mysqli_affected_rows($db_link) <= 0) {
-              echo $languages[$current_lang]['sql_error_insert']." - 6 `product_image` ".mysqli_error($db_link);
+              echo $languages[$current_lang]['sql_error_insert']." - 7 `product_image` ".mysqli_error($db_link);
               mysqli_query($db_link,"ROLLBACK");
               exit;
             }
@@ -340,7 +340,7 @@
               move_uploaded_file($product_image_tmp_name, $upload_path.$product_image_name);
             }
             else {
-              echo $languages[$current_lang]['sql_error_insert']." - 6 image $product_image_name ($product_image_tmp_name) - ".mysqli_error($db_link);
+              echo $languages[$current_lang]['sql_error_insert']." - 8 upload image $product_image_name ($product_image_tmp_name) - ".mysqli_error($db_link);
               mysqli_query($db_link,"ROLLBACK");
               exit;
             }
@@ -394,15 +394,12 @@
       } //if(isset($_FILES['product_image']))
       //handling the product image
     
-//      echo $all_queries;mysqli_query($db_link,"ROLLBACK");exit;
+      //echo $all_queries;mysqli_query($db_link,"ROLLBACK");exit;
 
       mysqli_query($db_link,"COMMIT");
-    ?>
-      <!--<script>window.location.href="<?php echo '/_admin/catalog/products-by-category.php?category_ids_list='.$_GET['category_ids_list'];?>"</script>-->
-    <?php
+   
       header('Location: /_admin/catalog/products-by-category.php?category_ids_list='.$_GET['category_ids_list']);
     }//if(empty($product_errors))
-//    print_r($product_errors);
     
   }//if(isset($_POST['submit_product']))
   
