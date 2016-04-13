@@ -5,13 +5,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
 
 body {
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 18px;
 	color: #808080;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
 	font-weight: normal;
 	background-color: #fff;
-	background: url(../images/bg-body.jpg) repeat scroll 0 0 transparent;
+	background: #efefef;
+	/*background: url(../images/bg-body.jpg) repeat scroll 0 0 transparent;*/
 	-webkit-font-smoothing: antialiased !important;
 	-webkit-text-size-adjust: 100% !important;
 }
@@ -661,6 +662,7 @@ a.r-m-plus-small:hover {
 .nl-form-container {
 	float:left;
 	height:62px !important;
+    margin-left: -1px;
 }
 .newsletterform input{
 	width: 95%;
@@ -913,7 +915,7 @@ border:1px solid #d1d1d1;
 	float: left;
 	color:#5a5a5a;
 /*	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;*/
-	font-size:16px;
+	font-size:15px;
 	line-height:18px;
 	margin-bottom:0;
 	padding:15px; 

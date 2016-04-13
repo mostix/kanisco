@@ -138,7 +138,7 @@ function print_html_header($content_meta_title, $content_meta_description, $cont
 <!-- HEADER -->
 <header id="header">
   <div class="container">
-    <div class="top-header">
+    <div class="top-header sixteen columns">
       <div class="info-top col-lg-4 col-md-4 col-sm-4 col-xs-4 no_padding">
         <div id="choose_language">
           <?php print_header_language_menu();?>
@@ -1484,7 +1484,7 @@ function list_upcoming_courses($count = false) {
       $course_date = date("d.m.Y", strtotime($course_row['course_date']));
       $course_duration = $course_row['course_duration'];
       $course_cost = $course_row['course_cost'];
-      $courses_details_link = "/$current_lang/$content_pretty_url/$cd_name_url?coid=$course_id";
+      $course_subscribe_link = "/$current_lang/$content_pretty_url/$cd_name_url?coid=$course_id&scrb=1";
 ?>
       <tr>
         <td class="text-center"><?=$course_date;?></td>
@@ -1492,7 +1492,7 @@ function list_upcoming_courses($count = false) {
         <td class="text-center"><?=$course_duration;?></td>
         <td class="text-center"><?=$course_cost;?> лв.</td>
         <td class="text-center">
-          <a href="#" class="button medium"><?=$languages[$current_lang]['btn_newslettter'];?></a>
+          <a href="<?=$course_subscribe_link;?>" class="button medium"><?=$languages[$current_lang]['btn_newslettter'];?></a>
         </td>
       </tr>
 <?php
@@ -1564,15 +1564,15 @@ function list_all_courses($count = false) {
       $course_image_cat_thumb = $course_images_folder.$course_image_path_name."_thumb.".$course_image_cat_thum_exstension;
       @$thumb_image_params = getimagesize($_SERVER['DOCUMENT_ROOT'].$course_image_cat_thumb);
       $thumb_image_dimensions = $thumb_image_params[3];
-      $courses_details_link = "/$current_lang/$content_pretty_url/$cd_name_url?coid=$course_id";
+      $course_details_link = "/$current_lang/$content_pretty_url/$cd_name_url?coid=$course_id";
 ?>
       <li class="one-third column m-bot-25">
         <div class="content-container-white">
           <div class="view view-first">
-            <a href="<?=$courses_details_link;?>"><img src="<?=$course_image_cat_thumb?>" alt="<?=$cd_name;?>" width="298" height="176" ></a>
+            <a href="<?=$course_details_link;?>"><img src="<?=$course_image_cat_thumb?>" alt="<?=$cd_name;?>" width="298" height="176" ></a>
           </div>
           <div class="lw-item-caption-container" style="border-top: 1px solid #dadada;">
-            <a class="a-invert" href="<?=$courses_details_link;?>" ><?=$cd_name;?></a>
+            <a class="a-invert" href="<?=$course_details_link;?>" ><?=$cd_name;?></a>
           </div>
         </div>
       </li>

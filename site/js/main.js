@@ -321,7 +321,7 @@ $(document).ready(function(){
   //FORM VALIDATION JAVASCRIPT----------------------------------------------------
   $('form#course-inquiery-form').submit(function(event) {
       var hasError = false;
-      $('.requiredField').each(function() {
+      $('form#course-inquiery-form .requiredField').each(function() {
           var parent = $(this).parent();
           if(jQuery.trim($(this).val()) == '') {
               //console.log("empty");
@@ -357,6 +357,53 @@ $(document).ready(function(){
           $.post($(this).attr('action'),formInput, function(data){
               $('form#course-inquiery-form').slideUp("fast", function() {
                 $("#cd_make_inquiery p.success").removeClass("hidden");
+              });
+          });
+      }
+
+      event.preventDefault();
+
+    });
+
+  //FORM VALIDATION JAVASCRIPT----------------------------------------------------
+  $('form#course-sign-up-form').submit(function(event) {
+      var hasError = false;
+      $('form#course-sign-up-form .requiredField').each(function() {
+          var parent = $(this).parent();
+          if(jQuery.trim($(this).val()) == '') {
+              //console.log("empty");
+              if($(this).hasClass('email')) {
+                if(!parent.find('.invalid_email').hasClass('hidden')) {
+                  parent.find('.invalid_email').addClass('hidden');
+                }
+              }
+              parent.find('.error').removeClass('hidden');
+              hasError = true;
+          } else if($(this).hasClass('email')) {
+              var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+              if(!emailReg.test(jQuery.trim($(this).val()))) {
+                //console.log("invalid_email");
+                parent.find('.error').addClass('hidden');
+                parent.find('.invalid_email').removeClass('hidden');
+                hasError = true;
+              }
+              else {
+                parent.find('.error').addClass('hidden');
+                parent.find('.invalid_email').addClass('hidden');
+              }
+          }
+          else {
+            parent.find('.error').addClass('hidden');
+          }
+      });
+      if(!hasError) {
+          $('form#course-sign-up-form input.submit').fadeOut('normal', function() {
+              $(this).parent().append('');
+          });
+          var formInput = $(this).serialize();
+          $.post($(this).attr('action'),formInput, function(data){
+              $('form#course-sign-up-form').slideUp("fast", function() {
+                $("#cd_sign_up p.success").removeClass("hidden");
               });
           });
       }

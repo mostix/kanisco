@@ -27,8 +27,6 @@
     $current_lang =  $_POST['current_lang'];
   }
   
-  mysqli_query($db_link,"BEGIN");
-  
   $to_kanisco = "kanisco@kanisco.com";
 //  $to_kanisco = "idimitrov@eterrasystems.com";
 //  $to_kanisco = "monywhy@gmail.com";

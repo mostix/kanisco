@@ -9,7 +9,8 @@ b, strong {
   font-weight: bold; 
 }
 .top-header {
-  padding: 2px 10px 4px;
+  margin-bottom: 5px;
+  padding: 2px 0 4px;
 }
 .info-top ul {
   padding: 1px 0 0;
@@ -535,11 +536,13 @@ ul.course-details {
 .course-details li:first-child{
 	margin-top:0;
 }
-#course-inquiery-form label {
+#course-inquiery-form label,
+#course-sign-up-form label {
     visibility: hidden;
     display: none;
 }
-#course-inquiery-form .iconed-box {
+#course-inquiery-form .iconed-box,
+#course-sign-up-form .iconed-box {
   padding-left: 60px;
   width: 220px;
 }
