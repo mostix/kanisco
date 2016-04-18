@@ -299,7 +299,7 @@
           "error_create_customer_recaptcha_words" => "Двете думи не съвпадат!",
           "remove_product_from_cart_warning" => "Сигурни ли сте, че искате да премахнете този продукт от кошницата си?",
           "customer_captcha_error" => "Грешно въведени цифри!",
-          "required_field_error" => "Това полето е задължително и не може да бъде празно",
+          "required_field_error" => "Това полето е задължително",
           "customer_login_error" => "Грешно въведен email или парола!",
           "error_user_profile_forgotten_password" => "Този email адрес не беше намерен в нашата база данни. Моля уверете се, че сте го изписали правилно.",
           "error_email_already_in_newsletter_list" => "Този email адрес вече е записан за нашия бюлетин",

@@ -361,7 +361,7 @@
           
           <div>
             <label for="content_meta_title" class="title"><?=$languages[$current_lang]['header_content_meta_title'];?></label>
-            <input type="text" name="content_meta_title" id="content_meta_title" onkeyup="CountCharacters(this,'100')" style="width: 60%;" value="<?php if(isset($content_meta_title)) echo $content_meta_title;?>" />
+            <input type="text" name="content_meta_title" id="content_meta_title" onkeyup="CountCharacters(this,'55')" style="width: 60%;" value="<?php if(isset($content_meta_title)) echo $content_meta_title;?>" />
             <span class="info"><b></b></span>
             <span class="warning red" style="display: none;"><b><?=$languages[$current_lang]['content_meta_characters_warning'];?></b></span>
             <div class="clearfix"></div>

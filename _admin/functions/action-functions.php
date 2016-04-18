@@ -402,6 +402,107 @@ function get_category_lаst_child_order_value($category_id) {
   return $category_sort_order;
 }
 
+function check_if_category_has_children($category_id) {
+  
+  global $db_link;
+  
+  $query_category_has_children = "SELECT `categories`.`category_has_children`
+                                  FROM `categories`
+                                  WHERE `categories`.`category_id` = '$category_id'";
+  //echo $query_category_has_children;
+  $result_category_has_children = mysqli_query($db_link, $query_category_has_children);
+  if(!$result_category_has_children) echo mysqli_error($db_link);
+  if(mysqli_num_rows($result_category_has_children) > 0) {
+    $row_category_has_children = mysqli_fetch_assoc($result_category_has_children);
+    $category_has_children = $row_category_has_children['category_has_children'];
+    mysqli_free_result($result_category_has_children);
+  }
+  if($category_has_children == 1) return true;
+  else return false;
+}
+
+function update_category_children_hierarchy_ids($category_parent_id, $category_parent_hierarchy_ids_list, $category_parent_hierarchy_level) {
+  
+  global $db_link;
+  global $languages;
+  global $current_lang;
+  
+  $query_select_children_id = "SELECT `category_id` FROM `categories` WHERE `category_parent_id` = '$category_parent_id'";
+  $result_select_children_id = mysqli_query($db_link, $query_select_children_id);
+  if(!$result_select_children_id) echo mysqli_error($db_link);
+  if(mysqli_num_rows($result_select_children_id) > 0) {
+    $category_hierarchy_level = $category_parent_hierarchy_level+1;
+    while($row_children_ids = mysqli_fetch_assoc($result_select_children_id)) {
+      $category_id = $row_children_ids['category_id'];
+      $category_hierarchy_ids_list = "$category_parent_hierarchy_ids_list.$category_id";
+      
+      $query_update_category = "UPDATE `categories` 
+                                SET `category_hierarchy_ids`='$category_hierarchy_ids_list',`category_hierarchy_level`='$category_hierarchy_level' 
+                                WHERE `category_id` = '$category_id'";
+      //echo $query_update_category."<br>";
+      $result_update_category = mysqli_query($db_link, $query_update_category);
+      if(!$result_update_category) {
+        echo $languages[$current_lang]['sql_error_update']." - ".mysqli_error($db_link);
+        mysqli_query($db_link,"ROLLBACK");
+        exit;
+      }
+       
+      $category_has_children = check_if_category_has_children($category_id); // this function returns true or false
+      if($category_has_children) {
+        // if true we need to update the children's `category_hierarchy_ids`
+        update_category_children_hierarchy_ids($category_id, $category_hierarchy_ids_list, $category_hierarchy_level);
+      }
+    }
+  }
+}
+
+function update_category_children_hierarchy_paths($category_parent_id, $category_parent_hierarchy_path, $language_id) {
+  
+  global $db_link;
+  global $languages;
+  global $current_lang;
+  
+  $query_select_children_id = "SELECT `category_id` FROM `categories` WHERE `category_parent_id` = '$category_parent_id'";
+  //echo "$query_select_children_id<br>";
+  $result_select_children_id = mysqli_query($db_link, $query_select_children_id);
+  if(!$result_select_children_id) echo mysqli_error($db_link);
+  if(mysqli_num_rows($result_select_children_id) > 0) {
+    while($row_children_ids = mysqli_fetch_assoc($result_select_children_id)) {
+      
+      $category_id = $row_children_ids['category_id'];
+      
+      $query_select_cd_pretty_url = "SELECT `cd_pretty_url` FROM `category_descriptions` 
+                                      WHERE `category_id` = '$category_id' AND `language_id` = '$language_id'";
+      //echo "$query_select_cd_pretty_url<br>";
+      $result_select_cd_pretty_url = mysqli_query($db_link, $query_select_cd_pretty_url);
+      if(!$result_select_cd_pretty_url) echo mysqli_error($db_link);
+      if(mysqli_num_rows($result_select_cd_pretty_url) > 0) {
+        $row_cd_pretty_urls = mysqli_fetch_assoc($result_select_cd_pretty_url);
+                
+        $cd_pretty_url = $row_cd_pretty_urls['cd_pretty_url'];
+        $category_hierarchy_path = "$category_parent_hierarchy_path/$cd_pretty_url";
+
+        $query_update_category = "UPDATE `category_descriptions` SET `cd_hierarchy_path`='$category_hierarchy_path' 
+                                  WHERE `category_id` = '$category_id' AND `language_id` = '$language_id'";
+        //echo $query_update_category."<br>";
+        $result_update_category = mysqli_query($db_link, $query_update_category);
+        if(!$result_update_category) {
+          echo $languages[$current_lang]['sql_error_update']." - ".mysqli_error($db_link);
+          mysqli_query($db_link,"ROLLBACK");
+          exit;
+        }
+
+        $category_has_children = check_if_category_has_children($category_id); // this function returns true or false
+        if($category_has_children) {
+          // if true we need to update the children's `category_hierarchy_path`
+          update_category_children_hierarchy_paths($category_id, $category_hierarchy_path, $language_id);
+        }
+      }
+      
+    } //while($row_children_ids)
+  }
+}
+
 function get_lаst_language_menu_order_value() {
   
   global $db_link;

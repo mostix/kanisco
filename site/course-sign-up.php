@@ -11,6 +11,9 @@
   if(isset($_POST['course_id'])) {
     $course_id = intval($_POST['course_id']);
   }
+  if(isset($_POST['course_date'])) {
+    $course_date = mysqli_real_escape_string($db_link, $_POST['course_date']);
+  }
   if(isset($_POST['cd_name'])) {
     $cd_name = mysqli_real_escape_string($db_link, $_POST['cd_name']);
   }
@@ -48,12 +51,12 @@
 //    exit;
 //  }
     
-//  $to_kanisco = "kanisco@kanisco.com";
+  $to_kanisco = "training@kanisco.com";
 //  $to_kanisco = "idimitrov@eterrasystems.com";
-  $to_kanisco = "monywhy@gmail.com";
+//  $to_kanisco = "monywhy@gmail.com";
 //  $to_customer = $customer_email;
 
-  $subject_kanisco = "Записване за $cd_name";
+  $subject_kanisco = "Записване за $cd_name | $course_date";
   
   $logo_image = "http://".$_SERVER['HTTP_HOST']."/site/images/logo.jpg";
 

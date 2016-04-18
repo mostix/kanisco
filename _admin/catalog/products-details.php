@@ -264,7 +264,7 @@
             
             <div>
               <label for="product_meta_title" class="title"><?=$languages[$current_lang]['header_product_meta_title'];?></label>
-              <input type="text" name="pd_meta_title[<?=$language_id;?>]" id="pd_meta_title_<?=$language_id;?>" onkeyup="CountCharacters(this,'100')" style="width: 60%;" value="<?=$pd_meta_title;?>" />
+              <input type="text" name="pd_meta_title[<?=$language_id;?>]" id="pd_meta_title_<?=$language_id;?>" onkeyup="CountCharacters(this,'55')" style="width: 60%;" value="<?=$pd_meta_title;?>" />
               <span class="info"><b></b></span>
               <span class="warning red" style="display: none;"><b><?=$languages[$current_lang]['meta_characters_warning'];?></b></span>
               <div class="clearfix"></div>

@@ -391,7 +391,7 @@
             
             <div>
               <label for="category_meta_title" class="title"><?=$languages[$current_lang]['header_category_meta_title'];?></label>
-              <input type="text" name="cd_meta_title[<?=$language_id;?>]" id="cd_meta_title" onkeyup="CountCharacters(this,'100')" style="width: 60%;" value="<?php if(isset($_POST['cd_meta_title'][$language_id])) echo $_POST['cd_meta_title'][$language_id];?>" />
+              <input type="text" name="cd_meta_title[<?=$language_id;?>]" id="cd_meta_title" onkeyup="CountCharacters(this,'55')" style="width: 60%;" value="<?php if(isset($_POST['cd_meta_title'][$language_id])) echo $_POST['cd_meta_title'][$language_id];?>" />
               <span class="info"><b></b></span>
               <span class="warning red" style="display: none;"><b><?=$languages[$current_lang]['category_meta_characters_warning'];?></b></span>
               <div class="clearfix"></div>

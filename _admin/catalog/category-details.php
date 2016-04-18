@@ -129,7 +129,6 @@
      * wich means $current_category_parent_id == 0 and $category_parent_id != 0
      * in case the user has choosen new parent for the category
      * we need to update the new category's column `category_has_children` to 1, wich means it has children
-     * we need to check if the old parent has any children left, and if not - setting it's `category_has_children` parameter to 0
      * we also need to update the category's `category_hierarchy_ids` and `category_sort_order` columns
     */
     
@@ -192,8 +191,9 @@
         exit;
       }
       
-      //we have to check if the old parent has any children left
-      //if not - setting it's `category_has_children` parameter to 0
+      /*
+       * we need to check if the old parent has any children left, and if not - setting it's `category_has_children` parameter to 0
+       */
       if($current_category_parent_id != 0 && $current_category_parent_id != $category_parent_id) {
         $query_categories_siblings = "SELECT `category_id` FROM `categories` WHERE `category_parent_id` = '$current_category_parent_id'";
         $all_queries .= $query_categories_siblings."<br>";
@@ -213,12 +213,19 @@
         }
       }
 
-      //if the category has new parent we have to reorder the category's old siblings, if any at all,
-      //that have higher `category_sort_order` value and move them with one forward
+      //if the category has new parent we have to update it's children's `category_hierarchy_ids` (if any)
+      if($current_category_parent_id != $category_parent_id) {
+        update_category_children_hierarchy_ids($current_category_id, $category_hierarchy_ids_list, $category_hierarchy_level);
+      }
+      
+      /*
+       * if the category has new parent we have to reorder the category's old siblings, if any at all,
+       * that have higher `category_sort_order` value and move them with one forward
+       */
       if($current_category_parent_id != $category_parent_id) {
         $query_categories_for_reorder = "SELECT `category_id` FROM `categories` 
                                         WHERE `category_parent_id` = '$current_category_parent_id' AND `category_hierarchy_level` = '$current_category_hierarchy_level' 
-                                         AND `category_sort_order` > '$current_category_sort_order'";
+                                          AND `category_sort_order` > '$current_category_sort_order'";
         $all_queries .= $query_categories_for_reorder."<br>";
         $result_categories_for_reorder = mysqli_query($db_link, $query_categories_for_reorder);
         if(!$result_categories_for_reorder) echo mysqli_error($db_link);
@@ -241,57 +248,114 @@
       
       foreach($cd_names_array as $language_id => $cd_name) {
         
-        $cd_name = mysqli_real_escape_string($db_link, $cd_name);
-        $cd_pretty_url = $cd_pretty_urls_array[$language_id];
-        $current_cd_pretty_url = $current_cd_pretty_urls_array[$language_id];
-        
-        if($current_category_parent_id != $category_parent_id) {
-          if($category_parent_id == 0) {
-            $cd_hierarchy_path = $cd_pretty_url;
-          }
-          else {
-            $cd_hierarchy_path = get_categories_hierarchy_path($category_parent_id,$language_id)."/$cd_pretty_url";
-          }
-        }
-        else {
-          //if the category doesn't have new parent set, but the `cd_pretty_url` was changed
-          //we need to update it's `category_hierarchy_path`
-          if($current_cd_pretty_url != $cd_pretty_url) { //echo $cd_pretty_url." != ".$current_cd_pretty_url." - dafaq<br>";
+        $query_check_for_record = "SELECT `category_id` FROM `category_descriptions` WHERE `category_id` = '$current_category_id' AND `language_id` = '$language_id'";
+        $all_queries .= "<br>\n".$query_check_for_record;
+        $result_check_for_record = mysqli_query($db_link, $query_check_for_record);
+        if(!$result_check_for_record) echo mysqli_error($db_link);
+        if(mysqli_num_rows($result_check_for_record) > 0) {
+          
+          $cd_name = mysqli_real_escape_string($db_link, $cd_name);
+          $cd_pretty_url = $cd_pretty_urls_array[$language_id];
+          $current_cd_pretty_url = $current_cd_pretty_urls_array[$language_id];
+
+          if($current_category_parent_id != $category_parent_id) {
             if($category_parent_id == 0) {
               $cd_hierarchy_path = $cd_pretty_url;
             }
             else {
               $cd_hierarchy_path = get_categories_hierarchy_path($category_parent_id,$language_id)."/$cd_pretty_url";
-            } 
+            }
+            update_category_children_hierarchy_paths($current_category_id, $cd_hierarchy_path, $language_id);
           }
-        }
-        
-        $cd_pretty_url = mysqli_real_escape_string($db_link, $cd_pretty_urls_array[$language_id]);
-        $current_cd_pretty_url = mysqli_real_escape_string($db_link, $current_cd_pretty_urls_array[$language_id]);
-        $cd_description = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_descriptions_array[$language_id]));
-        $cd_meta_title = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_meta_titles_array[$language_id]));
-        $cd_meta_description = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_meta_descriptions_array[$language_id]));
-        $cd_meta_keywords = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_meta_keywords_array[$language_id]));
+          else {
+            /*
+            * if the category doesn't have new parent set, but the `cd_pretty_url` was changed
+            * we need to update it's `category_hierarchy_path` and check if it has children and if so update it's children's `cd_hierarchy_path`
+            */
+            if($current_cd_pretty_url != $cd_pretty_url) {
+              if($category_parent_id == 0) {
+                $cd_hierarchy_path = $cd_pretty_url;
+              }
+              else {
+                $cd_hierarchy_path = get_categories_hierarchy_path($category_parent_id,$language_id)."/$cd_pretty_url";
+              }
+              update_category_children_hierarchy_paths($current_category_id, $cd_hierarchy_path, $language_id);
+            }
+          }
 
-        $query_update_cd_description = "UPDATE `category_descriptions` SET `cd_name` = '$cd_name',";
-        if($current_cd_pretty_url != $cd_pretty_url) {
-                                          $query_update_cd_description .= "`cd_pretty_url` = '$cd_pretty_url',";
-        }
-        if(($current_category_parent_id != $category_parent_id) || ($current_cd_pretty_url != $cd_pretty_url)) {
-                                          $query_update_cd_description .= "`cd_hierarchy_path`='$cd_hierarchy_path',";
-        }
-                                          $query_update_cd_description .= "`cd_description` = $cd_description, 
-                                                                          `cd_meta_title` = $cd_meta_title,
-                                                                          `cd_meta_description` = $cd_meta_description, 
-                                                                          `cd_meta_keywords` = $cd_meta_keywords
-                                      WHERE `category_id` = '$current_category_id' AND `language_id` = '$language_id'";
-        //echo $query_update_cd_description;
-        $all_queries .= "<br>".$query_update_cd_description;
-        $result_update_cd_description = mysqli_query($db_link, $query_update_cd_description);
-        if(!$result_update_cd_description) {
-          echo $languages[$current_lang]['sql_error_insert']." - 6 ".mysqli_error($db_link);
-          mysqli_query($db_link,"ROLLBACK");
-          exit;
+          $cd_pretty_url = mysqli_real_escape_string($db_link, $cd_pretty_urls_array[$language_id]);
+          $current_cd_pretty_url = mysqli_real_escape_string($db_link, $current_cd_pretty_urls_array[$language_id]);
+          $cd_description = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_descriptions_array[$language_id]));
+          $cd_meta_title = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_meta_titles_array[$language_id]));
+          $cd_meta_description = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_meta_descriptions_array[$language_id]));
+          $cd_meta_keywords = prepare_for_null_row(mysqli_real_escape_string($db_link, $cd_meta_keywords_array[$language_id]));
+
+          $query_update_cd_description = "UPDATE `category_descriptions` SET `cd_name` = '$cd_name',";
+          if($current_cd_pretty_url != $cd_pretty_url) {
+                                            $query_update_cd_description .= "`cd_pretty_url` = '$cd_pretty_url',";
+          }
+          if(($current_category_parent_id != $category_parent_id) || ($current_cd_pretty_url != $cd_pretty_url)) {
+                                            $query_update_cd_description .= "`cd_hierarchy_path`='$cd_hierarchy_path',";
+          }
+                                            $query_update_cd_description .= "`cd_description` = $cd_description, 
+                                                                            `cd_meta_title` = $cd_meta_title,
+                                                                            `cd_meta_description` = $cd_meta_description, 
+                                                                            `cd_meta_keywords` = $cd_meta_keywords
+                                        WHERE `category_id` = '$current_category_id' AND `language_id` = '$language_id'";
+          //echo $query_update_cd_description;
+          $all_queries .= "<br>".$query_update_cd_description;
+          $result_update_cd_description = mysqli_query($db_link, $query_update_cd_description);
+          if(!$result_update_cd_description) {
+            echo $languages[$current_lang]['sql_error_insert']." - 6 ".mysqli_error($db_link);
+            mysqli_query($db_link,"ROLLBACK");
+            exit;
+          }
+          
+        } //if(mysqli_num_rows($result_check_for_record) > 0)
+        else {
+          $cd_name = mysqli_real_escape_string($db_link, $cd_name);
+          $cd_pretty_url = mysqli_real_escape_string($db_link, $_POST['cd_pretty_url'][$language_id]);
+          
+          if($category_parent_id != 0) {
+            $cd_hierarchy_path = get_categories_hierarchy_path($category_parent_id,$language_id);
+            $cd_hierarchy_path = mysqli_real_escape_string($db_link, "$cd_hierarchy_path/$cd_pretty_url");
+          }
+          else {
+            $cd_hierarchy_path = mysqli_real_escape_string($db_link, $cd_pretty_url);
+          }
+          
+          $cd_meta_title = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['cd_meta_title'][$language_id]));
+          $cd_meta_keywords = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['cd_meta_keywords'][$language_id]));
+          $cd_meta_description = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['cd_meta_description'][$language_id]));
+          $cd_description = prepare_for_null_row(mysqli_real_escape_string($db_link, $_POST['cd_description'][$language_id]));
+
+      
+          $query_insert_cd_description = "INSERT INTO `category_descriptions`(`category_id`, 
+                                                                            `language_id`, 
+                                                                            `cd_name`, 
+                                                                            `cd_pretty_url`, 
+                                                                            `cd_hierarchy_path`, 
+                                                                            `cd_description`, 
+                                                                            `cd_meta_title`,  
+                                                                            `cd_meta_description`,  
+                                                                            `cd_meta_keywords`) 
+                                                                    VALUES ('$current_category_id',
+                                                                            '$language_id',
+                                                                            '$cd_name',
+                                                                            '$cd_pretty_url',
+                                                                            '$cd_hierarchy_path',
+                                                                            $cd_description,
+                                                                            $cd_meta_title,
+                                                                            $cd_meta_description,
+                                                                            $cd_meta_keywords)";
+          //echo $query_insert_cd_description;
+          $all_queries .= "<br>".$query_insert_cd_description;
+          $result_insert_cd_description = mysqli_query($db_link, $query_insert_cd_description);
+          if(mysqli_affected_rows($db_link) <= 0) {
+            echo $languages[$current_lang]['sql_error_insert']." - 3 ".mysqli_error($db_link);
+            mysqli_query($db_link,"ROLLBACK");
+            exit;
+          }
         }
         
       }
@@ -481,7 +545,7 @@
             
             <div>
               <label for="category_meta_title" class="title"><?=$languages[$current_lang]['header_category_meta_title'];?></label>
-              <input type="text" name="cd_meta_title[<?=$language_id;?>]" id="cd_meta_title" onkeyup="CountCharacters(this,'100')" style="width: 60%;" value="<?php if(isset($cd_meta_titles_array[$language_id])) echo $cd_meta_titles_array[$language_id];?>" />
+              <input type="text" name="cd_meta_title[<?=$language_id;?>]" id="cd_meta_title" onkeyup="CountCharacters(this,'55')" style="width: 60%;" value="<?php if(isset($cd_meta_titles_array[$language_id])) echo $cd_meta_titles_array[$language_id];?>" />
               <span class="info"><b></b></span>
               <span class="warning red" style="display: none;"><b><?=$languages[$current_lang]['category_meta_characters_warning'];?></b></span>
               <div class="clearfix"></div>
